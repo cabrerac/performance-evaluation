@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IncludeRoot>
+	<Default>
+		<!-- General Visualization -->
+		<Variable name="VIS_ENABLED" value="false"/> <!-- Enable visualization -->
+     	<Variable name="ENABLE_CELL_DESTRUCTION" value="true" /> <!-- Enable Cell Destruction -->
+		<Variable name="VIS_MAP_ENABLED" value="true"/> <!-- Should the OSMs be visualized, too? -->
+		<Variable name="DATA_ASSERTION_INTERVAL" value="10s"/> <!-- Visualization update interval in !!!Simulator-Time-Units!!! -->
+		<!-- Show visualization -->
+		<Variable name="ENABLE_VIS" value="false"/>
+		<!--<Variable name="VIS_ZOOM" value="13.9" />-->
+		<Variable name="VIS_ZOOM" value="14.5"/><!-- 16 scales -->
+		<Variable name="REALTIME_SKEW" value="-1"/><!-- set >0 for slower simulations -->
+		<!-- Local Visualization -->
+		<Variable name="PANEL_SIZE" value="700"/> <!-- Size of the monitoring-panel of a single node. Should be bigger-->
+	  	<!-- General Service Parameters -->
+	   <Variable name="LOCATION_UPDATE_INTERVAL" value="10s"/> <!-- Update interval of the location of the nodes -->
+	   <Variable name="LOCATION_TIMEOUT" value="7m"/> <!-- Timeout till an entry is no longer considered valid -->
+		<Variable name="LIFE_TIMEOUT" value="2400m"/> <!-- Timeout till a gateway is available -->
+	   <Variable name="ENABLE_ANALYSING" value="false"/>
+	    <!-- <Variable name="ENABLE_LOCAL_ANALYSING" value="false"/>-->
+		<!-- Underlay -->
+		<Variable name="WIFI_MODEL" value="80211"/><!-- default (ranged model) or 80211 -->
+		<Variable name="WIFI_RANGE" value="235"/><!-- If underlay == default, you can specify a range -->
+		<Variable name="WIFI_LOSS_EXPONENT" value="3.2"/><!-- Channel loss exponent, default 3.2 --> <!-- 3.5 Leading to 129m range - WiFiTopologyView -->
+		<Variable name="LATENCY_MODEL" value="DISTANCE_BASED"/><!-- STATIC, ZERO, DISTANCE_BASED, CONSTANT -->
+		<!-- Metrics and Database -->
+		<Variable name="ENABLE_METRIC_ANALYZER" value="false"/>
+		<Variable name="ENABLE_DAO" value="true"/>
+		<Variable name="DAO_TABLE" value="test"/>
+		<Variable name="DAO_ENABLE_AT" value="20m"/> <!-- 30m -->
+		<Variable name="DAO_STOP_AT" value="120m"/> <!-- 120m -->
+		<Variable name="DB_USER" value="root"/><!-- DO NOT enter your personal db-user and pass here, as it will show up in version control. -->
+		<Variable name="DB_PASS" value="root"/><!-- Instead, pass the parameter via the cmd-line or create a local config. -->
+		<Variable name="METRICS_VIS" value="false"/> <!-- Metrics for visualization -->
+		<Variable name="METRICS_DAO_BLACKLIST" value="false"/><!-- Metrics that are NOT passed to the DAO -->
+		<Variable name="METRICS_SAMPLING_INTERVAL" value="1m"/>
+		<Variable name="ENABLE_LIVEPLOTS" value="true"/>
+		<Variable name="ENABLE_CDF" value="false"/>
+		<!-- Metrics for visualization -->
+		<Variable name="METRICS_VIS" value=""/> 
+	</Default>	
+</IncludeRoot>

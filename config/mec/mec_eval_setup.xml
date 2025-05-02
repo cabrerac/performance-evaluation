@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IncludeRoot xmlns:xi="http://www.w3.org/2001/XInclude">
+	<!-- Definition of the components -->
+	<SimulatorCore class="de.tud.kom.p2psim.impl.simengine.Simulator" static="getInstance" seed="$seed" finishAt="$finishTime" timeSkew="$REALTIME_SKEW" />
+	<GPSCalculation class="de.tud.kom.p2psim.impl.topology.movement.modularosm.GPSCalculation" latCenter="$MOVEMENT_CENTER_LAT" lonCenter="$MOVEMENT_CENTER_LON" zoom="$VIS_ZOOM" />
+	<LatencyMeasurementService class="de.tudarmstadt.maki.simonstrator.service.latency.PeriodicLatencySensorFactory" network="ETHERNET" withSecondReply="false" />
+	
+	<Topology class="de.tud.kom.p2psim.impl.topology.TopologyFactory" worldX="$WORLD-X" worldY="$WORLD-Y">
+		<!-- Views -->
+		<IfEqualStr arg0="$WIFI_MODEL" arg1="80211">
+			<View class="de.tud.kom.p2psim.impl.topology.views.wifi.WifiTopologyView" phy="WIFI">
+				<PropagationLossModel class="de.tud.kom.p2psim.impl.topology.views.wifi.phy.propagation.loss.LogDistancePropagationLossModel" exponent="$WIFI_LOSS_EXPONENT" />
+				<ErrorRateModel class="de.tud.kom.p2psim.impl.topology.views.wifi.phy.errormodel.NistErrorRateModel" />
+				<!-- Latency model -->
+				<IfEqualStr arg0="$LATENCY_MODEL" arg1="STATIC">
+					<Latency class="de.tud.kom.p2psim.impl.topology.views.latency.StaticLatency" latency="333ms" variance="20ms" />
+				</IfEqualStr>               
+				<IfEqualStr arg0="$LATENCY_MODEL" arg1="ZERO">
+					<Latency class="de.tud.kom.p2psim.impl.topology.views.latency.ZeroLatency" />
+				</IfEqualStr>               
+				<IfEqualStr arg0="$LATENCY_MODEL" arg1="DISTANCE_BASED">
+					<Latency class="de.tud.kom.p2psim.impl.topology.views.latency.DistanceBasedLatency" />
+				</IfEqualStr>
+				<IfEqualStr arg0="$LATENCY_MODEL" arg1="CONSTANT">
+					<Latency class="de.tud.kom.p2psim.impl.topology.views.latency.ConstantSpeedPropagationLatency" />
+				</IfEqualStr>
+				<IfEqualStr arg0="$LATENCY_MODEL" arg1="GNP">
+					<Latency class="de.tud.kom.p2psim.impl.topology.views.latency.GNPLatency" />
+				</IfEqualStr>
+				<IfEqualStr arg0="$LATENCY_MODEL" arg1="PINGER">
+					<Latency class="de.tud.kom.p2psim.impl.topology.views.latency.PingERLatency" />
+				</IfEqualStr>
+			</View>
+		</IfEqualStr>
+		<IfEqualStr arg0="$WIFI_MODEL" arg1="default">
+			<View class="de.tud.kom.p2psim.impl.topology.views.RangedTopologyView" range="$WIFI_RANGE" phy="WIFI"></View>
+		</IfEqualStr>
+		<!-- The ETHERNET view is used for the communication in the backend between static nodes -->
+		<View class="de.tud.kom.p2psim.impl.topology.views.CloudTopologyView" phy="ETHERNET">
+			<DropRate class="de.tud.kom.p2psim.impl.topology.views.droprate.StaticDropRate" dropRate="0" />
+				<!-- Latency model -->
+	         <IfEqualStr arg0="$LATENCY_MODEL" arg1="STATIC">
+            	<Latency class="de.tud.kom.p2psim.impl.topology.views.latency.StaticLatency" latency="100ms" variance="50ms" />
+            </IfEqualStr>               
+            <IfEqualStr arg0="$LATENCY_MODEL" arg1="ZERO">
+               <Latency class="de.tud.kom.p2psim.impl.topology.views.latency.ZeroLatency" />
+            </IfEqualStr>               
+            <IfEqualStr arg0="$LATENCY_MODEL" arg1="DISTANCE_BASED">
+               <Latency class="de.tud.kom.p2psim.impl.topology.views.latency.DistanceBasedLatency" />
+            </IfEqualStr>
+			<IfEqualStr arg0="$LATENCY_MODEL" arg1="CONSTANT">
+				<Latency class="de.tud.kom.p2psim.impl.topology.views.latency.ConstantSpeedPropagationLatency" />
+			</IfEqualStr>
+			<IfEqualStr arg0="$LATENCY_MODEL" arg1="GNP">
+				<Latency class="de.tud.kom.p2psim.impl.topology.views.latency.GNPLatency" />
+			</IfEqualStr>
+			<IfEqualStr arg0="$LATENCY_MODEL" arg1="PINGER">
+				<Latency class="de.tud.kom.p2psim.impl.topology.views.latency.PingERLatency" />
+			</IfEqualStr>
+		</View>
+		<!-- Visualization -->
+		<IfEqualStr arg0="$ENABLE_VIS" arg1="true">
+			<View class="de.tud.kom.p2psim.impl.topology.views.VisualizationTopologyView"/>
+		</IfEqualStr>
+		<Placement class="de.tud.kom.p2psim.impl.topology.placement.RandomPositionDistribution"/>
+		<!-- Movement -->
+		<IfEqualStr arg0="$MOVEMENT" arg1="SOCIAL">
+			<xi:include href="movements/mec_movement.xml" parse="xml" />
+		</IfEqualStr>
+		<IfEqualStr arg0="$MOVEMENT" arg1="GAUSS">
+			<Movement class="de.tud.kom.p2psim.impl.topology.movement.GaussMarkovMovement" alpha="0.8" edgeThreshold="10" timeBetweenMoveOperations="$MOVEMENT_INTERVAL" />
+		</IfEqualStr>
+		<IfEqualStr arg0="$MOVEMENT" arg1="RANDOM">
+			<Movement class="de.tud.kom.p2psim.impl.topology.movement.RandomPathMovement" timeBetweenMoveOperations="$MOVEMENT_INTERVAL" />
+		</IfEqualStr>
+		<IfEqualStr arg0="$MOVEMENT" arg1="NONE">
+			<Movement class="de.tud.kom.p2psim.impl.topology.movement.NoMovement" />
+		</IfEqualStr>
+	</Topology>
+
+	<HostBuilder class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.TemplatedHostBuilder">
+		<Group groupID="CloudServers" size="$NUM_CLOUD_SERVERS">
+			<Topology>
+				<!-- Placement -->
+				<IfEqualStr arg0="$PLACEMENT_CLOUD_SERVERS" arg1="CENTER">
+					<Placement class="de.tud.kom.p2psim.impl.topology.placement.CenterPlacement"/>
+				</IfEqualStr>
+				<IfEqualStr arg0="$PLACEMENT_CLOUD_SERVERS" arg1="GRID">
+					<Placement class="de.tud.kom.p2psim.impl.topology.placement.GridPositionDistribution" />
+				</IfEqualStr>
+				<IfEqualStr arg0="$PLACEMENT_CLOUD_SERVERS" arg1="RND">
+					<Placement class="de.tud.kom.p2psim.impl.topology.placement.RandomPositionDistribution" />
+				</IfEqualStr>
+			</Topology>
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.UnderlayTemplate" wifi="$WIFI_MODEL" ethernet="true" cell="false" startOffline="false"/>
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.SiSTemplate" />
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.TransitionEngineTemplate" />
+			<MECServer compType="CLOUD" />
+			<LatencyMeasurementService />
+			<Properties enableChurn="$CHURN" maxMovementSpeed="0" minMovementSpeed="0" name="CloudServer"/>
+		</Group>
+		<Group groupID="EdgeServers" size="$NUM_EDGE_SERVERS">
+			<Topology>
+				<!-- Placement -->
+				<IfEqualStr arg0="$PLACEMENT_EDGE_SERVERS" arg1="GRID">
+					<Placement class="de.tud.kom.p2psim.impl.topology.placement.GridPositionDistribution" />
+				</IfEqualStr>
+				<IfEqualStr arg0="$PLACEMENT_EDGE_SERVERS" arg1="RND">
+					<Placement class="de.tud.kom.p2psim.impl.topology.placement.RandomPositionDistribution" />
+				</IfEqualStr>
+			</Topology>
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.UnderlayTemplate" wifi="$WIFI_MODEL" ethernet="true" cell="false" />
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.SiSTemplate" />
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.TransitionEngineTemplate" />
+			<MECServer compType="EDGE" />
+			<LatencyMeasurementService />
+			<Properties enableChurn="$CHURN" maxMovementSpeed="0" minMovementSpeed="0" name="EdgeServer"/>
+		</Group>
+		<Group groupID="GenericUsers" size="$NUM_GENERIC_USERS">
+			<Topology>
+				<!-- Placement -->
+				<IfEqualStr arg0="$PLACEMENT_GENERIC_USERS" arg1="GRID">
+					<Placement class="de.tud.kom.p2psim.impl.topology.placement.GridPositionDistribution" />
+				</IfEqualStr>
+				<IfEqualStr arg0="$PLACEMENT_GENERIC_USERS" arg1="RND">
+					<Placement class="de.tud.kom.p2psim.impl.topology.placement.RandomPositionDistribution" />
+				</IfEqualStr>
+			</Topology>
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.UnderlayTemplate" wifi="$WIFI_MODEL" ethernet="true" cell="false" />
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.SiSTemplate" />
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.TransitionEngineTemplate" />
+			<MECUser compType="GENERIC" />
+			<Properties enableChurn="$CHURN" maxMovementSpeed="$SPEED_MAX" minMovementSpeed="$SPEED_MIN" name="GenericUser"/>
+		</Group>
+		<Group groupID="OperaUsers" size="$NUM_OPERA_USERS">
+			<Topology>
+				<!-- Placement -->
+				<IfEqualStr arg0="$PLACEMENT_OPERA_USERS" arg1="GRID">
+					<Placement class="de.tud.kom.p2psim.impl.topology.placement.GridPositionDistribution" />
+				</IfEqualStr>
+				<IfEqualStr arg0="$PLACEMENT_OPERA_USERS" arg1="RND">
+					<Placement class="de.tud.kom.p2psim.impl.topology.placement.RandomPositionDistribution" />
+				</IfEqualStr>
+			</Topology>
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.UnderlayTemplate" wifi="$WIFI_MODEL" ethernet="true" cell="false" />
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.SiSTemplate" />
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.TransitionEngineTemplate" />
+			<MECUser compType="OPERA" />
+			<Properties enableChurn="$CHURN" maxMovementSpeed="$SPEED_MAX" minMovementSpeed="$SPEED_MIN" name="OperaUser"/>
+		</Group>
+		<Group groupID="AmbulanceUsers" size="$NUM_AMBULANCE_USERS">
+			<Topology>
+				<!-- Placement -->
+				<IfEqualStr arg0="$PLACEMENT_AMBULANCE_USERS" arg1="GRID">
+					<Placement class="de.tud.kom.p2psim.impl.topology.placement.GridPositionDistribution" />
+				</IfEqualStr>
+				<IfEqualStr arg0="$PLACEMENT_AMBULANCE_USERS" arg1="RND">
+					<Placement class="de.tud.kom.p2psim.impl.topology.placement.RandomPositionDistribution" />
+				</IfEqualStr>
+			</Topology>
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.UnderlayTemplate" wifi="$WIFI_MODEL" ethernet="true" cell="false" />
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.SiSTemplate" />
+			<Template class="de.tudarmstadt.maki.simonstrator.peerfact.configuration.TransitionEngineTemplate" />
+			<MECUser compType="AMBULANCE" />
+			<!-- <MECVisualization /> -->
+			<Properties enableChurn="$CHURN" maxMovementSpeed="$SPEED_MAX_AMBULANCE" minMovementSpeed="$SPEED_MIN_AMBULANCE" name="AmbulanceUser"/>
+		</Group>
+	</HostBuilder>
+	<ChurnGenerator class="de.tud.kom.p2psim.impl.churn.DefaultChurnGenerator" start="0m" stop="$finishTime">
+		<ChurnModel class="de.tud.kom.p2psim.impl.churn.StaticChurnModel" uptime="0m" downtime="0m" />
+	</ChurnGenerator>
+	
+	<Scenario class="de.tud.kom.p2psim.impl.scenario.CSVScenarioFactory" actionsFile="$actions" componentClass="ie.tcd.scss.enable.simonstrator.overlay.mec.components.EdgeServerComponent" 
+																		 additionalClasses="ie.tcd.scss.enable.simonstrator.overlay.mec.components.CloudServerComponent;
+																							ie.tcd.scss.enable.simonstrator.peerfact.application.mec.user.GenericUserComponent;
+																							ie.tcd.scss.enable.simonstrator.peerfact.application.mec.user.OperaUserComponent;
+																							ie.tcd.scss.enable.simonstrator.peerfact.application.mec.user.AmbulanceUserComponent"/>
+</IncludeRoot>

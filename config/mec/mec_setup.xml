@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IncludeRoot>
+	<MECServer class="ie.tcd.scss.enable.simonstrator.overlay.mec.components.MECComponentFactory">
+        <Configuration class="ie.tcd.scss.enable.simonstrator.overlay.mec.components.MECComponentConfiguration"
+                       muServiceTime="$MU_SERVICE_TIME" approach="$APPROACH" topology="$TOPOLOGY" numEdgeServers="$NUM_EDGE_SERVERS" numMECSystems="$NUM_MEC_SYSTEMS" 
+					   edgeServersPerSystem="$EDGE_SERVERS_PER_SYSTEM" functions="$FUNCTIONS" predictionAlgorithm="$PREDICTION_ALGORITHM" matricesFolder="$MATRICES_FOLDER"
+					   numberOfClusters="$CLUSTERS" numberOfLinks="$LINKS" antsNumber="$ANTS_NUMBER" iterations="$ITERATIONS" alfa="$ALFA" beta="$BETA" ro="$RO" tau0="$TAU_0" deltaTau="$DELTA_TAU" 
+					   linksCoordinatesFile="$LINKS_COORDINATES_FILE" resultsPath="$RESULTS_PATH" scenario = "$SCENARIO" round ="$ROUND" abcNumber ="$ABC_NUMBER"
+                       afsNumber="$AFS_NUMBER" hawksNumber="$HAWKS_NUMBER"  visual_af="$VISUAL_AF" delta_af="$DELTA_AF" step_af="$STEP_AF" beta_af="$BETA_AF"
+                       iterationsGA="$GA_ITERATIONS" populationSize="$GA_POPULATION_SIZE" crossoverRate="$GA_CROSSOVER_RATE" mutationRate="$GA_MUTATION_RATE"
+                       iterationsPSO="$PSO_ITERATIONS" numParticles="$PSO_PARTICLES" cognitiveWeightC1="$PSO_COGNITIVE_WEIGHT_C1" socialWeightC2="$PSO_SOCIAL_WEIGHT_C2" inertiaWeightW="$PSO_INERTIA_WEIGHT_W">
+            <IfEqualStr arg0="$ENABLE_ANALYSING" arg1="true">
+                <RequestAnalyzer class="ie.tcd.scss.enable.simonstrator.peerfact.application.MECSystem.eval.RequestAnalyzerImpl" static="getInstance" interval="$DATA_ASSERTION_INTERVAL">
+                    <IfEqualStr arg0="$VIS_MAP_ENABLED" arg1="true">
+                        <IMapVisualization class="de.tud.kom.p2psim.impl.topology.movement.modularosm.mapvisualization.ShowMapQuestMapViz"
+                                tempImageFilePath="osm-dublin/" mapQuestKey="4Weu9fMLPN48e8ynMG2VGGw9XdJegOtN" mapType="map"/>
+                    </IfEqualStr>
+                </RequestAnalyzer>
+            </IfEqualStr>
+		</Configuration>
+    </MECServer>	
+	<MECUser class="ie.tcd.scss.enable.simonstrator.peerfact.application.mec.user.MECUserComponentFactory">
+       <Configuration class="ie.tcd.scss.enable.simonstrator.peerfact.application.mec.user.MECUserComponentConfiguration" 
+					  functions="$FUNCTIONS" genericPriority="$GENERIC_PRIORITY" lambdaGenericArrival="$LAMBDA_GENERIC_ARRIVAL" ambulancePriority="$AMBULANCE_PRIORITY"
+					  lambdaAmbulanceArrival="$LAMBDA_AMBULANCE_ARRIVAL" operaPriority="$OPERA_PRIORITY" lambdaOperaArrival="$LAMBDA_OPERA_ARRIVAL"
+                      genericCPUMin="$GENERIC_USER_CPU_MIN" genericCPUMax="$GENERIC_USER_CPU_MAX"
+                      genericRAMMin="$GENERIC_USER_RAM_MIN" genericRAMMax="$GENERIC_USER_RAM_MAX"
+                      ambulanceCPUMin="$AMBULANCE_USER_CPU_MIN" ambulanceCPUMax="$AMBULANCE_USER_CPU_MAX"
+                      ambulanceRAMMin="$AMBULANCE_USER_RAM_MIN" ambulanceRAMMax="$AMBULANCE_USER_RAM_MAX"
+                      genericMinResponseTime="$GENERIC_USER_MIN_RESPONSE_TIME" genericMaxResponseTime="$GENERIC_USER_MAX_RESPONSE_TIME"
+                      ambulanceMinResponseTime="$AMBULANCE_USER_MIN_RESPONSE_TIME" ambulanceMaxResponseTime="$AMBULANCE_USER_MAX_RESPONSE_TIME"
+       >
+            <IfEqualStr arg0="$ENABLE_ANALYSING" arg1="true">
+                <RequestAnalyzer class="ie.tcd.scss.enable.simonstrator.peerfact.application.MECSystem.eval.RequestAnalyzerImpl" static="getInstance" interval="$DATA_ASSERTION_INTERVAL">
+                    <IfEqualStr arg0="$VIS_MAP_ENABLED" arg1="true">
+                        <IMapVisualization class="de.tud.kom.p2psim.impl.topology.movement.modularosm.mapvisualization.ShowMapQuestMapViz"
+                                tempImageFilePath="osm-dublin/" mapQuestKey="4Weu9fMLPN48e8ynMG2VGGw9XdJegOtN" mapType="map"/>
+                    </IfEqualStr>
+                </RequestAnalyzer>
+            </IfEqualStr>
+		</Configuration>
+    </MECUser>
+</IncludeRoot>

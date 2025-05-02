@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Configuration xmlns:xi="http://www.w3.org/2001/XInclude">
+	<Description>
+		
+	</Description>
+	<Default>
+		<Variable name="EVAL" value="MEC"/>
+		<Variable name="config" value="config"/>
+	</Default>
+	<xi:include name="eval_parameters" href="mec_eval_parameters.xml" parse="xml"/>
+	<xi:include name="parameters" href="mec_parameters.xml" parse="xml"/>
+	<xi:include name="setup" href="mec_setup.xml" parse="xml"/>
+	<xi:include name="eval_setup" href="mec_eval_setup.xml" parse="xml"/>
+	<xi:include name="rl_app" href="mec_rl_app.xml" parse="xml"/>
+	<xi:include name="rl_app_setup" href="mec_rl_app_setup.xml" parse="xml"/>
+</Configuration>

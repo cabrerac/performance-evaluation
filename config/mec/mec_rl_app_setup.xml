@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IncludeRoot>
+    <!-- Definition of the components -->
+    <RlAppConfig
+            class="ie.tcd.scss.enable.simonstrator.overlay.mec.rlapp.RLAppConfiguration"
+            static="getInstance"
+            host="$host"
+            port="$port"
+            useHTTPS="$useHTTPS"
+            redisHost="$redis_host"
+            redisPort="$redis_port"
+            redisDB="$redis_db"
+            approach="$APPROACH"
+            scenarioName="$scenarioName"
+            numNodes="$NUM_EDGE_SERVERS"
+            numServicePerApp="$FUNCTIONS"
+            scenario="$SCENARIO"
+            worldX="$WORLD-X"
+            worldY="$WORLD-Y"
+            genericUserPriority="$GENERIC_PRIORITY"
+            operaUserPriority="$OPERA_PRIORITY"
+            ambulanceUserPriority="$AMBULANCE_PRIORITY"
+            trainingPlacements="$trainingPlacements"
+            totalPlacements="$totalPlacements"
+            totalNodes="$totalNodes"
+            totalFunctions="$totalFunctions"
+            numUserTypes="$numUserTypes"
+            tripPoints="$tripPoints"
+            autoStartRLApp="$autoStartRLApp"
+            rlAppDirectory="$rlAppDirectory"
+            pythonExecutablePath="$pythonExecutablePath"
+            scriptPath="$scriptPath"
+            ppoConfigPath="$ppoConfigPath"
+            dqnConfigPath="$dqnConfigPath"
+            scriptAdditionalArgs="$scriptAdditionalArgs"
+    />
+</IncludeRoot>

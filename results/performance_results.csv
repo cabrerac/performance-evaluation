@@ -1,0 +1,4 @@
+"approach","scenario","servers","services","users","execution_time","peak_memory"
+"BESTFIT","2","100","1","200","79006","619028480"
+"BESTFIT","2","100","3","200","107016","630628352"
+"BESTFIT","2","100","5","200","87942","538415104"

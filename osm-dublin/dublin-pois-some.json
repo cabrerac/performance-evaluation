@@ -1,0 +1,2398 @@
+{
+	"version": 0.6,
+	"generator": "Overpass API",
+	"description": "Some point of interest in Dublin",
+	"osm3s": {
+		"timestamp_osm_base": "2017-04-10T12:40:02Z",
+		"copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+	},
+	"elements": [
+		{
+			"type": "node",
+			"id": 665844,
+			"lat": 53.3164812,
+			"lon": -6.2534261,
+			"tags": {
+				"layer": "1",
+				"name": "Cowper",
+				"name:en": "Cowper",
+				"name:ga": "CÃºipÃ©ar",
+				"operator": "Luas - Transdev Dublin Light Rail Limited",
+				"public_transport": "stop_position",
+				"railway": "tram_stop",
+				"tram": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 11675220,
+			"lat": 53.3572290,
+			"lon": -6.2887909,
+			"tags": {
+				"highway": "traffic_signals",
+				"highway_1": "city_junction",
+				"name": "Hanlon's Corner",
+				"place": "locality",
+				"ref": "J67"
+			}
+		},
+		{
+			"type": "node",
+			"id": 26191224,
+			"lat": 53.3526804,
+			"lon": -6.2475985,
+			"tags": {
+				"name": "Connolly Station",
+				"network": "DART",
+				"operator": "Irish Rail",
+				"public_transport": "stop_position",
+				"train": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 26759873,
+			"lat": 53.3561409,
+			"lon": -6.2272021,
+			"tags": {
+				"highway": "motorway_junction",
+				"name": "Dublin Port",
+				"ref": "1"
+			}
+		},
+		{
+			"type": "node",
+			"id": 31094895,
+			"lat": 53.3580154,
+			"lon": -6.2368261,
+			"tags": {
+				"name": "East Wall Junction",
+				"railway": "switch",
+				"ref": "East Wall Jctn"
+			}
+		},
+		{
+			"type": "node",
+			"id": 51452916,
+			"lat": 53.3333651,
+			"lon": -6.2626171,
+			"tags": {
+				"name": "Harcourt",
+				"name:ga": "SrÃ¡id Fhearchair",
+				"operator": "Luas - Transdev Dublin Light Rail Limited",
+				"public_transport": "stop_position",
+				"railway": "tram_stop",
+				"tram": "yes",
+				"wheelchair": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 51452944,
+			"lat": 53.3390566,
+			"lon": -6.2613147,
+			"tags": {
+				"name": "St. Stephen's Green",
+				"name:ga": "Faiche Stiabhna",
+				"operator": "Luas - Transdev Dublin Light Rail Limited",
+				"public_transport": "stop_position",
+				"railway": "tram_stop",
+				"tram": "yes",
+				"wheelchair": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 52231136,
+			"lat": 53.3236110,
+			"lon": -6.3558330,
+			"tags": {
+				"gns:ADM1": "07",
+				"gns:CC1": "EI",
+				"gns:DMS_LAT": "531925",
+				"gns:DMS_LONG": "-62121",
+				"gns:DSG": "PPL",
+				"gns:FC": "P",
+				"gns:JOG": "NN29-09",
+				"gns:LAT": "53.323611",
+				"gns:LONG": "-6.355833",
+				"gns:MGRS": "29UPV7610311531",
+				"gns:N:xx:FULL_NAME": "Fox and Geese",
+				"gns:N:xx:FULL_NAME_ND": "Fox and Geese",
+				"gns:N:xx:MODIFY_DATE": "1999-02-24",
+				"gns:N:xx:NT": "N",
+				"gns:N:xx:SORT_NAME": "FOXANDGEESE",
+				"gns:RC": "1",
+				"gns:UFI": "423344",
+				"gns:UNI": "541799",
+				"is_in": "County Dublin",
+				"is_in:country": "Ireland",
+				"is_in:county": "Dublin",
+				"name": "Fox and Geese",
+				"note": "Experimental import of Irish places and POIs from GNS Dataset",
+				"place": "locality",
+				"place_county": "Dublin",
+				"source": "gns_ei"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 52240309,
+			"lat": 53.3265199,
+			"lon": -6.2648571,
+			"tags": {
+				"gns:ADM1": "07",
+				"gns:CC1": "EI",
+				"gns:DMS_LAT": "531913",
+				"gns:DMS_LONG": "-61548",
+				"gns:DSG": "PPLX",
+				"gns:FC": "P",
+				"gns:JOG": "NN29-09",
+				"gns:LAT": "53.320278",
+				"gns:LONG": "-6.263333",
+				"gns:MGRS": "29UPV8227711392",
+				"gns:N:xx:FULL_NAME": "Rathmines",
+				"gns:N:xx:FULL_NAME_ND": "Rathmines",
+				"gns:N:xx:MODIFY_DATE": "1999-02-24",
+				"gns:N:xx:NT": "N",
+				"gns:N:xx:SORT_NAME": "RATHMINES",
+				"gns:RC": "1",
+				"gns:UFI": "-1505239",
+				"gns:UNI": "-2148309",
+				"is_in": "County Dublin",
+				"is_in:country": "Ireland",
+				"is_in:county": "Dublin",
+				"name": "Rathmines",
+				"name:en": "Rathmines",
+				"name:ga": "RÃ¡th Maonais",
+				"note": "Experimental import of Irish places and POIs from GNS Dataset",
+				"place": "suburb",
+				"place_county": "Dublin",
+				"source": "gns_ei"
+			}
+		}, {
+			"type": "node",
+			"id": 52241705,
+			"lat": 53.3291329,
+			"lon": -6.2312803,
+			"tags": {
+				"gns:ADM1": "07",
+				"gns:CC1": "EI",
+				"gns:DMS_LAT": "531949",
+				"gns:DMS_LONG": "-61350",
+				"gns:DSG": "PPLX",
+				"gns:FC": "P",
+				"gns:JOG": "NN29-09",
+				"gns:LAT": "53.330278",
+				"gns:LONG": "-6.230556",
+				"gns:MGRS": "29UPV8441612588",
+				"gns:N:xx:FULL_NAME": "Ballsbridge",
+				"gns:N:xx:FULL_NAME_ND": "Ballsbridge",
+				"gns:N:xx:MODIFY_DATE": "1999-02-24",
+				"gns:N:xx:NT": "N",
+				"gns:N:xx:SORT_NAME": "BALLSBRIDGE",
+				"gns:RC": "1",
+				"gns:UFI": "-1500434",
+				"gns:UNI": "-2142211",
+				"is_in": "County Dublin",
+				"is_in:country": "Ireland",
+				"is_in:county": "Dublin",
+				"name": "Ballsbridge",
+				"name:ga": "Droichead na Dothra",
+				"note": "Experimental import of Irish places and POIs from GNS Dataset",
+				"place": "suburb",
+				"place_county": "Dublin",
+				"source": "gns_ei"
+			}
+		}, {
+			"type": "node",
+			"id": 52242191,
+			"lat": 53.3613700,
+			"lon": -6.2727616,
+			"tags": {
+				"is_in": "County Dublin",
+				"is_in:country": "Ireland",
+				"is_in:county": "Dublin",
+				"name": "Phibsborough",
+				"note": "Experimental import of Irish places and POIs from GNS Dataset",
+				"place": "suburb",
+				"place_county": "Dublin",
+				"source": "gns_ei"
+			}
+		}, {
+			"type": "node",
+			"id": 52242390,
+			"lat": 53.3488890,
+			"lon": -6.3466670,
+			"tags": {
+				"is_in": "County Dublin",
+				"is_in:country": "Ireland",
+				"is_in:county": "Dublin",
+				"name": "Chapelizod",
+				"place": "suburb",
+				"place_county": "Dublin",
+				"source": "gns_ei"
+			}
+		}, {
+			"type": "node",
+			"id": 52244792,
+			"lat": 53.3667020,
+			"lon": -6.2929108,
+			"tags": {
+				"gns:ADM1": "07",
+				"gns:CC1": "EI",
+				"gns:DMS_LAT": "532201",
+				"gns:DMS_LONG": "-61740",
+				"gns:DSG": "PPL",
+				"gns:FC": "P",
+				"gns:JOG": "NN29-09",
+				"gns:LAT": "53.366944",
+				"gns:LONG": "-6.294444",
+				"gns:MGRS": "29UPV8000816503",
+				"gns:N:xx:FULL_NAME": "Cabra",
+				"gns:N:xx:FULL_NAME_ND": "Cabra",
+				"gns:N:xx:MODIFY_DATE": "1999-02-24",
+				"gns:N:xx:NT": "N",
+				"gns:N:xx:SORT_NAME": "CABRA",
+				"gns:RC": "1",
+				"gns:UFI": "419308",
+				"gns:UNI": "534976",
+				"is_in": "County Dublin",
+				"is_in:country": "Ireland",
+				"is_in:county": "Dublin",
+				"name": "Cabra",
+				"note": "Experimental import of Irish places and POIs from GNS Dataset",
+				"place": "suburb",
+				"place_county": "Dublin",
+				"source": "gns_ei"
+			}
+		}, {
+			"type": "node",
+			"id": 52245648,
+			"lat": 53.3417886,
+			"lon": -6.3496027,
+			"tags": {
+				"is_in": "County Dublin",
+				"is_in:country": "Ireland",
+				"is_in:county": "Dublin",
+				"name": "Ballyfermot",
+				"place": "suburb",
+				"place_county": "Dublin",
+				"source": "gns_ei"
+			}
+		}, {
+			"type": "node",
+			"id": 52247585,
+			"lat": 53.3663095,
+			"lon": -6.2347491,
+			"tags": {
+				"is_in": "County Dublin",
+				"is_in:country": "Ireland",
+				"is_in:county": "Dublin",
+				"name": "Marino",
+				"note": "Experimental import of Irish places and POIs from GNS Dataset",
+				"place": "suburb",
+				"place_county": "Dublin",
+				"source": "gns_ei"
+			}
+		}, {
+			"type": "node",
+			"id": 52248339,
+			"lat": 53.3483357,
+			"lon": -6.3091719,
+			"tags": {
+				"is_in": "County Dublin",
+				"is_in:country": "Ireland",
+				"is_in:county": "Dublin",
+				"name": "Islandbridge",
+				"place": "suburb",
+				"place_county": "Dublin",
+				"source": "gns_ei"
+			}
+		}, {
+			"type": "node",
+			"id": 52260086,
+			"lat": 53.3419440,
+			"lon": -6.2263890,
+			"tags": {
+				"gns:ADM1": "07",
+				"gns:CC1": "EI",
+				"gns:DMS_LAT": "532031",
+				"gns:DMS_LONG": "-61335",
+				"gns:DSG": "PPLX",
+				"gns:FC": "P",
+				"gns:JOG": "NN29-09",
+				"gns:LAT": "53.341944",
+				"gns:LONG": "-6.226389",
+				"gns:MGRS": "29UPV8464313897",
+				"gns:N:xx:FULL_NAME": "Ringsend",
+				"gns:N:xx:FULL_NAME_ND": "Ringsend",
+				"gns:N:xx:MODIFY_DATE": "1999-02-24",
+				"gns:N:xx:NT": "N",
+				"gns:N:xx:SORT_NAME": "RINGSEND",
+				"gns:RC": "1",
+				"gns:UFI": "-1505319",
+				"gns:UNI": "-2148406",
+				"is_in": "County Dublin",
+				"is_in:country": "Ireland",
+				"is_in:county": "Dublin",
+				"name": "Ringsend",
+				"name:en": "Ringsend",
+				"name:ga": "An Rinn",
+				"note": "Experimental import of Irish places and POIs from GNS Dataset",
+				"place": "suburb",
+				"place_county": "Dublin",
+				"source": "gns_ei"
+			}
+		}, {
+			"type": "node",
+			"id": 52260090,
+			"lat": 53.3213890,
+			"lon": -6.3530560,
+			"tags": {
+				"gns:ADM1": "07",
+				"gns:CC1": "EI",
+				"gns:DMS_LAT": "531917",
+				"gns:DMS_LONG": "-62111",
+				"gns:DSG": "PPL",
+				"gns:FC": "P",
+				"gns:JOG": "NN29-09",
+				"gns:LAT": "53.321389",
+				"gns:LONG": "-6.353056",
+				"gns:MGRS": "29UPV7629811290",
+				"gns:N:xx:FULL_NAME": "Walkinstown",
+				"gns:N:xx:FULL_NAME_ND": "Walkinstown",
+				"gns:N:xx:MODIFY_DATE": "1999-02-24",
+				"gns:N:xx:NT": "N",
+				"gns:N:xx:SORT_NAME": "WALKINSTOWN",
+				"gns:RC": "1",
+				"gns:UFI": "419311",
+				"gns:UNI": "534980",
+				"is_in": "County Dublin",
+				"is_in:country": "Ireland",
+				"is_in:county": "Dublin",
+				"name": "Walkinstown",
+				"name:en": "Walkinstown",
+				"name:ga": "Bhaile BhailcÃ­n",
+				"note": "Experimental import of Irish places and POIs from GNS Dataset",
+				"place": "suburb",
+				"place_county": "Dublin",
+				"source": "gns_ei"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 60475466,
+			"lat": 53.3307198,
+			"lon": -6.2587038,
+			"tags": {
+				"layer": "1",
+				"name": "Charlemont",
+				"note": "Lift to Grand Parade only, none to Charlemont Place",
+				"operator": "Luas - Transdev Dublin Light Rail Limited",
+				"public_transport": "stop_position",
+				"railway": "tram_stop",
+				"tram": "yes",
+				"wheelchair": "limited"
+			}
+		},
+		{
+			"type": "node",
+			"id": 129954365,
+			"lat": 53.3497415,
+			"lon": -6.2490911,
+			"tags": {
+				"amenity": "pub",
+				"name": "The Harbourmaster",
+				"toilets:wheelchair": "yes",
+				"wheelchair": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 130156802,
+			"lat": 53.3500620,
+			"lon": -6.2526730,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:country": "IE",
+				"addr:housenumber": "21",
+				"addr:street": "Store Street",
+				"amenity": "pub",
+				"name": "Le Monde",
+				"wheelchair": "no"
+			}
+		},
+		{
+			"type": "node",
+			"id": 130942937,
+			"lat": 53.3365577,
+			"lon": -6.2438615,
+			"tags": {
+				"addr:street": "Mount Street Crescent",
+				"amenity": "public_building",
+				"name": "Irish Computer Society"
+			}
+		},
+		{
+			"type": "node",
+			"id": 132775981,
+			"lat": 53.3441892,
+			"lon": -6.2490239,
+			"tags": {
+				"accommodation": "yes",
+				"addr:city": "Dublin",
+				"addr:country": "IE",
+				"addr:housenumber": "1",
+				"addr:street": "Lombard Street East",
+				"amenity": "pub",
+				"name": "The Lombard",
+				"opening_hours": "Mo-Th 09:00-23:30;Fr-Sa 09:30-01:30;Su 10:00-23:00",
+				"source": "visually identified"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 133193958,
+			"lat": 53.3305512,
+			"lon": -6.2605878,
+			"tags": {
+				"addr:street": "Charlemont Mall",
+				"amenity": "pub",
+				"name": "The Barge Bar"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 133459155,
+			"lat": 53.3493115,
+			"lon": -6.2558171,
+			"tags": {
+				"amenity": "parking",
+				"fee": "yes",
+				"name": "Irish Life Car Park",
+				"parking": "underground"
+			}
+		},
+		{
+			"type": "node",
+			"id": 133459368,
+			"lat": 53.3544580,
+			"lon": -6.2622225,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:street": "Rutland Place",
+				"amenity": "post_depot",
+				"name": "Dublin 1 Delivery Office",
+				"name:ga": "Oifig Seachadta Baile Atha Chliath 1",
+				"operator": "An Post"
+			}
+		},
+		{
+			"type": "node",
+			"id": 133476048,
+			"lat": 53.3323597,
+			"lon": -6.2534111,
+			"tags": {
+				"name": "Kiosk",
+				"shop": "kiosk"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 133628787,
+			"lat": 53.3349345,
+			"lon": -6.2574889,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:postcode": "2",
+				"addr:street": "Earlsfort Terrace",
+				"contact:facebook": "http://www.facebook.com/Conraddublincity?fref=ts",
+				"contact:google_plus": "https://plus.google.com/u/0/111431308059238638687/posts",
+				"contact:twitter": "https://twitter.com/ConradDublin",
+				"email": "Conrad_Dublin@conradhotels.com",
+				"name": "Conrad Dublin",
+				"operator": "Hilton Worldwide",
+				"phone": "+353-1-602-8900",
+				"rooms": "191",
+				"stars": "5",
+				"tourism": "hotel",
+				"website": "http://conradhotels3.hilton.com/en/hotels/ireland/conrad-dublin-DUBHCCI/index.html?WT.mc_id=zELWAKN0EMEA1HI2DMH3LocalSearch4DGGenericx6DUBHCCI",
+				"wheelchair": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 135571850,
+			"lat": 53.3514644,
+			"lon": -6.3559151,
+			"tags": {
+				"created_by": "Potlatch 0.5d",
+				"name": "West County Hotel",
+				"tourism": "hotel"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 140592940,
+			"lat": 53.3393385,
+			"lon": -6.2540004,
+			"tags": {
+				"name": "Department of the Taoiseach",
+				"office": "government"
+			}
+		},
+		{
+			"type": "node",
+			"id": 140634564,
+			"lat": 53.3399396,
+			"lon": -6.2632518,
+			"tags": {
+				"amenity": "parking",
+				"fee": "yes",
+				"name": "Saint Stephen's Green Multi-Storey",
+				"parking": "multi-storey"
+			}
+		}, {
+			"type": "node",
+			"id": 140653711,
+			"lat": 53.3492426,
+			"lon": -6.2604887,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:postcode": "D01 F5P2",
+				"addr:street": "O'Connell Street Lower",
+				"name": "General Post Office",
+				"opening_hours": "Mo-Sa 08:30-18:00",
+				"operator": "An Post",
+				"tourism": "attraction",
+				"wheelchair": "limited"
+			}
+		},
+		{
+			"type": "node",
+			"id": 140706284,
+			"lat": 53.3483843,
+			"lon": -6.2875394,
+			"tags": {
+				"name": "National Museum of Ireland, Collins' Barracks",
+				"name:ga": "Ard-MhÃºsaem na hÃ‰ireann",
+				"opening_hours": "Tu-Sa 10:00-17:00; Su 14:00-17:00",
+				"tourism": "museum",
+				"wheelchair": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 224005710,
+			"lat": 53.3629221,
+			"lon": -6.2273542,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:street": "Clontarf Road",
+				"name": "Clontarf Road",
+				"name:en": "Clontarf Road",
+				"name:ga": "BÃ³thar Chluain Tarbh",
+				"network": "DART",
+				"operator": "Irish Rail",
+				"public_transport": "stop_position",
+				"railway": "station",
+				"train": "yes"
+			}
+		},
+		 {
+			"type": "node",
+			"id": 232040102,
+			"lat": 53.3437938,
+			"lon": -6.2646675,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:country": "IE",
+				"addr:housenumber": "85",
+				"addr:street": "George's Street Great South",
+				"amenity": "pub",
+				"contact:email": "info@thegeorge.ie",
+				"contact:phone": "+353 1 6776943",
+				"gay": "yes",
+				"name": "The George",
+				"website": "http://www.thegeorge.ie",
+				"wikidata": "Q7736161"
+			}
+		}, {
+			"type": "node",
+			"id": 232040604,
+			"lat": 53.3424409,
+			"lon": -6.2647473,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housenumber": "64",
+				"addr:street": "George's Street Great South",
+				"amenity": "pub",
+				"contact:twitter": "https://twitter.com/soderandko",
+				"name": "SÃ¶der + Ko",
+				"old_name": "The Dragon",
+				"phone": "+353 1 4781590",
+				"website": "http://www.soderandko.ie/"
+			}
+		}, {
+			"type": "node",
+			"id": 232042456,
+			"lat": 53.3469782,
+			"lon": -6.2582006,
+			"tags": {
+				"addr:street": "Burgh Quay",
+				"amenity": "pub",
+				"microbrewery": "yes",
+				"name": "J.W. Sweetman Craft Brewery",
+				"opening_hours": "Mo-We 10:30-24:00; Th-Sa 10:30-2:30; Su 11:00-23:00",
+				"phone": "+353 1 6705777",
+				"website": "http://www.jwsweetman.com"
+			}
+		},
+		{
+			"type": "node",
+			"id": 243783190,
+			"lat": 53.3447285,
+			"lon": -6.3579922,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:postcode": "D10",
+				"amenity": "police",
+				"name": "Ballyfermot Garda Station",
+				"operator": "An Garda SÃ­ochÃ¡na"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 246001181,
+			"lat": 53.3509333,
+			"lon": -6.2394505,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:street": "Sheriff Street Upper",
+				"name": "Docklands",
+				"name:en": "Docklands",
+				"name:ga": "Dugthailte",
+				"network": "Dublin Commuter",
+				"opening_hours": "Mo-Fr 07:00-10:00, 15:00-19:00",
+				"operator": "Irish Rail",
+				"phone": "+353 1 8286380",
+				"platforms": "2",
+				"railway": "station",
+				"website": "http://www.irishrail.ie/travel-information/docklands",
+				"wheelchair": "yes",
+				"wikipedia": "en:Docklands railway station"
+			}
+		},
+		{
+			"type": "node",
+			"id": 246166592,
+			"lat": 53.3528538,
+			"lon": -6.3552070,
+			"tags": {
+				"amenity": "nursing_home",
+				"name": "Glenaulin Nursing Home"
+			}
+		},
+		{
+			"type": "node",
+			"id": 249426205,
+			"lat": 53.3657560,
+			"lon": -6.2288162,
+			"tags": {
+				"addr:city": "Dublin 3",
+				"addr:housenumber": "16",
+				"addr:street": "Malahide Road",
+				"amenity": "pub",
+				"contact:facebook": "https://www.facebook.com/kavanaghsmarino",
+				"name": "Marino House (Kavanagh's)",
+				"opening_hours": "Mo-Th 10:30-23:30, Fr-Sa 10:30-00:30, Su 12:30-23:00",
+				"phone": "+353 1 8332786"
+			}
+		},
+		{
+			"type": "node",
+			"id": 249426548,
+			"lat": 53.3643013,
+			"lon": -6.2315782,
+			"tags": {
+				"bus": "yes",
+				"highway": "bus_stop",
+				"name": "Marino Mart, Marino College",
+				"name:ga": "Marglann Marino, ColÃ¡iste Marino",
+				"operator": "Dublin Bus",
+				"public_transport": "platform",
+				"ref": "523",
+				"route_ref": "20b, 14"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 249426898,
+			"lat": 53.3631826,
+			"lon": -6.2356142,
+			"tags": {
+				"bus": "yes",
+				"covered": "no",
+				"fixme": "Check location",
+				"highway": "bus_stop",
+				"name": "Fairview Footbridge",
+				"name:ga": "Droichead Coise Fhionnradhairc",
+				"network": "Dublin Bus",
+				"operator": "Dublin Bus",
+				"public_transport": "platform",
+				"ref": "255"
+			}
+		},
+		{
+			"type": "node",
+			"id": 249427037,
+			"lat": 53.3626644,
+			"lon": -6.2391867,
+			"tags": {
+				"amenity": "pharmacy",
+				"name": "McCartan's Pharmacy"
+			}
+		},
+		{
+			"type": "node",
+			"id": 249428137,
+			"lat": 53.3576512,
+			"lon": -6.2427479,
+			"tags": {
+				"bus": "yes",
+				"highway": "bus_stop",
+				"name": "North Strand Road, Bayview Avenue",
+				"name:ga": "BÃ³thar na TrÃ¡ Thuaidh, Ascaill Radharc an Chuain",
+				"operator": "Dublin Bus",
+				"public_transport": "platform",
+				"ref": "4384"
+			}
+		},
+		{
+			"type": "node",
+			"id": 249429116,
+			"lat": 53.3534668,
+			"lon": -6.2481829,
+			"tags": {
+				"bus": "yes",
+				"highway": "bus_stop",
+				"name": "Amiens Street, Portland Row",
+				"name:ga": "Amiens Street, Rae Portland",
+				"operator": "Dublin Bus",
+				"public_transport": "platform",
+				"ref": "515"
+			}
+		}, {
+			"type": "node",
+			"id": 249429118,
+			"lat": 53.3527999,
+			"lon": -6.2486223,
+			"tags": {
+				"bench": "no",
+				"bus": "yes",
+				"covered": "no",
+				"highway": "bus_stop",
+				"name": "Amiens Street, Connolly Station bus_stop 1",
+				"name:ga": "Sraid Amiens, StÃ¡isiÃºn UÃ­ Chongaile",
+				"operator": "Dublin Bus",
+				"public_transport": "platform",
+				"ref": "675",
+				"shelter": "no",
+				"tactile_paving": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 249429127,
+			"lat": 53.3504619,
+			"lon": -6.2507927,
+			"tags": {
+				"bench": "no",
+				"bus": "yes",
+				"covered": "no",
+				"highway": "bus_stop",
+				"name": "Amiens Street, Connolly Station bus_stop 2",
+				"name:ga": "SrÃ¡id Amiens, StÃ¡isiÃºn UÃ­ Chongaile",
+				"operator": "Dublin Bus",
+				"public_transport": "platform",
+				"ref": "497",
+				"shelter": "no"
+			}
+		},
+		{
+			"type": "node",
+			"id": 249430780,
+			"lat": 53.3480011,
+			"lon": -6.2579869,
+			"tags": {
+				"name": "Clifton Court Hotel",
+				"tourism": "hotel"
+			}
+		},
+		{
+			"type": "node",
+			"id": 249455004,
+			"lat": 53.3604053,
+			"lon": -6.2394221,
+			"tags": {
+				"bus": "yes",
+				"highway": "bus_stop",
+				"name": "North Strand Road, Waterloo Avenue",
+				"name:ga": "BÃ³thar na TrÃ¡ Thuaidh, Ascaill Waterloo",
+				"operator": "Dublin Bus",
+				"public_transport": "platform",
+				"ref": "519",
+				"shelter": "yes"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 255016749,
+			"lat": 53.3442445,
+			"lon": -6.2600842,
+			"tags": {
+				"bench": "no",
+				"highway": "bus_stop",
+				"name": "College Green, Trinity College",
+				"operator": "Dublin Bus",
+				"ref": "4521",
+				"shelter": "no",
+				"tactile_paving": "no"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 255016811,
+			"lat": 53.3455662,
+			"lon": -6.2566573,
+			"tags": {
+				"bench": "no",
+				"highway": "bus_stop",
+				"local_ref": "CU",
+				"name": "Pearse Street bus_stop 3",
+				"operator": "Dublin Bus",
+				"ref": "346",
+				"shelter": "yes",
+				"tactile_paving": "no"
+			}
+		},
+		{
+			"type": "node",
+			"id": 256880032,
+			"lat": 53.3444281,
+			"lon": -6.2675470,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:country": "IE",
+				"addr:street": "Parliament Street",
+				"amenity": "pub",
+				"contact:email": "info@thefrontlounge.ie",
+				"contact:facebook": "frontlounge",
+				"contact:phone": "+353 1 670 4112",
+				"contact:twitter": "https://twitter.com/frontlounge",
+				"gay": "yes",
+				"name": "The Front Lounge",
+				"note": "This is the same establishment as the Back Lounge nearby",
+				"website": "http://www.thefrontlounge.ie",
+				"wheelchair": "limited"
+			}
+		},
+		{
+			"type": "node",
+			"id": 256880420,
+			"lat": 53.3445776,
+			"lon": -6.2666378,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:country": "IE",
+				"addr:street": "Crane Lane",
+				"amenity": "sauna",
+				"contact:email": "theboilerhouse@hotmail.com",
+				"contact:phone": "+353 1 6773130",
+				"gay": "yes",
+				"name": "The Boilerhouse",
+				"website": "http://www.the-boilerhouse.com"
+			}
+		},
+		{
+			"type": "node",
+			"id": 259552573,
+			"lat": 53.3336102,
+			"lon": -6.2479054,
+			"tags": {
+				"artist_name": "John Coll",
+				"artwork_type": "sculpture",
+				"name": "Patrick Kavanagh",
+				"tourism": "artwork"
+			}
+		},
+		{
+			"type": "node",
+			"id": 260032870,
+			"lat": 53.3199649,
+			"lon": -6.2438831,
+			"tags": {
+				"addr:street": "Sandford Road",
+				"amenity": "fuel",
+				"name": "Sandford Service Station",
+				"operator": "Esso"
+			}
+		},
+		{
+			"type": "node",
+			"id": 262343017,
+			"lat": 53.3321601,
+			"lon": -6.2835671,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:postcode": "D08",
+				"addr:street": "Donore Avenue",
+				"amenity": "place_of_worship",
+				"anglican": "Church of Ireland",
+				"denomination": "anglican",
+				"name": "Saint Catherine and Saint James",
+				"religion": "christian"
+			}
+		},
+		{
+			"type": "node",
+			"id": 262397827,
+			"lat": 53.3608311,
+			"lon": -6.2717186,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:street": "North Circular Road",
+				"amenity": "bank",
+				"atm": "yes",
+				"name": "Bank of Ireland North Circular Road",
+				"website": "http://www.bankofireland.com/"
+			}
+		},
+		{
+			"type": "node",
+			"id": 267889042,
+			"lat": 53.3459072,
+			"lon": -6.3141213,
+			"tags": {
+				"leisure": "sports_centre",
+				"name": "Dublin University Boat club",
+				"sport": "rowing"
+			}
+		},
+		{
+			"type": "node",
+			"id": 269349732,
+			"lat": 53.3298120,
+			"lon": -6.2336188,
+			"tags": {
+				"amenity": "embassy",
+				"country": "KE",
+				"name": "Embassy of the Republic of Kenya"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 271235101,
+			"lat": 53.3472048,
+			"lon": -6.2587250,
+			"tags": {
+				"highway": "bus_stop",
+				"local_ref": "OS",
+				"name": "O'Connell Street, O'Connell Bridge",
+				"name:en": "O'Connell Street, O'Connell Bridge",
+				"name:ga": "SrÃ¡id UÃ­ Chonaill, Droichead UÃ­ Chonaill",
+				"operator": "Dublin Bus",
+				"ref": "273",
+				"route_ref": "4;7;8;120"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 271235311,
+			"lat": 53.3462627,
+			"lon": -6.2577136,
+			"tags": {
+				"highway": "bus_stop",
+				"local_ref": "CK",
+				"name": "D'Olier Street, Ashfield House",
+				"operator": "Dublin Bus",
+				"ref": "336",
+				"wheelchair": "unknown"
+			}
+		},
+		{
+			"type": "node",
+			"id": 278338157,
+			"lat": 53.3320231,
+			"lon": -6.2941311,
+			"tags": {
+				"amenity": "fuel",
+				"name": "Maxol",
+				"operator": "Maxol"
+			}
+		},
+		{
+			"type": "node",
+			"id": 278842440,
+			"lat": 53.3367853,
+			"lon": -6.2577280,
+			"tags": {
+				"amenity": "fountain",
+				"artist_name": "Josef Wackerle",
+				"artwork_type": "statue",
+				"material": "bronze",
+				"name": "The Three Fates",
+				"tourism": "artwork"
+			}
+		},
+		{
+			"type": "node",
+			"id": 278842448,
+			"lat": 53.3383860,
+			"lon": -6.2562027,
+			"tags": {
+				"historic": "monument",
+				"name": "Wolfe Tone",
+				"source": "survey"
+			}
+		}, {
+			"type": "node",
+			"id": 278842449,
+			"lat": 53.3383887,
+			"lon": -6.2562820,
+			"tags": {
+				"historic": "monument",
+				"name": "Famine",
+				"source": "survey"
+			}
+		},
+		{
+			"type": "node",
+			"id": 278842455,
+			"lat": 53.3396460,
+			"lon": -6.2605156,
+			"tags": {
+				"alt_name": "Traitors' Gate",
+				"barrier": "gate",
+				"historic": "monument",
+				"name": "Royal Fusiliers' Arch",
+				"note": "memorial to the Royal Dublin Fusiliers",
+				"source": "survey"
+			}
+		},
+		{
+			"type": "node",
+			"id": 278842456,
+			"lat": 53.3393278,
+			"lon": -6.2602976,
+			"tags": {
+				"historic": "monument",
+				"name": "African Rose",
+				"source": "survey"
+			}
+		},
+		{
+			"type": "node",
+			"id": 278842461,
+			"lat": 53.3386309,
+			"lon": -6.2614053,
+			"tags": {
+				"historic": "monument",
+				"name": "Lord Ardilaun",
+				"source": "survey"
+			}
+		},
+		{
+			"type": "node",
+			"id": 278846172,
+			"lat": 53.3384168,
+			"lon": -6.2603602,
+			"tags": {
+				"historic": "monument",
+				"name": "W.B. Yeats"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 278857697,
+			"lat": 53.3395324,
+			"lon": -6.2661231,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:country": "IE",
+				"addr:housenumber": "55",
+				"addr:street": "Aungier Street",
+				"name": "Avalon House",
+				"tourism": "hostel"
+			}
+		}, {
+			"type": "node",
+			"id": 278857702,
+			"lat": 53.3457840,
+			"lon": -6.2619240,
+			"tags": {
+				"amenity": "restaurant",
+				"cuisine": "italian",
+				"name": "La Gondola"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 278857703,
+			"lat": 53.3457661,
+			"lon": -6.2611706,
+			"tags": {
+				"amenity": "restaurant",
+				"name": "Gogarty's"
+			}
+		}, {
+			"type": "node",
+			"id": 278857890,
+			"lat": 53.3448128,
+			"lon": -6.2623304,
+			"tags": {
+				"amenity": "nightclub",
+				"name": "Club M"
+			}
+		}, 
+		 {
+			"type": "node",
+			"id": 279363844,
+			"lat": 53.3455629,
+			"lon": -6.2619775,
+			"tags": {
+				"amenity": "pub",
+				"name": "The Auld Dubliner"
+			}
+		},
+		{
+			"type": "node",
+			"id": 279363879,
+			"lat": 53.3456141,
+			"lon": -6.2610506,
+			"tags": {
+				"amenity": "restaurant",
+				"name": "Thunder Road Cafe"
+			}
+		}, {
+			"type": "node",
+			"id": 279363883,
+			"lat": 53.3451635,
+			"lon": -6.2661073,
+			"tags": {
+				"amenity": "cafe",
+				"name": "The Joy of ChÃ¡"
+			}
+		},
+		{
+			"type": "node",
+			"id": 279364656,
+			"lat": 53.3454662,
+			"lon": -6.2642025,
+			"tags": {
+				"addr:housenumber": "47-48",
+				"addr:street": "Temple Bar",
+				"amenity": "bar",
+				"name": "The Temple Bar",
+				"name:en": "The Temple Bar",
+				"opening_hours": "Mo-We 10:30-01:30; Th-Sa 10:30-02:30; Su 11:30-01:00",
+				"wheelchair": "no"
+			}
+		}, {
+			"type": "node",
+			"id": 279364763,
+			"lat": 53.3458490,
+			"lon": -6.2633708,
+			"tags": {
+				"amenity": "pub",
+				"name": "Ha'penny Bridge Inn"
+			}
+		},
+		{
+			"type": "node",
+			"id": 279367505,
+			"lat": 53.3450081,
+			"lon": -6.2663409,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:country": "IE",
+				"addr:housenumber": "39",
+				"addr:street": "Essex Street East",
+				"amenity": "arts_centre",
+				"name": "Project Arts Centre",
+				"wikidata": "Q7249003"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 279367508,
+			"lat": 53.3449835,
+			"lon": -6.2665467,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:country": "IE",
+				"addr:housenumber": "43",
+				"addr:street": "Essex Street East",
+				"amenity": "theatre",
+				"name": "The New Theatre",
+				"shop": "books"
+			}
+		},
+		{
+			"type": "node",
+			"id": 279464598,
+			"lat": 53.3300443,
+			"lon": -6.2689669,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housenumber": "1",
+				"addr:postcode": "D08",
+				"addr:street": "Portobello Road",
+				"amenity": "restaurant",
+				"cuisine": "regional",
+				"name": "The Table",
+				"opening_hours": "Tu-Fr 17:30+, Sa 09:30-16:30 17:30+, Su 09:30-16:30",
+				"phone": "+353 1 4736727",
+				"website": "http://www.thetablerestaurant.ie/"
+			}
+		},
+		{
+			"type": "node",
+			"id": 279912234,
+			"lat": 53.3510617,
+			"lon": -6.2604240,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housenumber": "14a-15",
+				"addr:street": "O'Connell Street Upper",
+				"amenity": "restaurant",
+				"cuisine": "pizza",
+				"name": "La Pizza",
+				"smoking": "no"
+			}
+		},
+		{
+			"type": "node",
+			"id": 279912235,
+			"lat": 53.3509496,
+			"lon": -6.2603275,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housenumber": "14",
+				"addr:street": "O'Connell Street Upper",
+				"information": "office",
+				"name": "Discover Ireland Centre",
+				"opening_hours": "Mo-Sa 09:00-17:00",
+				"operator": "FÃ¡ilte Ireland",
+				"phone": "+353 1 6057700",
+				"tourism": "information",
+				"website": "http://www.discoverireland.ie/Activities-Adventure/dublin-discover-ireland-centre-o-connell-street/48292"
+			}
+		}, {
+			"type": "node",
+			"id": 279912237,
+			"lat": 53.3505213,
+			"lon": -6.2602551,
+			"tags": {
+				"amenity": "fast_food",
+				"name": "Burger King",
+				"wheelchair": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 279918106,
+			"lat": 53.3435726,
+			"lon": -6.2604090,
+			"tags": {
+				"highway": "bus_stop",
+				"name": "Tourism Centre Suffolk Street",
+				"operator": "Dublin Tour",
+				"ref": "8"
+			}
+		},
+		{
+			"type": "node",
+			"id": 279924689,
+			"lat": 53.3437719,
+			"lon": -6.2970730,
+			"tags": {
+				"highway": "bus_stop",
+				"name": "Royal Hospital Kilmainham",
+				"operator": "Dublin Tour",
+				"ref": "14a"
+			}
+		},
+		{
+			"type": "node",
+			"id": 281174255,
+			"lat": 53.3432408,
+			"lon": -6.2388322,
+			"tags": {
+				"addr:street": "Pearse Street",
+				"name": "Fresh",
+				"shop": "supermarket",
+				"wheelchair": "yes"
+			}
+		}, {
+			"type": "node",
+			"id": 281174464,
+			"lat": 53.3432598,
+			"lon": -6.2441704,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:street": "Pearse Street",
+				"name": "Centra Pearse Street",
+				"shop": "supermarket",
+				"wheelchair": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 281260257,
+			"lat": 53.3614673,
+			"lon": -6.2986591,
+			"tags": {
+				"amenity": "fast_food",
+				"cuisine": "burger",
+				"name": "McDonald's 5"
+			}
+		},
+		{
+			"type": "node",
+			"id": 291594604,
+			"lat": 53.3402787,
+			"lon": -6.2362398,
+			"tags": {
+				"addr:street": "Barrow Street",
+				"name": "EuroSpar Barrow Street",
+				"operator": "EuroSpar",
+				"shop": "supermarket",
+				"wheelchair": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 292170196,
+			"lat": 53.3510308,
+			"lon": -6.2651479,
+			"tags": {
+				"addr:housenumber": "185",
+				"addr:street": "Parnell Street",
+				"name": "Cycleways",
+				"shop": "bicycle",
+				"website": "http://www.cycleways.com/store/"
+			}
+		},
+		{
+			"type": "node",
+			"id": 292180677,
+			"lat": 53.3601333,
+			"lon": -6.3258407,
+			"tags": {
+				"historic": "monument",
+				"name": "The Phoenix Monument"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 298085560,
+			"lat": 53.3418488,
+			"lon": -6.2495572,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housenumber": "39-40",
+				"addr:street": "Fenian Street",
+				"amenity": "pub",
+				"name": "The Gingerman",
+				"opening_hours": "Mo-Th 11:30-00:30; Fr-Sa 11:30-01:30; Su 16:00-23:00",
+				"smoking": "isolated",
+				"wheelchair": "yes"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 298514522,
+			"lat": 53.3510943,
+			"lon": -6.2533607,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housename": "Colvill House",
+				"addr:street": "Talbot Street",
+				"name": "Irish Independent",
+				"note": "Independent House",
+				"office": "newspaper"
+			}
+		},
+		{
+			"type": "node",
+			"id": 298515362,
+			"lat": 53.3497711,
+			"lon": -6.2501874,
+			"tags": {
+				"amenity": "bank",
+				"atm": "yes",
+				"name": "Bank of Ireland bank5",
+				"operator": "Bank of Ireland"
+			}
+		},
+		{
+			"type": "node",
+			"id": 300247459,
+			"lat": 53.3282173,
+			"lon": -6.3423204,
+			"tags": {
+				"name": "Reid Furniture",
+				"shop": "furniture"
+			}
+		}, {
+			"type": "node",
+			"id": 300247460,
+			"lat": 53.3283708,
+			"lon": -6.3416674,
+			"tags": {
+				"name": "Carpet Right",
+				"shop": "carpet"
+			}
+		},
+		{
+			"type": "node",
+			"id": 300247463,
+			"lat": 53.3245099,
+			"lon": -6.3492216,
+			"tags": {
+				"name": "Griffin Motors",
+				"shop": "car"
+			}
+		}, {
+			"type": "node",
+			"id": 300247464,
+			"lat": 53.3243137,
+			"lon": -6.3497797,
+			"tags": {
+				"name": "Pat Igoe",
+				"phone": "+353-1-4508514",
+				"shop": "car"
+			}
+		},{
+			"type": "node",
+			"id": 300247466,
+			"lat": 53.3245686,
+			"lon": -6.3516856,
+			"tags": {
+				"name": "Harris",
+				"operator": "Isuzu;Hino",
+				"shop": "truck"
+			}
+		}, {
+			"type": "node",
+			"id": 300290413,
+			"lat": 53.3216826,
+			"lon": -6.3560586,
+			"tags": {
+				"operator": "Toyota",
+				"shop": "car"
+			}
+		},
+		{
+			"type": "node",
+			"id": 310406922,
+			"lat": 53.3431125,
+			"lon": -6.2640110,
+			"tags": {
+				"name": "Central Hotel",
+				"tourism": "hotel"
+			}
+		}, {
+			"type": "node",
+			"id": 310407193,
+			"lat": 53.3431331,
+			"lon": -6.2635937,
+			"tags": {
+				"addr:housenumber": "7-9",
+				"addr:street": "Exchequer Street",
+				"amenity": "restaurant",
+				"cuisine": "japanese",
+				"name": "Ukiyo Bar",
+				"phone": "+353 1 6334071",
+				"website": "http://www.ukiyobar.com/"
+			}
+		}, {
+			"type": "node",
+			"id": 310407690,
+			"lat": 53.3437335,
+			"lon": -6.2688365,
+			"tags": {
+				"amenity": "cafe",
+				"name": "Bittersweet Cafe"
+			}
+		}, {
+			"type": "node",
+			"id": 310407929,
+			"lat": 53.3442807,
+			"lon": -6.2658706,
+			"tags": {
+				"amenity": "restaurant",
+				"cuisine": "lebanese",
+				"name": "Beirut Express"
+			}
+		},
+		{
+			"type": "node",
+			"id": 311097987,
+			"lat": 53.3502130,
+			"lon": -6.2676571,
+			"tags": {
+				"addr:street": "Parnell Street",
+				"amenity": "cinema",
+				"name": "Cineworld",
+				"phone": "1520-880-444",
+				"website": "http://www.cineworld.ie"
+			}
+		},
+		{
+			"type": "node",
+			"id": 311298974,
+			"lat": 53.3494946,
+			"lon": -6.2671208,
+			"tags": {
+				"addr:housenumber": "1-4",
+				"addr:street": "Jervis Street",
+				"name": "Maplin",
+				"opening_hours": "Mo-We 09:00-19:00; Th 09:00-20:00; Fr-Sa 09:00-19:00; Su 12:00-18:00",
+				"phone": "+353-1-878-2800",
+				"shop": "electronics",
+				"website": "http://www.maplin.ie/",
+				"wheelchair": "limited"
+			}
+		}, {
+			"type": "node",
+			"id": 311299258,
+			"lat": 53.3495907,
+			"lon": -6.2671637,
+			"tags": {
+				"addr:street": "Jervis Street",
+				"name": "Smyth's",
+				"opening_hours": "Mo-We 09:00-18:00; Th 09:00-21:00; Fr-Sa 09:00-18:00; Su 11:00-18:00",
+				"shop": "toys"
+			}
+		},
+		{
+			"type": "node",
+			"id": 311344008,
+			"lat": 53.3480715,
+			"lon": -6.2652250,
+			"tags": {
+				"is_in": "Jervis Shopping Centre",
+				"name": "Tesco Jervis Shopping Centre",
+				"operator": "Tesco",
+				"shop": "supermarket",
+				"wheelchair": "yes"
+			}
+		},{
+			"type": "node",
+			"id": 311990163,
+			"lat": 53.3251267,
+			"lon": -6.2542580,
+			"tags": {
+				"addr:housenumber": "60",
+				"addr:street": "Ranelagh",
+				"amenity": "pub",
+				"name": "Tap House",
+				"website": "http://taphouse.ie/",
+				"wheelchair": "limited"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 311991924,
+			"lat": 53.3253828,
+			"lon": -6.2548022,
+			"tags": {
+				"amenity": "fast_food",
+				"cuisine": "asian",
+				"name": "Diep At Home",
+				"website": "www.diep.ie",
+				"wheelchair": "no"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 311994034,
+			"lat": 53.3328085,
+			"lon": -6.2647637,
+			"tags": {
+				"addr:city": "Dublin 2",
+				"addr:street": "Camden Street Upper",
+				"amenity": "cafe",
+				"cuisine": "coffee_shop",
+				"name": "The Bakehouse",
+				"smoking": "no",
+				"website": "http://www.the-bakehouse.ie/"
+			}
+		},
+		{
+			"type": "node",
+			"id": 311994584,
+			"lat": 53.3426804,
+			"lon": -6.2642553,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:street": "George's Street Great South",
+				"name": "Dunnes Stores George's Street Great South",
+				"shop": "supermarket"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 330262533,
+			"lat": 53.3441672,
+			"lon": -6.2505382,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housename": "Trinity College, Dublin",
+				"addr:street": "Pearse Street",
+				"fee": "no",
+				"name": "Science Gallery",
+				"name:ga": "An tÃilÃ©ar EolaÃ­ochta",
+				"operator": "Trinity College, Dublin",
+				"phone": "+353 1 896 4091",
+				"tourism": "museum",
+				"website": "http://dublin.sciencegallery.com/",
+				"wheelchair": "yes",
+				"wikidata": "Q7433553"
+			}
+		},
+		{
+			"type": "node",
+			"id": 335446803,
+			"lat": 53.3605693,
+			"lon": -6.2712340,
+			"tags": {
+				"artwork_type": "statue",
+				"historic": "monument",
+				"name": "Irish Volunteers memorial"
+			}
+		},
+		{
+			"type": "node",
+			"id": 351500514,
+			"lat": 53.3430114,
+			"lon": -6.2448176,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housenumber": "24",
+				"addr:street": "Erne Street Upper",
+				"amenity": "post_office",
+				"collection_times": "Mo-Fr 17:30",
+				"name": "Erne Street Upper Post Office",
+				"name:en": "Erne Street Post Office",
+				"name:ga": "Oifig an Phoist SrÃ¡id Ã‰irne Uacht",
+				"opening_hours": "Mo-Fr 09:00-13:00, 14:15-17:30, Sa 09:00-13:00",
+				"operator": "An Post"
+			}
+		},
+		{
+			"type": "node",
+			"id": 366363183,
+			"lat": 53.3412401,
+			"lon": -6.2612650,
+			"tags": {
+				"name": "Jack Wills",
+				"shop": "clothes"
+			}
+		}, {
+			"type": "node",
+			"id": 366363184,
+			"lat": 53.3414135,
+			"lon": -6.2615173,
+			"tags": {
+				"name": "The Westbury Hotel",
+				"stars": "5",
+				"tourism": "hotel",
+				"wheelchair": "limited"
+			}
+		}, {
+			"type": "node",
+			"id": 366363185,
+			"lat": 53.3405891,
+			"lon": -6.2573068,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housenumber": "5-6",
+				"addr:street": "Molesworth Place",
+				"amenity": "restaurant",
+				"email": "info@onepico.com",
+				"name": "One Pico",
+				"opening_hours": "Mo-Sa 12:00-14:45, 17:30-22:00, Su 12:30-16:00, 17:00-20:00",
+				"operator": "Eamon O'Reilly",
+				"phone": "+ 353 1 6760300",
+				"website": "http://www.onepico.com/home.php"
+			}
+		},
+		{
+			"type": "node",
+			"id": 429638456,
+			"lat": 53.3439026,
+			"lon": -6.2564874,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:country": "IE",
+				"addr:housename": "Old Library",
+				"addr:street": "College Street",
+				"fax": "+353-1-8962690",
+				"name": "Book of Kells",
+				"name:ga": "Leabhar Cheanannais",
+				"opening_hours": "Mo-Sa 08:30-17:00; Su 09:00-17:00",
+				"operator": "Trinity College Library",
+				"phone": "+353-1-8962308",
+				"tourism": "attraction",
+				"website": "http://www.bookofkells.ie/",
+				"wheelchair": "yes",
+				"wikipedia": "en:Book of Kells"
+			}
+		},
+		{
+			"type": "node",
+			"id": 433082786,
+			"lat": 53.3373251,
+			"lon": -6.2332444,
+			"tags": {
+				"addr:street": "Bath Avenue",
+				"amenity": "restaurant",
+				"name": "Lansdowne Steak and Grill"
+			}
+		},
+		{
+			"type": "node",
+			"id": 434378090,
+			"lat": 53.3551013,
+			"lon": -6.2628081,
+			"tags": {
+				"amenity": "college",
+				"name": "Grafton College of Management Sciences"
+			}
+		},
+		{
+			"type": "node",
+			"id": 434379755,
+			"lat": 53.3510902,
+			"lon": -6.2632744,
+			"tags": {
+				"name": "Lidl",
+				"opening_hours": "Mo-Sa 08:00-22:00; Su 10:30-19:00",
+				"operator": "Lidl",
+				"shop": "supermarket"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 434424827,
+			"lat": 53.3677413,
+			"lon": -6.3138026,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:street": "Navan Road",
+				"amenity": "school",
+				"name": "Saint John Bosco National School"
+			}
+		},
+		{
+			"type": "node",
+			"id": 440860714,
+			"lat": 53.3647818,
+			"lon": -6.2889593,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:postcode": "D07",
+				"addr:street": "Fassaugh Avenue",
+				"amenity": "school",
+				"name": "Gaelscoil Bharra"
+			}
+		},
+		{
+			"type": "node",
+			"id": 440860778,
+			"lat": 53.3672142,
+			"lon": -6.2962254,
+			"tags": {
+				"amenity": "taxi",
+				"name": "Fassaugh Avenue",
+				"operator": "Dublin City Council"
+			}
+		},
+		 {
+			"type": "node",
+			"id": 441270663,
+			"lat": 53.3430544,
+			"lon": -6.2634063,
+			"tags": {
+				"amenity": "bicycle_rental",
+				"capacity": "24",
+				"name": "Exchequer Street",
+				"network": "dublinbikes",
+				"operator": "JCDecaux",
+				"ref": "09",
+				"url": "http://www.dublinbikes.ie/",
+				"wheelchair": "no"
+			}
+		},
+		{
+			"type": "node",
+			"id": 441883276,
+			"lat": 53.3616272,
+			"lon": -6.2765765,
+			"tags": {
+				"amenity": "school",
+				"name": "Saint Peters National School"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 442397196,
+			"lat": 53.3484294,
+			"lon": -6.2689369,
+			"tags": {
+				"amenity": "bank",
+				"atm": "yes",
+				"name": "AIB Capel Street",
+				"operator": "AIB"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 449376650,
+			"lat": 53.3393607,
+			"lon": -6.2661641,
+			"tags": {
+				"leisure": "sports_centre",
+				"name": "YMCA"
+			}
+		},
+		{
+			"type": "node",
+			"id": 467744846,
+			"lat": 53.3481735,
+			"lon": -6.2600104,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:street": "O'Connell Street Lower",
+				"amenity": "fast_food",
+				"cuisine": "burger",
+				"delivery": "no",
+				"name": "Supermac's",
+				"smoking": "outside",
+				"takeaway": "yes",
+				"wheelchair": "limited",
+				"wheelchair:description": "this is Superman's and Papa Johns in one and the first floor is wheelchair accessible"
+			}
+		}, {
+			"type": "node",
+			"id": 467744850,
+			"lat": 53.3459134,
+			"lon": -6.2594738,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:country": "IE",
+				"addr:housenumber": "9",
+				"addr:street": "Westmoreland Street",
+				"amenity": "fast_food",
+				"name": "Subway Westmoreland Street"
+			}
+		}, {
+			"type": "node",
+			"id": 467744852,
+			"lat": 53.3500380,
+			"lon": -6.2594410,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:country": "IE",
+				"addr:housenumber": "25",
+				"addr:street": "North Earl Street",
+				"amenity": "pub",
+				"food": "yes",
+				"name": "Madigan's North Earl Street"
+			}
+		}, {
+			"type": "node",
+			"id": 467744854,
+			"lat": 53.3442904,
+			"lon": -6.2663911,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:country": "IE",
+				"addr:housenumber": "75",
+				"addr:street": "Dame Street",
+				"amenity": "pub",
+				"name": "Brogan's Bar"
+			}
+		}, {
+			"type": "node",
+			"id": 467744856,
+			"lat": 53.3505727,
+			"lon": -6.2548867,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:country": "IE",
+				"addr:housenumber": "81",
+				"addr:street": "Talbot Street",
+				"amenity": "pub",
+				"brewery": "Guinness;smithwick;Carlsberg;hop housse 13 lager;o'haras irish stout;o'haras irish red;Heineken",
+				"name": "The Celt"
+			}
+		}, {
+			"type": "node",
+			"id": 467744860,
+			"lat": 53.3451275,
+			"lon": -6.2626961,
+			"tags": {
+				"amenity": "pub",
+				"brewery": "guinness;carlsberg;heineken;Smithwick's",
+				"internet_access": "wlan",
+				"name": "The Old Storehouse 2"
+			}
+		}, {
+			"type": "node",
+			"id": 467744862,
+			"lat": 53.3451197,
+			"lon": -6.2629054,
+			"tags": {
+				"amenity": "fast_food",
+				"name": "Subway 2"
+			}
+		},
+		{
+			"type": "node",
+			"id": 651804747,
+			"lat": 53.3405156,
+			"lon": -6.2654387,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:country": "IE",
+				"addr:housenumber": "13",
+				"addr:street": "Aungier Street",
+				"amenity": "college",
+				"name": "Dublin Business School Aungier Street"
+			}
+		}, {
+			"type": "node",
+			"id": 651805520,
+			"lat": 53.3382697,
+			"lon": -6.2668945,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:postcode": "D08",
+				"addr:street": "Bishop Street",
+				"amenity": "public_building",
+				"name": "Department of Social Protection",
+				"operator": "Department of Social Protection"
+			}
+		},
+		{
+			"type": "node",
+			"id": 703863808,
+			"lat": 53.3608847,
+			"lon": -6.2604306,
+			"tags": {
+				"amenity": "college",
+				"name": "Dorset College",
+				"website": "http://www.dorset-college.ie/"
+			}
+		}, {
+			"type": "node",
+			"id": 703864386,
+			"lat": 53.3610447,
+			"lon": -6.2603072,
+			"tags": {
+				"amenity": "casino",
+				"name": "D1 Club"
+			}
+		},
+		 {
+			"type": "node",
+			"id": 878517402,
+			"lat": 53.3431615,
+			"lon": -6.2577070,
+			"tags": {
+				"name": "Douglas Hyde Gallery",
+				"name:ga": "ÃilÃ©ar DhÃºglas de hÃde",
+				"opening_hours": "Mo-Fr 11:00-18:00;Th 11:00-19:00;Sa 11:00-16:45",
+				"operator": "Trinity College, Dublin",
+				"tourism": "gallery",
+				"website": "www.douglashydegallery.com",
+				"wheelchair": "limited",
+				"wikidata": "Q7730763",
+				"wikipedia": "en:The Douglas Hyde Gallery"
+			}
+		},
+		{
+			"type": "node",
+			"id": 908499549,
+			"lat": 53.3444162,
+			"lon": -6.2589561,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housename": "Trinity College",
+				"addr:street": "College Green",
+				"amenity": "post_box",
+				"collection_times": "Mo-Fr 16:00",
+				"drive_through": "no",
+				"name": "Trinity College College Green",
+				"name:en": "Trinity College",
+				"name:ga": "ColÃ¡iste na TrÃ­onÃ³ide",
+				"operator": "An Post",
+				"ref": "D020482a"
+			}
+		}, {
+			"type": "node",
+			"id": 908499550,
+			"lat": 53.3447654,
+			"lon": -6.2543069,
+			"tags": {
+				"amenity": "theatre",
+				"name": "Samuel Beckett Theatre",
+				"wheelchair": "yes"
+			}
+		}, {
+			"type": "node",
+			"id": 908499551,
+			"lat": 53.3448038,
+			"lon": -6.2544249,
+			"tags": {
+				"amenity": "theatre",
+				"name": "Players Theatre",
+				"wheelchair": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 911170192,
+			"lat": 53.3374995,
+			"lon": -6.2664452,
+			"tags": {
+				"addr:housename": "College Court",
+				"addr:housenumber": "5",
+				"addr:street": "Kevin Street Lower",
+				"massage": "thai",
+				"name": "Thai Massage Centre",
+				"shop": "massage",
+				"website": "http://www.thaimassage.ie"
+			}
+		}, {
+			"type": "node",
+			"id": 911170193,
+			"lat": 53.3375011,
+			"lon": -6.2665404,
+			"tags": {
+				"addr:housenumber": "6",
+				"addr:street": "Kevin Street Lower",
+				"amenity": "cafe",
+				"diet:gluten_free": "yes",
+				"name": "Antoinetteâ€™s Bakery",
+				"shop": "bakery",
+				"website": "http://www.antoinettesbakery.com/"
+			}
+		}, {
+			"type": "node",
+			"id": 911170194,
+			"lat": 53.3375067,
+			"lon": -6.2666489,
+			"tags": {
+				"addr:city": "Dublin 8",
+				"addr:housename": "College Court",
+				"addr:housenumber": "3",
+				"addr:street": "Kevin Street Lower",
+				"amenity": "cafe",
+				"name": "Toasted",
+				"old_name": "Cafe Sora"
+			}
+		}, {
+			"type": "node",
+			"id": 911170197,
+			"lat": 53.3375083,
+			"lon": -6.2668233,
+			"tags": {
+				"addr:housename": "College Court",
+				"addr:street": "Kevin Street Lower",
+				"amenity": "fast_food",
+				"contact:facebook": "https://www.facebook.com/boojumdublin",
+				"contact:twitter": "https://twitter.com/boojum_dublin",
+				"cuisine": "mexican",
+				"name": "Boojum",
+				"opening_hours": "Mo-Fr 11:30-21:00; Sa 12:00-21:00; Su 13:00-18:00",
+				"website": "http://www.boojummex.com/"
+			}
+		}, {
+			"type": "node",
+			"id": 911170200,
+			"lat": 53.3374409,
+			"lon": -6.2659032,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:street": "Wexford Street",
+				"amenity": "pub",
+				"name": "Karma Stone Bar",
+				"note": "formerly Shine, The Cornerstone, The Junction"
+			}
+		}, {
+			"type": "node",
+			"id": 911182454,
+			"lat": 53.3424255,
+			"lon": -6.2640325,
+			"tags": {
+				"amenity": "restaurant",
+				"name": "Urban Picnic"
+			}
+		}, {
+			"type": "node",
+			"id": 911182460,
+			"lat": 53.3400512,
+			"lon": -6.2605898,
+			"tags": {
+				"amenity": "cafe",
+				"name": "Butlers Chocolate CafÃ©"
+			}
+		}, {
+			"type": "node",
+			"id": 911195156,
+			"lat": 53.3360578,
+			"lon": -6.2655348,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housenumber": "87",
+				"addr:street": "Camden Street Lower",
+				"amenity": "restaurant",
+				"cuisine": "pizza",
+				"name": "Pallet Pizza"
+			}
+		}, {
+			"type": "node",
+			"id": 911195157,
+			"lat": 53.3363280,
+			"lon": -6.2655559,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housenumber": "92",
+				"addr:street": "Camden Street Lower",
+				"amenity": "pub",
+				"name": "Ryan's Lounge"
+			}
+		},
+		{
+			"type": "node",
+			"id": 928019703,
+			"lat": 53.3530106,
+			"lon": -6.2598095,
+			"tags": {
+				"amenity": "college",
+				"name": "Dublin Institute of Technology - Tourism and Food Faculty",
+				"website": "http://www.dit.ie/faculties/tourism/culinary/"
+			}
+		}, {
+			"type": "node",
+			"id": 928019704,
+			"lat": 53.3527980,
+			"lon": -6.2595935,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:street": "Marlborough Street",
+				"name": "An Bord PleanÃ¡la",
+				"name:ga": "An Bord PleanÃ¡la",
+				"office": "government"
+			}
+		},
+		{
+			"type": "node",
+			"id": 2188347633,
+			"lat": 53.3515772,
+			"lon": -6.2708355,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housename": "Linenhall",
+				"addr:street": "Yarnhall Street",
+				"amenity": "college",
+				"name": "Department of Metal Fabrication and Welding",
+				"operator": "Dublin Institute of Technology"
+			}
+		},
+		{
+			"type": "node",
+			"id": 2302621516,
+			"lat": 53.3444118,
+			"lon": -6.2617261,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:street": "College Green",
+				"brand": "Londis",
+				"name": "Griffin's Centra",
+				"shop": "convenience"
+			}
+		}, {
+			"type": "node",
+			"id": 2302621746,
+			"lat": 53.3444406,
+			"lon": -6.2615021,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:street": "College Green",
+				"amenity": "cafe",
+				"name": "Costa Coffee",
+				"toilets:wheelchair": "yes",
+				"wheelchair": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 2419701402,
+			"lat": 53.3453890,
+			"lon": -6.2654930,
+			"tags": {
+				"amenity": "training",
+				"name": "IBAT College"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 2522653013,
+			"lat": 53.3516916,
+			"lon": -6.2591625,
+			"tags": {
+				"amenity": "college",
+				"name": "D.I.T. College of Catering and Tourism"
+			}
+		},
+		{
+			"type": "node",
+			"id": 2558604966,
+			"lat": 53.3417671,
+			"lon": -6.2520424,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housenumber": "2",
+				"addr:street": "Clare Street",
+				"amenity": "college",
+				"name": "Hibernia College",
+				"website": "http://hiberniacollege.com/"
+			}
+		},
+		{
+			"type": "node",
+			"id": 2724361407,
+			"lat": 53.3472410,
+			"lon": -6.2568041,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:street": "Burgh Quay",
+				"amenity": "college",
+				"name": "English Language Tutorial Academy",
+				"note": "amenity=college... really?",
+				"phone": "+353 1 6799715",
+				"website": "http://www.elta.ie/"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 2744294485,
+			"lat": 53.3347497,
+			"lon": -6.2654450,
+			"tags": {
+				"addr:housenumber": "66",
+				"addr:street": "Camden Street Upper",
+				"amenity": "school",
+				"building:levels": "3",
+				"name": "Shelbourne College",
+				"website": "http://www.scdublin.com"
+			}
+		}, {
+			"type": "node",
+			"id": 2744655192,
+			"lat": 53.3435375,
+			"lon": -6.2837861,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housenumber": "157",
+				"addr:street": "Thomas Street",
+				"name": "PixelSoup Ltd",
+				"phone": "+353 1 679 6499",
+				"website": "http://www.pixelsoup.ie"
+			}
+		}, 
+		{
+			"type": "node",
+			"id": 2891636442,
+			"lat": 53.3432637,
+			"lon": -6.2506303,
+			"tags": {
+				"amenity": "library",
+				"name": "Hamilton Library",
+				"operator": "Trinity College Library",
+				"start_date": "1992"
+			}
+		},
+		{
+			"type": "node",
+			"id": 2895162516,
+			"lat": 53.3433482,
+			"lon": -6.2504692,
+			"tags": {
+				"name": "Students' Union Shop 1",
+				"name:ga": "Siopa Aontas na Mac LÃ©inn",
+				"operator": "Trinity College, Dublin Students' Union",
+				"shop": "newsagent",
+				"wheelchair": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 2940321606,
+			"lat": 53.3444710,
+			"lon": -6.2613271,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:street": "College Green",
+				"building": "university",
+				"name": "Department of Sociology, TCD"
+			}
+		},
+		{
+			"type": "node",
+			"id": 4077349476,
+			"lat": 53.3486219,
+			"lon": -6.2434208,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housename": "National College of Ireland",
+				"addr:street": "Mayor Square",
+				"amenity": "restaurant",
+				"name": "Fusion"
+			}
+		},
+		{
+			"type": "node",
+			"id": 4077372347,
+			"lat": 53.3490885,
+			"lon": -6.2429051,
+			"tags": {
+				"addr:city": "Dublin",
+				"addr:housename": "National College of Ireland",
+				"addr:street": "Mayor Square",
+				"name": "NCI Business and Reseach Centre",
+				"office": "yes"
+			}
+		},
+		{
+			"type": "node",
+			"id": 4735205393,
+			"lat": 53.3444051,
+			"lon": -6.2573562,
+			"tags": {
+				"addr:street": "Library Square",
+				"amenity": "school",
+				"name": "Trinity College Library Square",
+				"name:en": "Trinity College",
+				"name:es": "Trinity College"
+			}
+		}
+	]
+}

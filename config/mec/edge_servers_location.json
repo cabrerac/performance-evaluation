@@ -1,0 +1,2402 @@
+{
+   "Node1": {
+      "siteID": 500506,
+      "regionID": 24302,
+      "latitude": 45.47743879,
+      "longitude": 9.123526003,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node2": {
+      "siteID": 501156,
+      "regionID": 10852,
+      "latitude": 45.48475334,
+      "longitude": 9.235506964,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node3": {
+      "siteID": 501825,
+      "regionID": 24272,
+      "latitude": 45.49984458,
+      "longitude": 9.151517063,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node4": {
+      "siteID": 500500,
+      "regionID": 24307,
+      "latitude": 45.55016781,
+      "longitude": 9.078965614,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node5": {
+      "siteID": 501409,
+      "regionID": 10853,
+      "latitude": 45.4780987,
+      "longitude": 9.219471856,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node6": {
+      "siteID": 500843,
+      "regionID": 24621,
+      "latitude": 45.44008686,
+      "longitude": 9.128655255,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node7": {
+      "siteID": 502122,
+      "regionID": 10855,
+      "latitude": 45.48976637,
+      "longitude": 9.197724164,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node8": {
+      "siteID": 500321,
+      "regionID": 24272,
+      "latitude": 45.4681165,
+      "longitude": 9.175662518,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node9": {
+      "siteID": 501869,
+      "regionID": 24676,
+      "latitude": 45.46922704,
+      "longitude": 9.188147128,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node10": {
+      "siteID": 502141,
+      "regionID": 10853,
+      "latitude": 45.48100662,
+      "longitude": 9.186698914,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node11": {
+      "siteID": 501868,
+      "regionID": 10854,
+      "latitude": 45.48227183,
+      "longitude": 9.189430684,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node12": {
+      "siteID": 501482,
+      "regionID": 10919,
+      "latitude": 45.48034708,
+      "longitude": 9.187474072,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node13": {
+      "siteID": 502116,
+      "regionID": 24675,
+      "latitude": 45.46544634,
+      "longitude": 9.195026696,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node14": {
+      "siteID": 501860,
+      "regionID": 10854,
+      "latitude": 45.4820355,
+      "longitude": 9.187246186,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node15": {
+      "siteID": 501006,
+      "regionID": 24269,
+      "latitude": 45.50325876,
+      "longitude": 9.176336527,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node16": {
+      "siteID": 501481,
+      "regionID": 24673,
+      "latitude": 45.48392305,
+      "longitude": 9.203712314,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node17": {
+      "siteID": 500485,
+      "regionID": 24308,
+      "latitude": 45.54377859,
+      "longitude": 9.113613384,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node18": {
+      "siteID": 500773,
+      "regionID": 24621,
+      "latitude": 45.42151526,
+      "longitude": 9.116617799,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node19": {
+      "siteID": 500648,
+      "regionID": 24308,
+      "latitude": 45.54274481,
+      "longitude": 9.118491983,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node20": {
+      "siteID": 500782,
+      "regionID": 24308,
+      "latitude": 45.53364651,
+      "longitude": 9.139306821,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node21": {
+      "siteID": 502046,
+      "regionID": 24303,
+      "latitude": 45.51213318,
+      "longitude": 9.174186599,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node22": {
+      "siteID": 500205,
+      "regionID": 24307,
+      "latitude": 45.52384891,
+      "longitude": 9.090946622,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node23": {
+      "siteID": 501090,
+      "regionID": 24303,
+      "latitude": 45.52859937,
+      "longitude": 9.161366454,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node24": {
+      "siteID": 501375,
+      "regionID": 10853,
+      "latitude": 45.48378931,
+      "longitude": 9.195167363,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node25": {
+      "siteID": 500871,
+      "regionID": 24302,
+      "latitude": 45.50796415,
+      "longitude": 9.146083206,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node26": {
+      "siteID": 501865,
+      "regionID": 10855,
+      "latitude": 45.48881322,
+      "longitude": 9.196210295,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node27": {
+      "siteID": 501304,
+      "regionID": 10853,
+      "latitude": 45.48528764,
+      "longitude": 9.20721714,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node28": {
+      "siteID": 500078,
+      "regionID": 10854,
+      "latitude": 45.49899199,
+      "longitude": 9.19045492,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node29": {
+      "siteID": 500191,
+      "regionID": 24269,
+      "latitude": 45.48287401,
+      "longitude": 9.167586581,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node30": {
+      "siteID": 500018,
+      "regionID": 10853,
+      "latitude": 45.48836019,
+      "longitude": 9.202338436,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node31": {
+      "siteID": 501089,
+      "regionID": 10853,
+      "latitude": 45.48360531,
+      "longitude": 9.195609671,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node32": {
+      "siteID": 501400,
+      "regionID": 24269,
+      "latitude": 45.46802963,
+      "longitude": 9.176172542,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node33": {
+      "siteID": 501447,
+      "regionID": 10951,
+      "latitude": 45.49598266,
+      "longitude": 9.306356183,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node34": {
+      "siteID": 500825,
+      "regionID": 24306,
+      "latitude": 45.51123625,
+      "longitude": 9.060958514,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node35": {
+      "siteID": 502073,
+      "regionID": 24303,
+      "latitude": 45.52254534,
+      "longitude": 9.169643466,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node36": {
+      "siteID": 500785,
+      "regionID": 24691,
+      "latitude": 45.38499579,
+      "longitude": 9.146312808,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node37": {
+      "siteID": 500978,
+      "regionID": 10854,
+      "latitude": 45.51336371,
+      "longitude": 9.190861173,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node38": {
+      "siteID": 502080,
+      "regionID": 10917,
+      "latitude": 45.4479026,
+      "longitude": 9.198693752,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node39": {
+      "siteID": 501417,
+      "regionID": 10917,
+      "latitude": 45.45755935,
+      "longitude": 9.205582413,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node40": {
+      "siteID": 501592,
+      "regionID": 10917,
+      "latitude": 45.44393084,
+      "longitude": 9.192389031,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node41": {
+      "siteID": 501277,
+      "regionID": 10855,
+      "latitude": 45.50007518,
+      "longitude": 9.197667143,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node42": {
+      "siteID": 500834,
+      "regionID": 9009,
+      "latitude": 45.48052674,
+      "longitude": 9.16016748,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node43": {
+      "siteID": 501258,
+      "regionID": 10917,
+      "latitude": 45.47378486,
+      "longitude": 9.216731191,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node44": {
+      "siteID": 501053,
+      "regionID": 10917,
+      "latitude": 45.45130334,
+      "longitude": 9.207901394,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node45": {
+      "siteID": 501405,
+      "regionID": 10917,
+      "latitude": 45.45483612,
+      "longitude": 9.202995453,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node46": {
+      "siteID": 500991,
+      "regionID": 10951,
+      "latitude": 45.51617097,
+      "longitude": 9.292443395,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node47": {
+      "siteID": 501413,
+      "regionID": 24304,
+      "latitude": 45.47018686,
+      "longitude": 9.114418042,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node48": {
+      "siteID": 500815,
+      "regionID": 10918,
+      "latitude": 45.46090334,
+      "longitude": 9.178585983,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node49": {
+      "siteID": 500764,
+      "regionID": 10951,
+      "latitude": 45.50142833,
+      "longitude": 9.299589097,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node50": {
+      "siteID": 501187,
+      "regionID": 24621,
+      "latitude": 45.45778994,
+      "longitude": 9.122010435,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node51": {
+      "siteID": 500137,
+      "regionID": 24270,
+      "latitude": 45.46082531,
+      "longitude": 9.169659257,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node52": {
+      "siteID": 501407,
+      "regionID": 24304,
+      "latitude": 45.47163062,
+      "longitude": 9.12117422,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node53": {
+      "siteID": 501139,
+      "regionID": 24621,
+      "latitude": 45.46080477,
+      "longitude": 9.107511597,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node54": {
+      "siteID": 502143,
+      "regionID": 10853,
+      "latitude": 45.49729802,
+      "longitude": 9.186069369,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node55": {
+      "siteID": 501029,
+      "regionID": 10919,
+      "latitude": 45.47052223,
+      "longitude": 9.206961513,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node56": {
+      "siteID": 501193,
+      "regionID": 24307,
+      "latitude": 45.5133137,
+      "longitude": 9.095088715,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node57": {
+      "siteID": 501691,
+      "regionID": 24301,
+      "latitude": 45.52790448,
+      "longitude": 9.240621202,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node58": {
+      "siteID": 500363,
+      "regionID": 24305,
+      "latitude": 45.51491887,
+      "longitude": 9.084208636,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node59": {
+      "siteID": 500864,
+      "regionID": 24621,
+      "latitude": 45.43093998,
+      "longitude": 9.12554438,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node60": {
+      "siteID": 501650,
+      "regionID": 10919,
+      "latitude": 45.4679965,
+      "longitude": 9.205635995,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node61": {
+      "siteID": 502100,
+      "regionID": 24305,
+      "latitude": 45.50081466,
+      "longitude": 9.091712124,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node62": {
+      "siteID": 501857,
+      "regionID": 10855,
+      "latitude": 45.51693024,
+      "longitude": 9.213095009,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node63": {
+      "siteID": 501416,
+      "regionID": 24272,
+      "latitude": 45.48758428,
+      "longitude": 9.162410021,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node64": {
+      "siteID": 500328,
+      "regionID": 24675,
+      "latitude": 45.50609405,
+      "longitude": 9.095330715,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node65": {
+      "siteID": 500950,
+      "regionID": 24302,
+      "latitude": 45.5087818,
+      "longitude": 9.092483372,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node66": {
+      "siteID": 500899,
+      "regionID": 24302,
+      "latitude": 45.5174648,
+      "longitude": 9.107701758,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node67": {
+      "siteID": 500853,
+      "regionID": 10918,
+      "latitude": 45.45533854,
+      "longitude": 9.183779722,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node68": {
+      "siteID": 500159,
+      "regionID": 10917,
+      "latitude": 45.45419028,
+      "longitude": 9.206906736,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node69": {
+      "siteID": 501008,
+      "regionID": 24302,
+      "latitude": 45.49976101,
+      "longitude": 9.124000877,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node70": {
+      "siteID": 501188,
+      "regionID": 10917,
+      "latitude": 45.45699203,
+      "longitude": 9.200617611,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node71": {
+      "siteID": 500250,
+      "regionID": 24303,
+      "latitude": 45.52865921,
+      "longitude": 9.17554251,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node72": {
+      "siteID": 500134,
+      "regionID": 10916,
+      "latitude": 45.44084591,
+      "longitude": 9.215289146,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node73": {
+      "siteID": 501096,
+      "regionID": 24271,
+      "latitude": 45.4728446,
+      "longitude": 9.137060488,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node74": {
+      "siteID": 501035,
+      "regionID": 10917,
+      "latitude": 45.44966502,
+      "longitude": 9.188734898,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node75": {
+      "siteID": 501412,
+      "regionID": 24676,
+      "latitude": 45.46590031,
+      "longitude": 9.191286176,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node76": {
+      "siteID": 501884,
+      "regionID": 10918,
+      "latitude": 45.44811668,
+      "longitude": 9.180536428,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node77": {
+      "siteID": 500681,
+      "regionID": 24692,
+      "latitude": 45.40785993,
+      "longitude": 9.15326834,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node78": {
+      "siteID": 501603,
+      "regionID": 24270,
+      "latitude": 45.45692485,
+      "longitude": 9.169385084,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node79": {
+      "siteID": 501461,
+      "regionID": 24270,
+      "latitude": 45.4684475,
+      "longitude": 9.15170458,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node80": {
+      "siteID": 500334,
+      "regionID": 24305,
+      "latitude": 45.51821557,
+      "longitude": 9.070707599,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node81": {
+      "siteID": 501937,
+      "regionID": 10918,
+      "latitude": 45.45276165,
+      "longitude": 9.184879622,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node82": {
+      "siteID": 500003,
+      "regionID": 24272,
+      "latitude": 45.49127717,
+      "longitude": 9.152779989,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node83": {
+      "siteID": 501623,
+      "regionID": 10919,
+      "latitude": 45.47534047,
+      "longitude": 9.186526507,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node84": {
+      "siteID": 500329,
+      "regionID": 24674,
+      "latitude": 45.45273568,
+      "longitude": 9.169749171,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node85": {
+      "siteID": 500793,
+      "regionID": 24692,
+      "latitude": 45.43224222,
+      "longitude": 9.197102813,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node86": {
+      "siteID": 500693,
+      "regionID": 10854,
+      "latitude": 45.49397682,
+      "longitude": 9.185227712,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node87": {
+      "siteID": 500199,
+      "regionID": 10854,
+      "latitude": 45.49260182,
+      "longitude": 9.190785362,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node88": {
+      "siteID": 502093,
+      "regionID": 24272,
+      "latitude": 45.49465613,
+      "longitude": 9.163961346,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node89": {
+      "siteID": 501219,
+      "regionID": 24272,
+      "latitude": 45.49908465,
+      "longitude": 9.168903142,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node90": {
+      "siteID": 500190,
+      "regionID": 10916,
+      "latitude": 45.47399876,
+      "longitude": 9.230600904,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node91": {
+      "siteID": 500215,
+      "regionID": 24622,
+      "latitude": 45.46322687,
+      "longitude": 9.086738598,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node92": {
+      "siteID": 501946,
+      "regionID": 24303,
+      "latitude": 45.51748221,
+      "longitude": 9.082943469,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node93": {
+      "siteID": 501020,
+      "regionID": 24691,
+      "latitude": 45.40941142,
+      "longitude": 9.175317979,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node94": {
+      "siteID": 501820,
+      "regionID": 24270,
+      "latitude": 45.46654331,
+      "longitude": 9.158857942,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node95": {
+      "siteID": 500330,
+      "regionID": 24674,
+      "latitude": 45.45277863,
+      "longitude": 9.169756301,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node96": {
+      "siteID": 500979,
+      "regionID": 10855,
+      "latitude": 45.50688572,
+      "longitude": 9.200425043,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node97": {
+      "siteID": 500905,
+      "regionID": 24304,
+      "latitude": 45.52047873,
+      "longitude": 9.095310665,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node98": {
+      "siteID": 501870,
+      "regionID": 10919,
+      "latitude": 45.47193743,
+      "longitude": 9.187577456,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node99": {
+      "siteID": 501302,
+      "regionID": 10919,
+      "latitude": 45.46266186,
+      "longitude": 9.206416779,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node100": {
+      "siteID": 501303,
+      "regionID": 10919,
+      "latitude": 45.47837254,
+      "longitude": 9.187609883,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node101": {
+      "siteID": 501244,
+      "regionID": 24621,
+      "latitude": 45.44998531,
+      "longitude": 9.093706452,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node102": {
+      "siteID": 501051,
+      "regionID": 24272,
+      "latitude": 45.5068371,
+      "longitude": 9.159795463,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node103": {
+      "siteID": 500466,
+      "regionID": 24301,
+      "latitude": 45.55999491,
+      "longitude": 9.187887223,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node104": {
+      "siteID": 501105,
+      "regionID": 10918,
+      "latitude": 45.44745894,
+      "longitude": 9.158813826,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node105": {
+      "siteID": 500711,
+      "regionID": 10853,
+      "latitude": 45.48566102,
+      "longitude": 9.205007502,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node106": {
+      "siteID": 501863,
+      "regionID": 10918,
+      "latitude": 45.44310379,
+      "longitude": 9.165726781,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node107": {
+      "siteID": 501862,
+      "regionID": 10918,
+      "latitude": 45.44244597,
+      "longitude": 9.163685441,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node108": {
+      "siteID": 500897,
+      "regionID": 11300,
+      "latitude": 45.51991844,
+      "longitude": 9.105039001,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node109": {
+      "siteID": 500792,
+      "regionID": 24621,
+      "latitude": 45.44531119,
+      "longitude": 9.095158622,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node110": {
+      "siteID": 502053,
+      "regionID": 24673,
+      "latitude": 45.46239308,
+      "longitude": 9.19783004,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node111": {
+      "siteID": 502071,
+      "regionID": 24673,
+      "latitude": 45.46232112,
+      "longitude": 9.19792296,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node112": {
+      "siteID": 500324,
+      "regionID": 24675,
+      "latitude": 45.43384925,
+      "longitude": 9.238449403,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node113": {
+      "siteID": 501202,
+      "regionID": 10854,
+      "latitude": 45.48025068,
+      "longitude": 9.176768688,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node114": {
+      "siteID": 501473,
+      "regionID": 24673,
+      "latitude": 45.46219397,
+      "longitude": 9.20044605,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node115": {
+      "siteID": 500001,
+      "regionID": 24673,
+      "latitude": 45.46710074,
+      "longitude": 9.199743489,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node116": {
+      "siteID": 500323,
+      "regionID": 24675,
+      "latitude": 45.46401002,
+      "longitude": 9.188483477,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node117": {
+      "siteID": 500768,
+      "regionID": 10950,
+      "latitude": 45.43135343,
+      "longitude": 9.261759192,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node118": {
+      "siteID": 501653,
+      "regionID": 24272,
+      "latitude": 45.49088486,
+      "longitude": 9.165956767,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node119": {
+      "siteID": 501009,
+      "regionID": 10855,
+      "latitude": 45.52080214,
+      "longitude": 9.19329267,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node120": {
+      "siteID": 500056,
+      "regionID": 24269,
+      "latitude": 45.4633205,
+      "longitude": 9.17469428,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node121": {
+      "siteID": 500608,
+      "regionID": 24301,
+      "latitude": 45.53268953,
+      "longitude": 9.193487017,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node122": {
+      "siteID": 502123,
+      "regionID": 10854,
+      "latitude": 45.49625524,
+      "longitude": 9.18802427,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node123": {
+      "siteID": 501091,
+      "regionID": 10916,
+      "latitude": 45.4641893,
+      "longitude": 9.217674613,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node124": {
+      "siteID": 501916,
+      "regionID": 10855,
+      "latitude": 45.5001122,
+      "longitude": 9.19771571,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node125": {
+      "siteID": 500699,
+      "regionID": 24643,
+      "latitude": 45.5459393,
+      "longitude": 9.279992679,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node126": {
+      "siteID": 500144,
+      "regionID": 24272,
+      "latitude": 45.49898316,
+      "longitude": 9.158273816,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node127": {
+      "siteID": 501186,
+      "regionID": 10854,
+      "latitude": 45.49618198,
+      "longitude": 9.183080056,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node128": {
+      "siteID": 500464,
+      "regionID": 24626,
+      "latitude": 45.56490469,
+      "longitude": 9.284399809,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node129": {
+      "siteID": 501656,
+      "regionID": 10916,
+      "latitude": 45.47127135,
+      "longitude": 9.221585116,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node130": {
+      "siteID": 500195,
+      "regionID": 24304,
+      "latitude": 45.47809137,
+      "longitude": 9.108283569,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node131": {
+      "siteID": 500154,
+      "regionID": 10918,
+      "latitude": 45.45106494,
+      "longitude": 9.161734577,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node132": {
+      "siteID": 500851,
+      "regionID": 10916,
+      "latitude": 45.46829105,
+      "longitude": 9.181423217,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node133": {
+      "siteID": 500857,
+      "regionID": 10919,
+      "latitude": 45.47636054,
+      "longitude": 9.206667924,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node134": {
+      "siteID": 500146,
+      "regionID": 10852,
+      "latitude": 45.50063017,
+      "longitude": 9.220639246,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node135": {
+      "siteID": 501736,
+      "regionID": 24307,
+      "latitude": 45.56356911,
+      "longitude": 9.051830407,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node136": {
+      "siteID": 500127,
+      "regionID": 24303,
+      "latitude": 45.5243393,
+      "longitude": 9.152607562,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node137": {
+      "siteID": 501037,
+      "regionID": 24621,
+      "latitude": 45.43934177,
+      "longitude": 9.09848325,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node138": {
+      "siteID": 500695,
+      "regionID": 10916,
+      "latitude": 45.45759372,
+      "longitude": 9.193192107,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node139": {
+      "siteID": 500651,
+      "regionID": 24307,
+      "latitude": 45.54286769,
+      "longitude": 9.096641912,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node140": {
+      "siteID": 500507,
+      "regionID": 24308,
+      "latitude": 45.53881937,
+      "longitude": 9.129977576,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node141": {
+      "siteID": 500181,
+      "regionID": 24301,
+      "latitude": 45.5204697,
+      "longitude": 9.08307745,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node142": {
+      "siteID": 501652,
+      "regionID": 24272,
+      "latitude": 45.47174518,
+      "longitude": 9.161479563,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node143": {
+      "siteID": 502079,
+      "regionID": 24269,
+      "latitude": 45.48735176,
+      "longitude": 9.164932609,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node144": {
+      "siteID": 502076,
+      "regionID": 24270,
+      "latitude": 45.45597443,
+      "longitude": 9.16457912,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node145": {
+      "siteID": 502209,
+      "regionID": 24306,
+      "latitude": 45.5241039,
+      "longitude": 9.012238706,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node146": {
+      "siteID": 500020,
+      "regionID": 24269,
+      "latitude": 45.46842631,
+      "longitude": 9.175767673,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node147": {
+      "siteID": 500016,
+      "regionID": 24304,
+      "latitude": 45.51458746,
+      "longitude": 9.169236541,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node148": {
+      "siteID": 500895,
+      "regionID": 24304,
+      "latitude": 45.51869022,
+      "longitude": 9.109904114,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node149": {
+      "siteID": 501886,
+      "regionID": 24270,
+      "latitude": 45.45505453,
+      "longitude": 9.147249815,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node150": {
+      "siteID": 501410,
+      "regionID": 24271,
+      "latitude": 45.49111457,
+      "longitude": 9.145580795,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node151": {
+      "siteID": 501050,
+      "regionID": 24304,
+      "latitude": 45.51694243,
+      "longitude": 9.148019522,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node152": {
+      "siteID": 501049,
+      "regionID": 10916,
+      "latitude": 45.42990922,
+      "longitude": 9.176339413,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node153": {
+      "siteID": 501856,
+      "regionID": 10855,
+      "latitude": 45.51735723,
+      "longitude": 9.213850558,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node154": {
+      "siteID": 500130,
+      "regionID": 24676,
+      "latitude": 45.46821169,
+      "longitude": 9.186186966,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node155": {
+      "siteID": 502145,
+      "regionID": 24270,
+      "latitude": 45.50314229,
+      "longitude": 9.158089429,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node156": {
+      "siteID": 500202,
+      "regionID": 10950,
+      "latitude": 45.45602022,
+      "longitude": 9.258448382,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node157": {
+      "siteID": 500340,
+      "regionID": 24301,
+      "latitude": 45.53297365,
+      "longitude": 9.232497788,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node158": {
+      "siteID": 500849,
+      "regionID": 10916,
+      "latitude": 45.45492576,
+      "longitude": 9.232342064,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node159": {
+      "siteID": 501702,
+      "regionID": 10919,
+      "latitude": 45.47478708,
+      "longitude": 9.190593607,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node160": {
+      "siteID": 501478,
+      "regionID": 24676,
+      "latitude": 45.47015448,
+      "longitude": 9.192782219,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node161": {
+      "siteID": 501479,
+      "regionID": 10919,
+      "latitude": 45.47569463,
+      "longitude": 9.194769919,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node162": {
+      "siteID": 501260,
+      "regionID": 10919,
+      "latitude": 45.47239811,
+      "longitude": 9.196011164,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node163": {
+      "siteID": 501131,
+      "regionID": 10949,
+      "latitude": 45.43556854,
+      "longitude": 9.300045669,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node164": {
+      "siteID": 500856,
+      "regionID": 10852,
+      "latitude": 45.4837407,
+      "longitude": 9.189665079,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node165": {
+      "siteID": 500193,
+      "regionID": 24689,
+      "latitude": 45.40906093,
+      "longitude": 9.209359974,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node166": {
+      "siteID": 500820,
+      "regionID": 10948,
+      "latitude": 45.46231414,
+      "longitude": 9.277911067,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node167": {
+      "siteID": 502086,
+      "regionID": 10917,
+      "latitude": 45.44713156,
+      "longitude": 9.207704647,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node168": {
+      "siteID": 500835,
+      "regionID": 24270,
+      "latitude": 45.45595457,
+      "longitude": 9.146570602,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node169": {
+      "siteID": 500327,
+      "regionID": 24676,
+      "latitude": 45.497954,
+      "longitude": 9.185664833,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node170": {
+      "siteID": 500859,
+      "regionID": 24308,
+      "latitude": 45.5177555,
+      "longitude": 9.104976062,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node171": {
+      "siteID": 502117,
+      "regionID": 10950,
+      "latitude": 45.43720553,
+      "longitude": 9.225654602,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node172": {
+      "siteID": 502091,
+      "regionID": 24302,
+      "latitude": 45.51738399,
+      "longitude": 9.245218975,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node173": {
+      "siteID": 500153,
+      "regionID": 24269,
+      "latitude": 45.50965868,
+      "longitude": 9.166092103,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node174": {
+      "siteID": 501314,
+      "regionID": 10852,
+      "latitude": 45.48727798,
+      "longitude": 9.229641697,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node175": {
+      "siteID": 500276,
+      "regionID": 24301,
+      "latitude": 45.53111004,
+      "longitude": 9.245992049,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node176": {
+      "siteID": 500880,
+      "regionID": 24303,
+      "latitude": 45.49787437,
+      "longitude": 9.017793714,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node177": {
+      "siteID": 500741,
+      "regionID": 9027,
+      "latitude": 45.49484831,
+      "longitude": 9.285534263,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node178": {
+      "siteID": 500627,
+      "regionID": 24307,
+      "latitude": 45.52197641,
+      "longitude": 9.104965302,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node179": {
+      "siteID": 501658,
+      "regionID": 24674,
+      "latitude": 45.46504225,
+      "longitude": 9.179968387,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node180": {
+      "siteID": 501293,
+      "regionID": 24303,
+      "latitude": 45.52362916,
+      "longitude": 9.232293672,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node181": {
+      "siteID": 501878,
+      "regionID": 10852,
+      "latitude": 45.51679765,
+      "longitude": 9.226206021,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node182": {
+      "siteID": 501075,
+      "regionID": 24692,
+      "latitude": 45.42627885,
+      "longitude": 9.198989676,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node183": {
+      "siteID": 500982,
+      "regionID": 10919,
+      "latitude": 45.484294,
+      "longitude": 9.187822759,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node184": {
+      "siteID": 500075,
+      "regionID": 10916,
+      "latitude": 45.47012967,
+      "longitude": 9.211867337,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node185": {
+      "siteID": 500901,
+      "regionID": 24304,
+      "latitude": 45.51852486,
+      "longitude": 9.102114233,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node186": {
+      "siteID": 501808,
+      "regionID": 24269,
+      "latitude": 45.50232443,
+      "longitude": 9.164629132,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node187": {
+      "siteID": 500389,
+      "regionID": 24306,
+      "latitude": 45.5167097,
+      "longitude": 9.029964699,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node188": {
+      "siteID": 500014,
+      "regionID": 10854,
+      "latitude": 45.4777673,
+      "longitude": 9.212494134,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node189": {
+      "siteID": 501054,
+      "regionID": 10916,
+      "latitude": 45.45674071,
+      "longitude": 9.223481649,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node190": {
+      "siteID": 501670,
+      "regionID": 24303,
+      "latitude": 45.48328109,
+      "longitude": 9.036482513,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node191": {
+      "siteID": 501158,
+      "regionID": 10918,
+      "latitude": 45.43786869,
+      "longitude": 9.141488378,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node192": {
+      "siteID": 501892,
+      "regionID": 10852,
+      "latitude": 45.48429209,
+      "longitude": 9.227089597,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node193": {
+      "siteID": 501858,
+      "regionID": 10855,
+      "latitude": 45.51355591,
+      "longitude": 9.21182698,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node194": {
+      "siteID": 500646,
+      "regionID": 24305,
+      "latitude": 45.4750402,
+      "longitude": 9.08350175,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node195": {
+      "siteID": 501031,
+      "regionID": 10852,
+      "latitude": 45.51200506,
+      "longitude": 9.224146193,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node196": {
+      "siteID": 501005,
+      "regionID": 24303,
+      "latitude": 45.51031134,
+      "longitude": 9.234314186,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node197": {
+      "siteID": 500852,
+      "regionID": 10916,
+      "latitude": 45.46255757,
+      "longitude": 9.178159922,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node198": {
+      "siteID": 500156,
+      "regionID": 10918,
+      "latitude": 45.45174337,
+      "longitude": 9.141383547,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node199": {
+      "siteID": 501382,
+      "regionID": 24302,
+      "latitude": 45.47017969,
+      "longitude": 9.072754907,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node200": {
+      "siteID": 500763,
+      "regionID": 24621,
+      "latitude": 45.42785913,
+      "longitude": 9.089848549,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node201": {
+      "siteID": 500969,
+      "regionID": 24303,
+      "latitude": 45.4770853,
+      "longitude": 9.156163216,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node202": {
+      "siteID": 501310,
+      "regionID": 10950,
+      "latitude": 45.47005527,
+      "longitude": 9.246047169,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node203": {
+      "siteID": 500023,
+      "regionID": 10854,
+      "latitude": 45.49106793,
+      "longitude": 9.183072537,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node204": {
+      "siteID": 500874,
+      "regionID": 24621,
+      "latitude": 45.4223117,
+      "longitude": 9.064666362,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node205": {
+      "siteID": 500399,
+      "regionID": 10949,
+      "latitude": 45.38815791,
+      "longitude": 9.259216338,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node206": {
+      "siteID": 500027,
+      "regionID": 10853,
+      "latitude": 45.48705153,
+      "longitude": 9.216535687,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node207": {
+      "siteID": 501770,
+      "regionID": 10852,
+      "latitude": 45.49203872,
+      "longitude": 9.222679019,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node208": {
+      "siteID": 501233,
+      "regionID": 10916,
+      "latitude": 45.46179312,
+      "longitude": 9.234902114,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node209": {
+      "siteID": 501221,
+      "regionID": 24689,
+      "latitude": 45.39954627,
+      "longitude": 9.207028091,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node210": {
+      "siteID": 501809,
+      "regionID": 24269,
+      "latitude": 45.51101237,
+      "longitude": 9.157851016,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node211": {
+      "siteID": 500912,
+      "regionID": 10948,
+      "latitude": 45.47493967,
+      "longitude": 9.262380242,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node212": {
+      "siteID": 501337,
+      "regionID": 9057,
+      "latitude": 45.47807978,
+      "longitude": 9.124737104,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node213": {
+      "siteID": 501773,
+      "regionID": 24621,
+      "latitude": 45.42072678,
+      "longitude": 9.056813866,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node214": {
+      "siteID": 500433,
+      "regionID": 24306,
+      "latitude": 45.51942791,
+      "longitude": 9.051689181,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node215": {
+      "siteID": 502113,
+      "regionID": 10853,
+      "latitude": 45.48310467,
+      "longitude": 9.214912117,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node216": {
+      "siteID": 500615,
+      "regionID": 10887,
+      "latitude": 45.42743358,
+      "longitude": 9.289981067,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node217": {
+      "siteID": 500697,
+      "regionID": 10853,
+      "latitude": 45.4839552,
+      "longitude": 9.21467036,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node218": {
+      "siteID": 500322,
+      "regionID": 24673,
+      "latitude": 45.48488867,
+      "longitude": 9.203290619,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node219": {
+      "siteID": 501636,
+      "regionID": 10917,
+      "latitude": 45.44042232,
+      "longitude": 9.191903812,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node220": {
+      "siteID": 501414,
+      "regionID": 10853,
+      "latitude": 45.4822773,
+      "longitude": 9.207036912,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node221": {
+      "siteID": 502118,
+      "regionID": 10917,
+      "latitude": 45.43351783,
+      "longitude": 9.178355306,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node222": {
+      "siteID": 500595,
+      "regionID": 24675,
+      "latitude": 45.46148016,
+      "longitude": 9.191292763,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node223": {
+      "siteID": 500826,
+      "regionID": 11621,
+      "latitude": 45.48695003,
+      "longitude": 9.034112692,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node224": {
+      "siteID": 501088,
+      "regionID": 24271,
+      "latitude": 45.47431538,
+      "longitude": 9.157231361,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node225": {
+      "siteID": 501250,
+      "regionID": 24675,
+      "latitude": 45.46315656,
+      "longitude": 9.191273153,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node226": {
+      "siteID": 501947,
+      "regionID": 24303,
+      "latitude": 45.52100793,
+      "longitude": 9.073430164,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node227": {
+      "siteID": 500058,
+      "regionID": 24272,
+      "latitude": 45.47074183,
+      "longitude": 9.16630891,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node228": {
+      "siteID": 501190,
+      "regionID": 10852,
+      "latitude": 45.48984449,
+      "longitude": 9.23436487,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node229": {
+      "siteID": 501057,
+      "regionID": 10852,
+      "latitude": 45.4998623,
+      "longitude": 9.227579514,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node230": {
+      "siteID": 501845,
+      "regionID": 10916,
+      "latitude": 45.46263388,
+      "longitude": 9.228060305,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node231": {
+      "siteID": 500879,
+      "regionID": 24269,
+      "latitude": 45.47260942,
+      "longitude": 9.173720956,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node232": {
+      "siteID": 501094,
+      "regionID": 10916,
+      "latitude": 45.45295182,
+      "longitude": 9.168369588,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node233": {
+      "siteID": 502085,
+      "regionID": 24622,
+      "latitude": 45.46698151,
+      "longitude": 9.090689003,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node234": {
+      "siteID": 501925,
+      "regionID": 24270,
+      "latitude": 45.46028817,
+      "longitude": 9.154541254,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node235": {
+      "siteID": 500696,
+      "regionID": 24269,
+      "latitude": 45.46591228,
+      "longitude": 9.177390883,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node236": {
+      "siteID": 501299,
+      "regionID": 24304,
+      "latitude": 45.48463813,
+      "longitude": 9.11764181,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node237": {
+      "siteID": 501305,
+      "regionID": 10917,
+      "latitude": 45.4570045,
+      "longitude": 9.193988383,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node238": {
+      "siteID": 501316,
+      "regionID": 10916,
+      "latitude": 45.46127096,
+      "longitude": 9.221330188,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node239": {
+      "siteID": 501602,
+      "regionID": 24302,
+      "latitude": 45.48079661,
+      "longitude": 9.131907715,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node240": {
+      "siteID": 500858,
+      "regionID": 24301,
+      "latitude": 45.56039194,
+      "longitude": 9.224117643,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node241": {
+      "siteID": 500087,
+      "regionID": 10852,
+      "latitude": 45.4965247,
+      "longitude": 9.208543913,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node242": {
+      "siteID": 500923,
+      "regionID": 10950,
+      "latitude": 45.44598867,
+      "longitude": 9.230899751,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node243": {
+      "siteID": 501312,
+      "regionID": 24269,
+      "latitude": 45.47605526,
+      "longitude": 9.166133106,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node244": {
+      "siteID": 500249,
+      "regionID": 24301,
+      "latitude": 45.56442907,
+      "longitude": 9.225355936,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node245": {
+      "siteID": 500888,
+      "regionID": 11300,
+      "latitude": 45.52085195,
+      "longitude": 9.089546906,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node246": {
+      "siteID": 500011,
+      "regionID": 24674,
+      "latitude": 45.46505785,
+      "longitude": 9.183280806,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node247": {
+      "siteID": 500448,
+      "regionID": 24301,
+      "latitude": 45.56398856,
+      "longitude": 9.241282066,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node248": {
+      "siteID": 502119,
+      "regionID": 10916,
+      "latitude": 45.46971264,
+      "longitude": 9.229839206,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node249": {
+      "siteID": 500446,
+      "regionID": 24301,
+      "latitude": 45.55244511,
+      "longitude": 9.229838922,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node250": {
+      "siteID": 501651,
+      "regionID": 24270,
+      "latitude": 45.45670127,
+      "longitude": 9.156692266,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node251": {
+      "siteID": 500287,
+      "regionID": 24302,
+      "latitude": 45.54860053,
+      "longitude": 9.237436992,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node252": {
+      "siteID": 501292,
+      "regionID": 24301,
+      "latitude": 45.54059786,
+      "longitude": 9.219075925,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node253": {
+      "siteID": 500598,
+      "regionID": 10855,
+      "latitude": 45.52078132,
+      "longitude": 9.221355579,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node254": {
+      "siteID": 500846,
+      "regionID": 10855,
+      "latitude": 45.51814888,
+      "longitude": 9.212099501,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node255": {
+      "siteID": 501861,
+      "regionID": 10855,
+      "latitude": 45.5210288,
+      "longitude": 9.214266539,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node256": {
+      "siteID": 500738,
+      "regionID": 10855,
+      "latitude": 45.5183377,
+      "longitude": 9.211745938,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node257": {
+      "siteID": 500317,
+      "regionID": 24301,
+      "latitude": 45.54973744,
+      "longitude": 9.212594901,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node258": {
+      "siteID": 500261,
+      "regionID": 24301,
+      "latitude": 45.53634978,
+      "longitude": 9.206155577,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node259": {
+      "siteID": 500082,
+      "regionID": 10855,
+      "latitude": 45.52415008,
+      "longitude": 9.211379568,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node260": {
+      "siteID": 500212,
+      "regionID": 10949,
+      "latitude": 45.45891739,
+      "longitude": 9.281584713,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node261": {
+      "siteID": 500401,
+      "regionID": 24301,
+      "latitude": 45.54555815,
+      "longitude": 9.195010856,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node262": {
+      "siteID": 501203,
+      "regionID": 10855,
+      "latitude": 45.52388426,
+      "longitude": 9.203268812,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node263": {
+      "siteID": 500451,
+      "regionID": 24306,
+      "latitude": 45.529952,
+      "longitude": 9.043631779,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node264": {
+      "siteID": 500143,
+      "regionID": 24272,
+      "latitude": 45.48832914,
+      "longitude": 9.157850532,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node265": {
+      "siteID": 502015,
+      "regionID": 24302,
+      "latitude": 45.51845465,
+      "longitude": 9.267960673,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node266": {
+      "siteID": 501211,
+      "regionID": 24302,
+      "latitude": 45.52482938,
+      "longitude": 9.284715205,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node267": {
+      "siteID": 502072,
+      "regionID": 24271,
+      "latitude": 45.47640162,
+      "longitude": 9.160417259,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node268": {
+      "siteID": 501418,
+      "regionID": 10918,
+      "latitude": 45.45932675,
+      "longitude": 9.181954265,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node269": {
+      "siteID": 500903,
+      "regionID": 24304,
+      "latitude": 45.52150924,
+      "longitude": 9.098945002,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node270": {
+      "siteID": 501514,
+      "regionID": 24304,
+      "latitude": 45.47948912,
+      "longitude": 9.124401313,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node271": {
+      "siteID": 501034,
+      "regionID": 24621,
+      "latitude": 45.44452354,
+      "longitude": 9.090551102,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node272": {
+      "siteID": 500188,
+      "regionID": 10916,
+      "latitude": 45.45227355,
+      "longitude": 9.219884493,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node273": {
+      "siteID": 500854,
+      "regionID": 10854,
+      "latitude": 45.48903539,
+      "longitude": 9.186558157,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node274": {
+      "siteID": 500971,
+      "regionID": 10853,
+      "latitude": 45.48658783,
+      "longitude": 9.204973177,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node275": {
+      "siteID": 500326,
+      "regionID": 24676,
+      "latitude": 45.4979475,
+      "longitude": 9.185514927,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node276": {
+      "siteID": 501942,
+      "regionID": 24303,
+      "latitude": 45.52050949,
+      "longitude": 9.081271199,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node277": {
+      "siteID": 500177,
+      "regionID": 24303,
+      "latitude": 45.51999832,
+      "longitude": 9.075826315,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node278": {
+      "siteID": 501306,
+      "regionID": 24269,
+      "latitude": 45.49782847,
+      "longitude": 9.174260497,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node279": {
+      "siteID": 501240,
+      "regionID": 24689,
+      "latitude": 45.40241274,
+      "longitude": 9.160416967,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node280": {
+      "siteID": 500709,
+      "regionID": 9273,
+      "latitude": 45.48510633,
+      "longitude": 9.27500109,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node281": {
+      "siteID": 500974,
+      "regionID": 24302,
+      "latitude": 45.49992503,
+      "longitude": 9.102156341,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node282": {
+      "siteID": 500065,
+      "regionID": 10918,
+      "latitude": 45.44347217,
+      "longitude": 9.151238012,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node283": {
+      "siteID": 500975,
+      "regionID": 10950,
+      "latitude": 45.44323075,
+      "longitude": 9.223736921,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node284": {
+      "siteID": 501056,
+      "regionID": 10916,
+      "latitude": 45.43666456,
+      "longitude": 9.216080087,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node285": {
+      "siteID": 501003,
+      "regionID": 10917,
+      "latitude": 45.43495543,
+      "longitude": 9.206650066,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node286": {
+      "siteID": 500670,
+      "regionID": 10917,
+      "latitude": 45.43806556,
+      "longitude": 9.184667102,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node287": {
+      "siteID": 502082,
+      "regionID": 24269,
+      "latitude": 45.48071741,
+      "longitude": 9.169784248,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node288": {
+      "siteID": 500148,
+      "regionID": 10916,
+      "latitude": 45.46768514,
+      "longitude": 9.221593683,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node289": {
+      "siteID": 501087,
+      "regionID": 10853,
+      "latitude": 45.48587301,
+      "longitude": 9.221353463,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node290": {
+      "siteID": 501912,
+      "regionID": 10917,
+      "latitude": 45.44192995,
+      "longitude": 9.180260748,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node291": {
+      "siteID": 501361,
+      "regionID": 24304,
+      "latitude": 45.47807947,
+      "longitude": 9.12304489,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node292": {
+      "siteID": 500505,
+      "regionID": 24304,
+      "latitude": 45.47882983,
+      "longitude": 9.124372959,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node293": {
+      "siteID": 501369,
+      "regionID": 10951,
+      "latitude": 45.48459544,
+      "longitude": 9.292267263,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node294": {
+      "siteID": 500439,
+      "regionID": 24302,
+      "latitude": 45.55517238,
+      "longitude": 9.264375755,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node295": {
+      "siteID": 502051,
+      "regionID": 24674,
+      "latitude": 45.45963674,
+      "longitude": 9.187832756,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node296": {
+      "siteID": 502104,
+      "regionID": 24673,
+      "latitude": 45.46119984,
+      "longitude": 9.185271251,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node297": {
+      "siteID": 501010,
+      "regionID": 24308,
+      "latitude": 45.52120739,
+      "longitude": 9.116577441,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node298": {
+      "siteID": 500055,
+      "regionID": 10854,
+      "latitude": 45.51240832,
+      "longitude": 9.178720742,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node299": {
+      "siteID": 502016,
+      "regionID": 10854,
+      "latitude": 45.48898277,
+      "longitude": 9.191445837,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   },
+   "Node300": {
+      "siteID": 500145,
+      "regionID": 10854,
+      "latitude": 45.51072647,
+      "longitude": 9.183004087,
+      "RAT": "LTE",
+      "RATSubType": "LTE-A"
+   }
+}

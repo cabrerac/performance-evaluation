@@ -1,0 +1,73 @@
+"_ECHO 0m "============================="
+"_ECHO 00:00h-02:00h "Cloud server initiation!"
+CloudServers 0m-120m CloudServerComponent:initiateCloud
+"_ECHO 02:00h-04:00h "Network setup!"
+CloudServers 120m-240m CloudServerComponent:setupNetwork
+"_ECHO 04:00h-06:00h "Generic users initiation!"
+GenericUsers 240m-360m GenericUserComponent:initiateUser
+"_ECHO 06:00h-08:00h "Opera users initiation!"
+OperaUsers 360m-480m OperaUserComponent:initiateUser
+"_ECHO 08:00h-10:00h "Ambulance users initiation!"
+AmbulanceUsers 480m-600m AmbulanceUserComponent:initiateUser
+"_ECHO 10:00h-12:00h "Cloud fills latencies!"
+CloudServers 600m-720m CloudServerComponent:fillLatencies
+"_ECHO 10:00h-10:00h "RLApp initialize!"
+CloudServers 600m-600m CloudServerComponent:initiateRLAppAdapter
+"_ECHO 20:00h-20:10h "Starts generic users requests!"
+GenericUsers 1200m-1210m GenericUserComponent:startRequests
+"_ECHO 20:00h-20:10h "Opera show starts!"
+OperaUsers 1200m-1210m OperaUserComponent:startShow
+"_ECHO 20:00h-20:10h "Accident happens!"
+AmbulanceUsers 1200m-1210m AmbulanceUserComponent:accidentHappens
+"_ECHO 21:50h-21:50h "Episode terminates!"
+CloudServers 1310m-1310m CloudServerComponent:endTrainingEpisode
+"_ECHO 21:50h-22:00h "Ambulance resets!"
+AmbulanceUsers 1310m-1320m AmbulanceUserComponent:resetOperations
+"_ECHO 21:50h-22:00h "Opera reset!"
+OperaUsers 1310m-1320m OperaUserComponent:resetOperations
+"_ECHO 21:50h-22:00h "Opera restart!"
+OperaUsers 1310m-1320m OperaUserComponent:restartOperations
+"_ECHO 21:50h-22:00h "Ambulance restart!"
+AmbulanceUsers 1310m-1320m AmbulanceUserComponent:restartOperations
+"_ECHO 23:40h-23:40h "Episode terminates!"
+CloudServers 1420m-1420m CloudServerComponent:endTrainingEpisode
+"_ECHO 23:40h-23:50h "Ambulance resets!"
+AmbulanceUsers 1420m-1430m AmbulanceUserComponent:resetOperations
+"_ECHO 23:40h-23:50h "Opera reset!"
+OperaUsers 1420m-1430m OperaUserComponent:resetOperations
+"_ECHO 23:40h-23:50h "Opera restart!"
+OperaUsers 1420m-1430m OperaUserComponent:restartOperations
+"_ECHO 23:40h-23:50h "Ambulance restart!"
+AmbulanceUsers 1420m-1430m AmbulanceUserComponent:restartOperations
+"_ECHO 25:30h-25:30h "Episode terminates!"
+CloudServers 1530m-1530m CloudServerComponent:endTrainingEpisode
+"_ECHO 25:30h-25:40h "Ambulance resets!"
+AmbulanceUsers 1530m-1540m AmbulanceUserComponent:resetOperations
+"_ECHO 25:30h-25:40h "Opera reset!"
+OperaUsers 1530m-1540m OperaUserComponent:resetOperations
+"_ECHO 25:30h-25:40h "Opera restart!"
+OperaUsers 1530m-1540m OperaUserComponent:restartOperations
+"_ECHO 25:30h-25:40h "Ambulance restart!"
+AmbulanceUsers 1530m-1540m AmbulanceUserComponent:restartOperations
+"_ECHO 27:20h-27:20h "Episode terminates!"
+CloudServers 1640m-1640m CloudServerComponent:endTrainingEpisode
+"_ECHO 27:20h-27:30h "Ambulance resets!"
+AmbulanceUsers 1640m-1650m AmbulanceUserComponent:resetOperations
+"_ECHO 27:20h-27:30h "Opera reset!"
+OperaUsers 1640m-1650m OperaUserComponent:resetOperations
+"_ECHO 27:20h-27:30h "Opera restart!"
+OperaUsers 1640m-1650m OperaUserComponent:restartOperations
+"_ECHO 27:20h-27:30h "Ambulance restart!"
+AmbulanceUsers 1640m-1650m AmbulanceUserComponent:restartOperations
+"_ECHO 29:10h-29:20h "Accident finishes!"
+AmbulanceUsers 1750m-1760m AmbulanceUserComponent:stopOperations
+"_ECHO 29:10h-29:20h "Opera show finishes!"
+OperaUsers 1750m-1760m OperaUserComponent:stopOperations
+"_ECHO 29:10h-29:20h "Generic users stop!"
+GenericUsers 1750m-1760m GenericUserComponent:stopOperations
+"_ECHO 31:20h-31:50h "Edge servers stop!"
+EdgeServers 1880m-1910m EdgeServerComponent:stopOperations
+"_ECHO 31:50h-32:00h "Cloud stop!"
+CloudServers 1910m-1920m CloudServerComponent:stopOperations
+"_ECHO 32:00h-32:20h "Print results!"
+CloudServers 1920m-1940m CloudServerComponent:printResults

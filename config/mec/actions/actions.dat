@@ -1,0 +1,31 @@
+"_ECHO 0m "============================="
+"_ECHO 00:00h-02:00h "Cloud server initiation!"
+CloudServers 0m-120m CloudServerComponent:initiateCloud
+"_ECHO 02:00h-04:00h "Network setup!"
+CloudServers 120m-240m CloudServerComponent:setupNetwork
+"_ECHO 04:00h-06:00h "Generic users initiation!"
+GenericUsers 240m-360m GenericUserComponent:initiateUser
+"_ECHO 06:00h-08:00h "Opera users initiation!"			
+OperaUsers 360m-480m OperaUserComponent:initiateUser
+"_ECHO 08:00h-10:00h "Ambulance users initiation!"
+AmbulanceUsers 480m-600m AmbulanceUserComponent:initiateUser
+"_ECHO 10:00h-12:00h "Cloud fills latencies!"
+CloudServers 600m-720m CloudServerComponent:fillLatencies
+"_ECHO 20:00h-20:10h "Starts generic users requests!"
+GenericUsers 1200m-1210m GenericUserComponent:startRequests
+"_ECHO 20:00h-20:10h "Opera show starts!"
+OperaUsers 1200m-1210m OperaUserComponent:startShow
+"_ECHO 20:00h-20:10h "Accident happens!"
+AmbulanceUsers 1200m-1210m AmbulanceUserComponent:accidentHappens
+"_ECHO 21:50h-22:00h "Accident finishes!"
+AmbulanceUsers 1310m-1320m AmbulanceUserComponent:stopOperations
+"_ECHO 21:50h-22:00h "Opera show finishes!"
+OperaUsers 1310m-1320m OperaUserComponent:stopOperations
+"_ECHO 21:50h-22:00h "Generic users stop!"
+GenericUsers 1310m-1320m GenericUserComponent:stopOperations
+"_ECHO 24:00h-24:30h "Edge servers stop!"
+EdgeServers 1440m-1470m EdgeServerComponent:stopOperations
+"_ECHO 24:30h-24:40h "Cloud stop!"
+CloudServers 1470m-1480m CloudServerComponent:stopOperations
+"_ECHO 24:40h-25:00h "Print results!"
+CloudServers 1480m-1500m CloudServerComponent:printResults

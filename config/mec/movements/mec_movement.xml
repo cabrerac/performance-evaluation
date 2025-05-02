@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<IncludeRoot>
+	<Movement class="de.tud.kom.p2psim.impl.topology.movement.modularosm.ModularMovementModel"
+		timeBetweenMoveOperations="$MOVEMENT_INTERVAL">
+		
+		<IfEqualStr arg0="$ENABLE_VIS" arg1="true">
+            <ModelVisualisation
+                    class="de.tud.kom.p2psim.impl.topology.movement.modularosm.movementIconVisualisation.ModularMovementIconVis">
+                <ClassIcon
+                        class="de.tud.kom.p2psim.impl.topology.movement.modularosm.movementIconVisualisation.IconMapping"
+                        object="ie.tcd.scss.enable.simonstrator.peerfact.application.mec.user.AmbulanceUserComponent"
+                        iconPath="images/icons/mec/ambulance.png"/>
+                <ClassIcon
+                        class="de.tud.kom.p2psim.impl.topology.movement.modularosm.movementIconVisualisation.IconMapping"
+                        object="ie.tcd.scss.enable.simonstrator.peerfact.application.mec.user.OperaUserComponent"
+                        iconPath="images/icons/mec/opera.png"/>
+				<ClassIcon
+                        class="de.tud.kom.p2psim.impl.topology.movement.modularosm.movementIconVisualisation.IconMapping"
+                        object="ie.tcd.scss.enable.simonstrator.peerfact.application.mec.user.GenericUserComponent"
+                        iconPath="images/icons/mec/walking.png"/>
+				<ClassIcon
+                        class="de.tud.kom.p2psim.impl.topology.movement.modularosm.movementIconVisualisation.IconMapping"
+                        object="ie.tcd.scss.enable.simonstrator.overlay.mec.components.CloudServerComponent"
+                        iconPath="images/icons/mec/cloud.png"/>
+				<ClassIcon
+                        class="de.tud.kom.p2psim.impl.topology.movement.modularosm.movementIconVisualisation.IconMapping"
+                        object="ie.tcd.scss.enable.simonstrator.overlay.mec.components.EdgeServerComponent"
+                        iconPath="images/icons/mec/edge.png"/>
+                
+            </ModelVisualisation>
+        </IfEqualStr>
+
+		<IAttractionProvider
+			class="de.tud.kom.p2psim.impl.topology.movement.modularosm.attraction.JSONAttractionGenerator"
+			numberOfAttractionPoints="$MOVEMENT_ATTRACTION_NUM_POINTS"
+			maximumRadius="75"
+			placementJsonFile="osm-dublin/dublin-pois.json" />
+		<ITransitionStrategy
+			class="de.tud.kom.p2psim.impl.topology.movement.modularosm.transition.AttractionPointRoamingStrategy"
+			defaultPauseTimeMin="$ATTRACTION_POINT_DEFAULT_PAUSETIME_MIN" defaultPauseTimeMax="$ATTRACTION_POINT_DEFAULT_PAUSETIME_MAX" 		
+			/>
+		<LocalMovementStrategy
+			class="de.tud.kom.p2psim.impl.topology.movement.local.RealWorldStreetsMovement"
+			OsmFileLocation="osm-dublin/dublin.osm.pbf"
+			GraphFolderFiles="osm-dublin/graphfolderfiles"
+			MovementType="foot" NavigationalType="fastest"
+			createUniqueFolders="$MOVEMENT_GRAPH_UNIQUE_FOLDERS"
+			calculateRouteSegments="$MOVEMENT_CALC_ROUTE_SEGMENTS"
+			blockedAreas="$GRAPHHOPPER_BLOCKED_AREAS" 
+			allowAlternativeRoutes="$GRAPHOPPER_ALLOW_ALTERNATIVE_ROUTES" 
+			probabilityForAlternativeRoute="$GRAPHOPPER_PROB_ALTERNATIVE_ROUTES"/>
+		<IfEqualStr arg0="$ENABLE_VIS" arg1="true">
+			<IMapVisualization
+				class="de.tud.kom.p2psim.impl.topology.movement.modularosm.mapvisualization.ShowMapQuestMapViz"
+				tempImageFilePath="osm-dublin/" mapQuestKey="4Weu9fMLPN48e8ynMG2VGGw9XdJegOtN"
+				mapType="map" />
+		</IfEqualStr>
+	</Movement>
+	<SocialView
+		class="de.tud.kom.p2psim.impl.topology.social.DefaultSocialView"
+		id="SocialGraph2" numberOfClusters="5">
+		<GraphLoader class="de.tud.kom.p2psim.impl.topology.social.graph.KleinbergSmallWorldGenerator" />
+	</SocialView>
+
+</IncludeRoot>

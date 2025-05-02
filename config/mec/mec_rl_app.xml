@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><IncludeRoot>
+	<Default>
+		<!-- RL App server config -->
+		<Variable name="host" value="localhost"/>
+		<Variable name="port" value="8000"/>
+		<Variable name="useHTTPS" value="false"/>
+		<!-- Redis config -->
+		<Variable name="redis_host" value="localhost"/>
+		<Variable name="redis_port" value="6379"/>
+		<Variable name="redis_db" value="0"/>
+		<!-- Experiment config -->
+		<Variable name="trainingPlacements" value="-1"/>
+		<Variable name="totalPlacements" value="-1"/>
+		<Variable name="totalNodes" value="100"/>
+		<Variable name="totalFunctions" value="5"/>
+		<Variable name="numUserTypes" value="3"/>
+		<Variable name="tripPoints" value="5"/>
+		<Variable name="scenarioName" value="MAACO"/>
+		<!-- RL App script config -->
+		<Variable name="autoStartRLApp" value="true"/>
+		<Variable name="rlAppDirectory" value="/Users/alessandrostaffolani/Workspace/PhD/Trinity/dsp-rl-scheduler"/>
+		<Variable name="pythonExecutablePath" value="/Users/alessandrostaffolani/Workspace/PhD/Trinity/dsp-rl-scheduler/venv/bin/python"/>
+		<Variable name="scriptPath" value="/Users/alessandrostaffolani/Workspace/PhD/Trinity/dsp-rl-scheduler/main.py"/>
+		<Variable name="ppoConfigPath" value="/Users/alessandrostaffolani/Workspace/PhD/Trinity/dsp-rl-scheduler/config/dsp_config-ppo.yaml"/>
+		<Variable name="dqnConfigPath" value="/Users/alessandrostaffolani/Workspace/PhD/Trinity/dsp-rl-scheduler/config/dsp_config-dqn.yaml"/>
+		<Variable name="scriptAdditionalArgs" value=""/> <!-- Command separated list of arguments, e.g. -s,2,-r,run_code -->
+	</Default>
+</IncludeRoot>

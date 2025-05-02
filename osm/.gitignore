@@ -1,0 +1,6 @@
+# Ignore everything in here except DA and MA
+*
+!.gitignore
+!darmstadt.osm.pbf
+!mannheim.osm.pbf
+!newyork.osm.pbf

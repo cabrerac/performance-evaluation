@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><IncludeRoot>
+	<Default>
+		<!-- General Simulation Setup -->
+		<!-- <Variable name="seed" value="12"/> -->
+		<Variable name="seed" value="961"/>
+		<!--<Variable name="actions" value="./config/mec/actions/actions.dat"/>-->
+		<Variable name="actions" value="./config/mec/actions/actions.dat"/>
+		<Variable name="finishTime" value="25h"/>
+		<!-- World dimensions -->
+		<Variable name="WORLD-X" value="11000"/>
+		<Variable name="WORLD-Y" value="5500"/>
+		<Variable name="MOVEMENT_CENTER_LON" value="-6.2545708"/>
+		<Variable name="MOVEMENT_CENTER_LAT" value="53.3437935"/>
+		<!-- <Variable name="MOVEMENT_CENTER_LON" value="9.235506964"/>
+		<Variable name="MOVEMENT_CENTER_LAT" value="45.48475334"/> -->
+		<Variable name="MOVEMENT_GRAPH_UNIQUE_FOLDERS" value="false" /><!-- default: do not create Unique Folders for map caches -->
+		<Variable name="MOVEMENT_CALC_ROUTE_SEGMENTS" value="false" /><!-- offer access to route segments (used in flowchannel scheme) -->
+		<Variable name="GRAPHHOPPER_BLOCKED_AREAS" value="" />
+		<Variable name="GRAPHOPPER_ALLOW_ALTERNATIVE_ROUTES" value="false" />
+		<Variable name="GRAPHOPPER_PROB_ALTERNATIVE_ROUTES" value="0.5" />
+		<!-- Nodes -->
+		<Variable name="NUM_CLOUD_SERVERS" value="1"/><!-- Total number of clouds -->
+		<Variable name="NUM_EDGE_SERVERS" value="5"/><!-- Total number of edge servers from 1 to 25 increased by 1 -->
+		<Variable name="NUM_MEC_SYSTEMS" value="5"/><!-- Number of MEC systems from 1 to 5 increased by 1 -->
+		<Variable name="EDGE_SERVERS_PER_SYSTEM" value="20"/><!-- Number of edge servers per MEC system from 1 to 5 increased by 1 -->
+		<Variable name="NUM_GENERIC_USERS" value="50"/><!-- Total number of mobile users (e.g., ambulance users) -->
+		<Variable name="NUM_OPERA_USERS" value="40"/><!-- Total number of static users (e.g., opera users) -->
+		<Variable name="NUM_AMBULANCE_USERS" value="10"/><!-- Total number of mobile users (e.g., ambulance users) -->
+		<!-- Nodes Placement -->
+		<Variable name="PLACEMENT_CLOUD_SERVERS" value="GRID"/><!-- Options: GRID, RND -->
+		<Variable name="PLACEMENT_EDGE_SERVERS" value="GRID"/><!-- Options: GRID, RND -->
+		<Variable name="PLACEMENT_GENERIC_USERS" value="RND"/><!-- Options: GRID, RND -->
+		<Variable name="PLACEMENT_OPERA_USERS" value="RND"/><!-- Options: GRID, RND -->
+		<Variable name="PLACEMENT_AMBULANCE_USERS" value="RND"/><!-- Options: GRID, RND -->
+		<!-- Nodes Movement -->
+		<Variable name="MOVEMENT" value="SOCIAL"/><!-- SOCIAL, RANDOM, GAUSS, NONE GAUSS, NONE -->
+		<Variable name="MOVEMENT_INTERVAL" value="5s"/><!-- Movement update interval -->
+		<Variable name="SOCIAL_FACTOR" value="0.0"/><!-- Movement = SOCIAL - this factor describes the attractiveness of Attraction Points -->
+		<Variable name="MOVEMENT_ATTRACTION_NUM_POINTS" value="0"/><!-- Number of attraction points -->
+		<!-- min and max pause times -->
+		<Variable name="ATTRACTION_POINT_DEFAULT_PAUSETIME_MIN" value="10m" />
+		<Variable name="ATTRACTION_POINT_DEFAULT_PAUSETIME_MAX" value="3h" />
+		<!-- Nodes Speed -->
+		<Variable name="SPEED_MIN" value="1.5"/><!-- Min movement speed in m/s d:1.5 -->
+		<Variable name="SPEED_MAX" value="2.5"/><!-- Max movement speed in m/s d:2.5 -->
+		<Variable name="SPEED_MIN_AMBULANCE" value="1.5"/><!-- Min movement speed in m/s d:11.1 -->
+		<Variable name="SPEED_MAX_AMBULANCE" value="2.5"/><!-- Max movement speed in m/s d:19.5 -->
+		<Variable name="ENERGY_INITIAL" value="18648"/>
+		<!-- Nodes CHURN -->
+		<Variable name="CHURN" value="false"/>
+		<Variable name="CHURN_MODEL" value="FLUC2"/><!-- Churn-Model -->
+		<Variable name="CHURN_START" value="60m"/>
+		<!-- USERS Resource Requirement Ranges -->
+		<Variable name="GENERIC_USER_CPU_MIN" value="1"/>
+		<Variable name="GENERIC_USER_CPU_MAX" value="3"/>
+		<Variable name="GENERIC_USER_RAM_MIN" value="1"/>
+		<Variable name="GENERIC_USER_RAM_MAX" value="4"/>
+		<Variable name="AMBULANCE_USER_CPU_MIN" value="2"/>
+		<Variable name="AMBULANCE_USER_CPU_MAX" value="4"/>
+		<Variable name="AMBULANCE_USER_RAM_MIN" value="1"/>
+		<Variable name="AMBULANCE_USER_RAM_MAX" value="5"/>
+		<!-- USERS Max Response Time Ranges -->
+		<Variable name="GENERIC_USER_MIN_RESPONSE_TIME" value="1000"/>
+		<Variable name="GENERIC_USER_MAX_RESPONSE_TIME" value="5000"/>
+		<Variable name="AMBULANCE_USER_MIN_RESPONSE_TIME" value="500"/>
+		<Variable name="AMBULANCE_USER_MAX_RESPONSE_TIME" value="1500"/>
+		<!-- MEC Parameters -->
+		<Variable name="LINKS_COORDINATES_FILE" value="./config/mec/links_coordinates.json"/><!-- Path to the file with coordinates and links information -->
+		<Variable name="RESULTS_PATH" value="../../SmartCitySD/Results/service-placement-local/"/><!-- Path to the results files -->
+		<Variable name="MATRICES_FOLDER" value="./config/mec/trainning/"/><!-- Path to the trained data depending for the prediction algorithms -->
+		<Variable name="SCENARIO" value="1"/><!-- Path to the results files -->
+		<Variable name="MU_SERVICE_TIME" value="5m"/><!-- Mean service time for exponential distribution that models users' service time-->
+		<Variable name="APPROACH" value="BESTFIT"/><!-- Options: ACO, BESTFIT, CLOSESTFIT, ILP, MAACO, MAXFIT, MULTIOPT, RANDOM, SA, GA, PSO, ACOV2, SAV2 -->
+		<Variable name="FUNCTIONS" value="5"/><!-- Number of functions that compose an application -->
+		<Variable name="TOPOLOGY" value="DECENTRALISED"/><!-- Options: CENTRALISED, FEDERATED, DECENTRALISED -->
+		<Variable name="GENERIC_PRIORITY" value="1"/><!-- Ambulance requests priority -->
+		<Variable name="LAMBDA_GENERIC_ARRIVAL" value="24m"/> <!-- LAMBDA_AMBULANCE_ARRIVALs -->
+		<Variable name="AMBULANCE_PRIORITY" value="5"/><!-- Ambulance requests priority -->
+		<Variable name="LAMBDA_AMBULANCE_ARRIVAL" value="30m"/> <!-- Interval between requests from ambulance users' arrivals -->
+		<Variable name="OPERA_PRIORITY" value="1"/><!-- Opera requests priority -->
+		<Variable name="LAMBDA_OPERA_ARRIVAL" value="30m"/> <!-- Interval between requests from opera users' arrivals -->
+		<Variable name="PREDICTION_ALGORITHM" value="NONE"/><!-- Prediction Algorithm: NONE, HMM, BC -->
+		<Variable name="CLUSTERS" value="43"/><!-- Number of clusters in the training dataset -->
+		<Variable name="LINKS" value="493"/><!-- Number of road links in the training dataset -->
+
+		<Variable name="ANTS_NUMBER" value="1000"/><!-- Number of ants for the ACO-based approaches -->
+		<Variable name="ITERATIONS" value="10"/><!-- Number of iterations for the ACO-based approaches -->
+
+
+		<Variable name="ABC_NUMBER" value="10"/>
+		<Variable name="AFS_NUMBER" value="10"/>
+		<Variable name="HAWKS_NUMBER" value="10"/>
+		<Variable name="DELTA_AF" value="0.4"/>
+		<Variable name="STEP_AF" value="4"/>
+		<Variable name="BETA_AF" value="0.2"/>
+		<Variable name="VISUAL_AF" value="0.05"/>
+
+		<Variable name="ALFA" value="0.002"/><!-- Alfa parameter for the ACO-based approaches -->
+		<Variable name="BETA" value="0.3"/><!-- Beta parameter for the ACO-based approaches -->
+		<Variable name="RO" value="0.05"/><!-- ro parameter for the ACO-based approaches -->
+		<Variable name="TAU_0" value="4.0"/><!-- tau0 parameter for the ACO-based approaches -->
+		<Variable name="DELTA_TAU" value="0.4"/><!-- DeltaTau parameter for the ACO-based approaches -->
+		<Variable name="ROUND" value="1"/><!-- Experiment round -->
+		<Variable name="GA_ITERATIONS" value="100"/><!-- Number of iterations for GA-based approach -->
+		<Variable name="GA_POPULATION_SIZE" value="100"/><!-- GA's population size -->
+		<Variable name="GA_CROSSOVER_RATE" value="0.85"/><!-- crossOver rate (typically bw 0.6 to 0.95) for GA-based approach -->
+		<Variable name="GA_MUTATION_RATE" value="0.01"/><!-- mutationRate (typically bw 0.001 to 0.05) for GA-based approach -->
+		<Variable name="PSO_ITERATIONS" value="100"/><!-- Number of iterations for PSO-based approach -->
+		<Variable name="PSO_PARTICLES" value="100"/><!-- Number of  particles for PSO-based approach -->
+		<Variable name="PSO_COGNITIVE_WEIGHT_C1" value="1.496180"/><!-- cognitiveWeightC1 for PSO-based approach -->
+		<Variable name="PSO_SOCIAL_WEIGHT_C2" value="1.496180"/><!-- socialWeightC2 for PSO-based approach -->
+		<Variable name="PSO_INERTIA_WEIGHT_W" value="0.729844"/><!-- inertiaWeightW for PSO-based approach -->
+	</Default>
+</IncludeRoot>

@@ -1,0 +1,110 @@
+{
+    "elements": [
+        {
+            "places": {
+                "types": [
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Healthcare",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Amenity",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Place",
+                    "http://www.w3.org/2000/01/rdf-schema#Resource"
+                ],
+                "domains": [
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Social_Security",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Safety_and_Emergencies",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Health",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Buildings"
+                ],
+                "individuals": [
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Hospital"
+                ],
+                "superDomains": [
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Social",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Social",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Social",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Infrastructure"
+                ]
+            },
+            "lon": -6.2428094,
+            "id": 241790120,
+            "nds": [
+                "1682030873",
+                "1658324681",
+                "4600174163",
+                "3660647415",
+                "3660647416",
+                "1672788157",
+                "4591903229",
+                "1672788200",
+                "1672788166",
+                "4591903231",
+                "3660647413",
+                "1672807064",
+                "1672696492",
+                "1672696479",
+                "1672696465",
+                "3660080139",
+                "3660080140",
+                "485521688",
+                "1672696467",
+                "1672670399",
+                "1658324673",
+                "1658324723",
+                "3659228305",
+                "1658324745",
+                "3659228304",
+                "3659228306",
+                "3659228308",
+                "3659228309",
+                "3659228310",
+                "3659228311",
+                "3659228312",
+                "1658324750",
+                "3659228314",
+                "3659228317",
+                "3659228316",
+                "3659228315",
+                "3659228313",
+                "1658324728",
+                "1658324610",
+                "3659230726",
+                "3659230727",
+                "3659886080",
+                "1658218843",
+                "1658218854",
+                "1658218872",
+                "3659228321",
+                "3659228323",
+                "3659228324",
+                "1658339371",
+                "3659230725",
+                "3659246925",
+                "3659246926",
+                "3659246927",
+                "1658218907",
+                "1658218822",
+                "1653352190",
+                "1658218819",
+                "3660080147",
+                "3659241341",
+                "1672662453",
+                "1672662469",
+                "1658324650",
+                "1658348948",
+                "1658348926",
+                "3660308654",
+                "1658324717",
+                "3660338448",
+                "3660338449",
+                "3660338450",
+                "1682030873"
+            ],
+            "type": "way",
+            "lat": 53.367241,
+            "tags": {
+                "amenity": "hospital",
+                "name": "hospital",
+                "name-real": "Saint Vincent's Hospital"
+            }
+        }
+	]
+}

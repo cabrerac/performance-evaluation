@@ -1,0 +1,1033 @@
+"_ECHO 0m "============================="
+"_ECHO 00:00h-02:00h "Cloud server initiation!"
+CloudServers 0m-120m CloudServerComponent:initiateCloud
+"_ECHO 02:00h-04:00h "Network setup!"
+CloudServers 120m-240m CloudServerComponent:setupNetwork
+"_ECHO 04:00h-06:00h "Generic users initiation!"
+GenericUsers 240m-360m GenericUserComponent:initiateUser
+"_ECHO 06:00h-08:00h "Opera users initiation!"
+OperaUsers 360m-480m OperaUserComponent:initiateUser
+"_ECHO 08:00h-10:00h "Ambulance users initiation!"
+AmbulanceUsers 480m-600m AmbulanceUserComponent:initiateUser
+"_ECHO 10:00h-12:00h "Cloud fills latencies!"
+CloudServers 600m-720m CloudServerComponent:fillLatencies
+"_ECHO 10:00h-10:00h "RLApp initialize!"
+CloudServers 600m-600m CloudServerComponent:initiateRLAppAdapter
+"_ECHO 20:00h-20:10h "Starts generic users requests!"
+GenericUsers 1200m-1210m GenericUserComponent:startRequests
+"_ECHO 20:00h-20:10h "Opera show starts!"
+OperaUsers 1200m-1210m OperaUserComponent:startShow
+"_ECHO 20:00h-20:10h "Accident happens!"
+AmbulanceUsers 1200m-1210m AmbulanceUserComponent:accidentHappens
+"_ECHO 21:50h-21:50h "Episode terminates!"
+CloudServers 1310m-1310m CloudServerComponent:endTrainingEpisode
+"_ECHO 21:50h-22:00h "Ambulance resets!"
+AmbulanceUsers 1310m-1320m AmbulanceUserComponent:resetOperations
+"_ECHO 21:50h-22:00h "Opera reset!"
+OperaUsers 1310m-1320m OperaUserComponent:resetOperations
+"_ECHO 21:50h-22:00h "Opera restart!"
+OperaUsers 1310m-1320m OperaUserComponent:restartOperations
+"_ECHO 21:50h-22:00h "Ambulance restart!"
+AmbulanceUsers 1310m-1320m AmbulanceUserComponent:restartOperations
+"_ECHO 23:40h-23:40h "Episode terminates!"
+CloudServers 1420m-1420m CloudServerComponent:endTrainingEpisode
+"_ECHO 23:40h-23:50h "Ambulance resets!"
+AmbulanceUsers 1420m-1430m AmbulanceUserComponent:resetOperations
+"_ECHO 23:40h-23:50h "Opera reset!"
+OperaUsers 1420m-1430m OperaUserComponent:resetOperations
+"_ECHO 23:40h-23:50h "Opera restart!"
+OperaUsers 1420m-1430m OperaUserComponent:restartOperations
+"_ECHO 23:40h-23:50h "Ambulance restart!"
+AmbulanceUsers 1420m-1430m AmbulanceUserComponent:restartOperations
+"_ECHO 25:30h-25:30h "Episode terminates!"
+CloudServers 1530m-1530m CloudServerComponent:endTrainingEpisode
+"_ECHO 25:30h-25:40h "Ambulance resets!"
+AmbulanceUsers 1530m-1540m AmbulanceUserComponent:resetOperations
+"_ECHO 25:30h-25:40h "Opera reset!"
+OperaUsers 1530m-1540m OperaUserComponent:resetOperations
+"_ECHO 25:30h-25:40h "Opera restart!"
+OperaUsers 1530m-1540m OperaUserComponent:restartOperations
+"_ECHO 25:30h-25:40h "Ambulance restart!"
+AmbulanceUsers 1530m-1540m AmbulanceUserComponent:restartOperations
+"_ECHO 27:20h-27:20h "Episode terminates!"
+CloudServers 1640m-1640m CloudServerComponent:endTrainingEpisode
+"_ECHO 27:20h-27:30h "Ambulance resets!"
+AmbulanceUsers 1640m-1650m AmbulanceUserComponent:resetOperations
+"_ECHO 27:20h-27:30h "Opera reset!"
+OperaUsers 1640m-1650m OperaUserComponent:resetOperations
+"_ECHO 27:20h-27:30h "Opera restart!"
+OperaUsers 1640m-1650m OperaUserComponent:restartOperations
+"_ECHO 27:20h-27:30h "Ambulance restart!"
+AmbulanceUsers 1640m-1650m AmbulanceUserComponent:restartOperations
+"_ECHO 29:10h-29:10h "Episode terminates!"
+CloudServers 1750m-1750m CloudServerComponent:endTrainingEpisode
+"_ECHO 29:10h-29:20h "Ambulance resets!"
+AmbulanceUsers 1750m-1760m AmbulanceUserComponent:resetOperations
+"_ECHO 29:10h-29:20h "Opera reset!"
+OperaUsers 1750m-1760m OperaUserComponent:resetOperations
+"_ECHO 29:10h-29:20h "Opera restart!"
+OperaUsers 1750m-1760m OperaUserComponent:restartOperations
+"_ECHO 29:10h-29:20h "Ambulance restart!"
+AmbulanceUsers 1750m-1760m AmbulanceUserComponent:restartOperations
+"_ECHO 31:00h-31:00h "Episode terminates!"
+CloudServers 1860m-1860m CloudServerComponent:endTrainingEpisode
+"_ECHO 31:00h-31:10h "Ambulance resets!"
+AmbulanceUsers 1860m-1870m AmbulanceUserComponent:resetOperations
+"_ECHO 31:00h-31:10h "Opera reset!"
+OperaUsers 1860m-1870m OperaUserComponent:resetOperations
+"_ECHO 31:00h-31:10h "Opera restart!"
+OperaUsers 1860m-1870m OperaUserComponent:restartOperations
+"_ECHO 31:00h-31:10h "Ambulance restart!"
+AmbulanceUsers 1860m-1870m AmbulanceUserComponent:restartOperations
+"_ECHO 32:50h-32:50h "Episode terminates!"
+CloudServers 1970m-1970m CloudServerComponent:endTrainingEpisode
+"_ECHO 32:50h-33:00h "Ambulance resets!"
+AmbulanceUsers 1970m-1980m AmbulanceUserComponent:resetOperations
+"_ECHO 32:50h-33:00h "Opera reset!"
+OperaUsers 1970m-1980m OperaUserComponent:resetOperations
+"_ECHO 32:50h-33:00h "Opera restart!"
+OperaUsers 1970m-1980m OperaUserComponent:restartOperations
+"_ECHO 32:50h-33:00h "Ambulance restart!"
+AmbulanceUsers 1970m-1980m AmbulanceUserComponent:restartOperations
+"_ECHO 34:40h-34:40h "Episode terminates!"
+CloudServers 2080m-2080m CloudServerComponent:endTrainingEpisode
+"_ECHO 34:40h-34:50h "Ambulance resets!"
+AmbulanceUsers 2080m-2090m AmbulanceUserComponent:resetOperations
+"_ECHO 34:40h-34:50h "Opera reset!"
+OperaUsers 2080m-2090m OperaUserComponent:resetOperations
+"_ECHO 34:40h-34:50h "Opera restart!"
+OperaUsers 2080m-2090m OperaUserComponent:restartOperations
+"_ECHO 34:40h-34:50h "Ambulance restart!"
+AmbulanceUsers 2080m-2090m AmbulanceUserComponent:restartOperations
+"_ECHO 36:30h-36:30h "Episode terminates!"
+CloudServers 2190m-2190m CloudServerComponent:endTrainingEpisode
+"_ECHO 36:30h-36:40h "Ambulance resets!"
+AmbulanceUsers 2190m-2200m AmbulanceUserComponent:resetOperations
+"_ECHO 36:30h-36:40h "Opera reset!"
+OperaUsers 2190m-2200m OperaUserComponent:resetOperations
+"_ECHO 36:30h-36:40h "Opera restart!"
+OperaUsers 2190m-2200m OperaUserComponent:restartOperations
+"_ECHO 36:30h-36:40h "Ambulance restart!"
+AmbulanceUsers 2190m-2200m AmbulanceUserComponent:restartOperations
+"_ECHO 38:20h-38:20h "Episode terminates!"
+CloudServers 2300m-2300m CloudServerComponent:endTrainingEpisode
+"_ECHO 38:20h-38:30h "Ambulance resets!"
+AmbulanceUsers 2300m-2310m AmbulanceUserComponent:resetOperations
+"_ECHO 38:20h-38:30h "Opera reset!"
+OperaUsers 2300m-2310m OperaUserComponent:resetOperations
+"_ECHO 38:20h-38:30h "Opera restart!"
+OperaUsers 2300m-2310m OperaUserComponent:restartOperations
+"_ECHO 38:20h-38:30h "Ambulance restart!"
+AmbulanceUsers 2300m-2310m AmbulanceUserComponent:restartOperations
+"_ECHO 40:10h-40:10h "Episode terminates!"
+CloudServers 2410m-2410m CloudServerComponent:endTrainingEpisode
+"_ECHO 40:10h-40:20h "Ambulance resets!"
+AmbulanceUsers 2410m-2420m AmbulanceUserComponent:resetOperations
+"_ECHO 40:10h-40:20h "Opera reset!"
+OperaUsers 2410m-2420m OperaUserComponent:resetOperations
+"_ECHO 40:10h-40:20h "Opera restart!"
+OperaUsers 2410m-2420m OperaUserComponent:restartOperations
+"_ECHO 40:10h-40:20h "Ambulance restart!"
+AmbulanceUsers 2410m-2420m AmbulanceUserComponent:restartOperations
+"_ECHO 42:00h-42:00h "Episode terminates!"
+CloudServers 2520m-2520m CloudServerComponent:endTrainingEpisode
+"_ECHO 42:00h-42:10h "Ambulance resets!"
+AmbulanceUsers 2520m-2530m AmbulanceUserComponent:resetOperations
+"_ECHO 42:00h-42:10h "Opera reset!"
+OperaUsers 2520m-2530m OperaUserComponent:resetOperations
+"_ECHO 42:00h-42:10h "Opera restart!"
+OperaUsers 2520m-2530m OperaUserComponent:restartOperations
+"_ECHO 42:00h-42:10h "Ambulance restart!"
+AmbulanceUsers 2520m-2530m AmbulanceUserComponent:restartOperations
+"_ECHO 43:50h-43:50h "Episode terminates!"
+CloudServers 2630m-2630m CloudServerComponent:endTrainingEpisode
+"_ECHO 43:50h-44:00h "Ambulance resets!"
+AmbulanceUsers 2630m-2640m AmbulanceUserComponent:resetOperations
+"_ECHO 43:50h-44:00h "Opera reset!"
+OperaUsers 2630m-2640m OperaUserComponent:resetOperations
+"_ECHO 43:50h-44:00h "Opera restart!"
+OperaUsers 2630m-2640m OperaUserComponent:restartOperations
+"_ECHO 43:50h-44:00h "Ambulance restart!"
+AmbulanceUsers 2630m-2640m AmbulanceUserComponent:restartOperations
+"_ECHO 45:40h-45:40h "Episode terminates!"
+CloudServers 2740m-2740m CloudServerComponent:endTrainingEpisode
+"_ECHO 45:40h-45:50h "Ambulance resets!"
+AmbulanceUsers 2740m-2750m AmbulanceUserComponent:resetOperations
+"_ECHO 45:40h-45:50h "Opera reset!"
+OperaUsers 2740m-2750m OperaUserComponent:resetOperations
+"_ECHO 45:40h-45:50h "Opera restart!"
+OperaUsers 2740m-2750m OperaUserComponent:restartOperations
+"_ECHO 45:40h-45:50h "Ambulance restart!"
+AmbulanceUsers 2740m-2750m AmbulanceUserComponent:restartOperations
+"_ECHO 47:30h-47:30h "Episode terminates!"
+CloudServers 2850m-2850m CloudServerComponent:endTrainingEpisode
+"_ECHO 47:30h-47:40h "Ambulance resets!"
+AmbulanceUsers 2850m-2860m AmbulanceUserComponent:resetOperations
+"_ECHO 47:30h-47:40h "Opera reset!"
+OperaUsers 2850m-2860m OperaUserComponent:resetOperations
+"_ECHO 47:30h-47:40h "Opera restart!"
+OperaUsers 2850m-2860m OperaUserComponent:restartOperations
+"_ECHO 47:30h-47:40h "Ambulance restart!"
+AmbulanceUsers 2850m-2860m AmbulanceUserComponent:restartOperations
+"_ECHO 49:20h-49:20h "Episode terminates!"
+CloudServers 2960m-2960m CloudServerComponent:endTrainingEpisode
+"_ECHO 49:20h-49:30h "Ambulance resets!"
+AmbulanceUsers 2960m-2970m AmbulanceUserComponent:resetOperations
+"_ECHO 49:20h-49:30h "Opera reset!"
+OperaUsers 2960m-2970m OperaUserComponent:resetOperations
+"_ECHO 49:20h-49:30h "Opera restart!"
+OperaUsers 2960m-2970m OperaUserComponent:restartOperations
+"_ECHO 49:20h-49:30h "Ambulance restart!"
+AmbulanceUsers 2960m-2970m AmbulanceUserComponent:restartOperations
+"_ECHO 51:10h-51:10h "Episode terminates!"
+CloudServers 3070m-3070m CloudServerComponent:endTrainingEpisode
+"_ECHO 51:10h-51:20h "Ambulance resets!"
+AmbulanceUsers 3070m-3080m AmbulanceUserComponent:resetOperations
+"_ECHO 51:10h-51:20h "Opera reset!"
+OperaUsers 3070m-3080m OperaUserComponent:resetOperations
+"_ECHO 51:10h-51:20h "Opera restart!"
+OperaUsers 3070m-3080m OperaUserComponent:restartOperations
+"_ECHO 51:10h-51:20h "Ambulance restart!"
+AmbulanceUsers 3070m-3080m AmbulanceUserComponent:restartOperations
+"_ECHO 53:00h-53:00h "Episode terminates!"
+CloudServers 3180m-3180m CloudServerComponent:endTrainingEpisode
+"_ECHO 53:00h-53:10h "Ambulance resets!"
+AmbulanceUsers 3180m-3190m AmbulanceUserComponent:resetOperations
+"_ECHO 53:00h-53:10h "Opera reset!"
+OperaUsers 3180m-3190m OperaUserComponent:resetOperations
+"_ECHO 53:00h-53:10h "Opera restart!"
+OperaUsers 3180m-3190m OperaUserComponent:restartOperations
+"_ECHO 53:00h-53:10h "Ambulance restart!"
+AmbulanceUsers 3180m-3190m AmbulanceUserComponent:restartOperations
+"_ECHO 54:50h-54:50h "Episode terminates!"
+CloudServers 3290m-3290m CloudServerComponent:endTrainingEpisode
+"_ECHO 54:50h-55:00h "Ambulance resets!"
+AmbulanceUsers 3290m-3300m AmbulanceUserComponent:resetOperations
+"_ECHO 54:50h-55:00h "Opera reset!"
+OperaUsers 3290m-3300m OperaUserComponent:resetOperations
+"_ECHO 54:50h-55:00h "Opera restart!"
+OperaUsers 3290m-3300m OperaUserComponent:restartOperations
+"_ECHO 54:50h-55:00h "Ambulance restart!"
+AmbulanceUsers 3290m-3300m AmbulanceUserComponent:restartOperations
+"_ECHO 56:40h-56:40h "Episode terminates!"
+CloudServers 3400m-3400m CloudServerComponent:endTrainingEpisode
+"_ECHO 56:40h-56:50h "Ambulance resets!"
+AmbulanceUsers 3400m-3410m AmbulanceUserComponent:resetOperations
+"_ECHO 56:40h-56:50h "Opera reset!"
+OperaUsers 3400m-3410m OperaUserComponent:resetOperations
+"_ECHO 56:40h-56:50h "Opera restart!"
+OperaUsers 3400m-3410m OperaUserComponent:restartOperations
+"_ECHO 56:40h-56:50h "Ambulance restart!"
+AmbulanceUsers 3400m-3410m AmbulanceUserComponent:restartOperations
+"_ECHO 58:30h-58:30h "Episode terminates!"
+CloudServers 3510m-3510m CloudServerComponent:endTrainingEpisode
+"_ECHO 58:30h-58:40h "Ambulance resets!"
+AmbulanceUsers 3510m-3520m AmbulanceUserComponent:resetOperations
+"_ECHO 58:30h-58:40h "Opera reset!"
+OperaUsers 3510m-3520m OperaUserComponent:resetOperations
+"_ECHO 58:30h-58:40h "Opera restart!"
+OperaUsers 3510m-3520m OperaUserComponent:restartOperations
+"_ECHO 58:30h-58:40h "Ambulance restart!"
+AmbulanceUsers 3510m-3520m AmbulanceUserComponent:restartOperations
+"_ECHO 60:20h-60:20h "Episode terminates!"
+CloudServers 3620m-3620m CloudServerComponent:endTrainingEpisode
+"_ECHO 60:20h-60:30h "Ambulance resets!"
+AmbulanceUsers 3620m-3630m AmbulanceUserComponent:resetOperations
+"_ECHO 60:20h-60:30h "Opera reset!"
+OperaUsers 3620m-3630m OperaUserComponent:resetOperations
+"_ECHO 60:20h-60:30h "Opera restart!"
+OperaUsers 3620m-3630m OperaUserComponent:restartOperations
+"_ECHO 60:20h-60:30h "Ambulance restart!"
+AmbulanceUsers 3620m-3630m AmbulanceUserComponent:restartOperations
+"_ECHO 62:10h-62:10h "Episode terminates!"
+CloudServers 3730m-3730m CloudServerComponent:endTrainingEpisode
+"_ECHO 62:10h-62:20h "Ambulance resets!"
+AmbulanceUsers 3730m-3740m AmbulanceUserComponent:resetOperations
+"_ECHO 62:10h-62:20h "Opera reset!"
+OperaUsers 3730m-3740m OperaUserComponent:resetOperations
+"_ECHO 62:10h-62:20h "Opera restart!"
+OperaUsers 3730m-3740m OperaUserComponent:restartOperations
+"_ECHO 62:10h-62:20h "Ambulance restart!"
+AmbulanceUsers 3730m-3740m AmbulanceUserComponent:restartOperations
+"_ECHO 64:00h-64:00h "Episode terminates!"
+CloudServers 3840m-3840m CloudServerComponent:endTrainingEpisode
+"_ECHO 64:00h-64:10h "Ambulance resets!"
+AmbulanceUsers 3840m-3850m AmbulanceUserComponent:resetOperations
+"_ECHO 64:00h-64:10h "Opera reset!"
+OperaUsers 3840m-3850m OperaUserComponent:resetOperations
+"_ECHO 64:00h-64:10h "Opera restart!"
+OperaUsers 3840m-3850m OperaUserComponent:restartOperations
+"_ECHO 64:00h-64:10h "Ambulance restart!"
+AmbulanceUsers 3840m-3850m AmbulanceUserComponent:restartOperations
+"_ECHO 65:50h-65:50h "Episode terminates!"
+CloudServers 3950m-3950m CloudServerComponent:endTrainingEpisode
+"_ECHO 65:50h-66:00h "Ambulance resets!"
+AmbulanceUsers 3950m-3960m AmbulanceUserComponent:resetOperations
+"_ECHO 65:50h-66:00h "Opera reset!"
+OperaUsers 3950m-3960m OperaUserComponent:resetOperations
+"_ECHO 65:50h-66:00h "Opera restart!"
+OperaUsers 3950m-3960m OperaUserComponent:restartOperations
+"_ECHO 65:50h-66:00h "Ambulance restart!"
+AmbulanceUsers 3950m-3960m AmbulanceUserComponent:restartOperations
+"_ECHO 67:40h-67:40h "Episode terminates!"
+CloudServers 4060m-4060m CloudServerComponent:endTrainingEpisode
+"_ECHO 67:40h-67:50h "Ambulance resets!"
+AmbulanceUsers 4060m-4070m AmbulanceUserComponent:resetOperations
+"_ECHO 67:40h-67:50h "Opera reset!"
+OperaUsers 4060m-4070m OperaUserComponent:resetOperations
+"_ECHO 67:40h-67:50h "Opera restart!"
+OperaUsers 4060m-4070m OperaUserComponent:restartOperations
+"_ECHO 67:40h-67:50h "Ambulance restart!"
+AmbulanceUsers 4060m-4070m AmbulanceUserComponent:restartOperations
+"_ECHO 69:30h-69:30h "Episode terminates!"
+CloudServers 4170m-4170m CloudServerComponent:endTrainingEpisode
+"_ECHO 69:30h-69:40h "Ambulance resets!"
+AmbulanceUsers 4170m-4180m AmbulanceUserComponent:resetOperations
+"_ECHO 69:30h-69:40h "Opera reset!"
+OperaUsers 4170m-4180m OperaUserComponent:resetOperations
+"_ECHO 69:30h-69:40h "Opera restart!"
+OperaUsers 4170m-4180m OperaUserComponent:restartOperations
+"_ECHO 69:30h-69:40h "Ambulance restart!"
+AmbulanceUsers 4170m-4180m AmbulanceUserComponent:restartOperations
+"_ECHO 71:20h-71:20h "Episode terminates!"
+CloudServers 4280m-4280m CloudServerComponent:endTrainingEpisode
+"_ECHO 71:20h-71:30h "Ambulance resets!"
+AmbulanceUsers 4280m-4290m AmbulanceUserComponent:resetOperations
+"_ECHO 71:20h-71:30h "Opera reset!"
+OperaUsers 4280m-4290m OperaUserComponent:resetOperations
+"_ECHO 71:20h-71:30h "Opera restart!"
+OperaUsers 4280m-4290m OperaUserComponent:restartOperations
+"_ECHO 71:20h-71:30h "Ambulance restart!"
+AmbulanceUsers 4280m-4290m AmbulanceUserComponent:restartOperations
+"_ECHO 73:10h-73:10h "Episode terminates!"
+CloudServers 4390m-4390m CloudServerComponent:endTrainingEpisode
+"_ECHO 73:10h-73:20h "Ambulance resets!"
+AmbulanceUsers 4390m-4400m AmbulanceUserComponent:resetOperations
+"_ECHO 73:10h-73:20h "Opera reset!"
+OperaUsers 4390m-4400m OperaUserComponent:resetOperations
+"_ECHO 73:10h-73:20h "Opera restart!"
+OperaUsers 4390m-4400m OperaUserComponent:restartOperations
+"_ECHO 73:10h-73:20h "Ambulance restart!"
+AmbulanceUsers 4390m-4400m AmbulanceUserComponent:restartOperations
+"_ECHO 75:00h-75:00h "Episode terminates!"
+CloudServers 4500m-4500m CloudServerComponent:endTrainingEpisode
+"_ECHO 75:00h-75:10h "Ambulance resets!"
+AmbulanceUsers 4500m-4510m AmbulanceUserComponent:resetOperations
+"_ECHO 75:00h-75:10h "Opera reset!"
+OperaUsers 4500m-4510m OperaUserComponent:resetOperations
+"_ECHO 75:00h-75:10h "Opera restart!"
+OperaUsers 4500m-4510m OperaUserComponent:restartOperations
+"_ECHO 75:00h-75:10h "Ambulance restart!"
+AmbulanceUsers 4500m-4510m AmbulanceUserComponent:restartOperations
+"_ECHO 76:50h-76:50h "Episode terminates!"
+CloudServers 4610m-4610m CloudServerComponent:endTrainingEpisode
+"_ECHO 76:50h-77:00h "Ambulance resets!"
+AmbulanceUsers 4610m-4620m AmbulanceUserComponent:resetOperations
+"_ECHO 76:50h-77:00h "Opera reset!"
+OperaUsers 4610m-4620m OperaUserComponent:resetOperations
+"_ECHO 76:50h-77:00h "Opera restart!"
+OperaUsers 4610m-4620m OperaUserComponent:restartOperations
+"_ECHO 76:50h-77:00h "Ambulance restart!"
+AmbulanceUsers 4610m-4620m AmbulanceUserComponent:restartOperations
+"_ECHO 78:40h-78:40h "Episode terminates!"
+CloudServers 4720m-4720m CloudServerComponent:endTrainingEpisode
+"_ECHO 78:40h-78:50h "Ambulance resets!"
+AmbulanceUsers 4720m-4730m AmbulanceUserComponent:resetOperations
+"_ECHO 78:40h-78:50h "Opera reset!"
+OperaUsers 4720m-4730m OperaUserComponent:resetOperations
+"_ECHO 78:40h-78:50h "Opera restart!"
+OperaUsers 4720m-4730m OperaUserComponent:restartOperations
+"_ECHO 78:40h-78:50h "Ambulance restart!"
+AmbulanceUsers 4720m-4730m AmbulanceUserComponent:restartOperations
+"_ECHO 80:30h-80:30h "Episode terminates!"
+CloudServers 4830m-4830m CloudServerComponent:endTrainingEpisode
+"_ECHO 80:30h-80:40h "Ambulance resets!"
+AmbulanceUsers 4830m-4840m AmbulanceUserComponent:resetOperations
+"_ECHO 80:30h-80:40h "Opera reset!"
+OperaUsers 4830m-4840m OperaUserComponent:resetOperations
+"_ECHO 80:30h-80:40h "Opera restart!"
+OperaUsers 4830m-4840m OperaUserComponent:restartOperations
+"_ECHO 80:30h-80:40h "Ambulance restart!"
+AmbulanceUsers 4830m-4840m AmbulanceUserComponent:restartOperations
+"_ECHO 82:20h-82:20h "Episode terminates!"
+CloudServers 4940m-4940m CloudServerComponent:endTrainingEpisode
+"_ECHO 82:20h-82:30h "Ambulance resets!"
+AmbulanceUsers 4940m-4950m AmbulanceUserComponent:resetOperations
+"_ECHO 82:20h-82:30h "Opera reset!"
+OperaUsers 4940m-4950m OperaUserComponent:resetOperations
+"_ECHO 82:20h-82:30h "Opera restart!"
+OperaUsers 4940m-4950m OperaUserComponent:restartOperations
+"_ECHO 82:20h-82:30h "Ambulance restart!"
+AmbulanceUsers 4940m-4950m AmbulanceUserComponent:restartOperations
+"_ECHO 84:10h-84:10h "Episode terminates!"
+CloudServers 5050m-5050m CloudServerComponent:endTrainingEpisode
+"_ECHO 84:10h-84:20h "Ambulance resets!"
+AmbulanceUsers 5050m-5060m AmbulanceUserComponent:resetOperations
+"_ECHO 84:10h-84:20h "Opera reset!"
+OperaUsers 5050m-5060m OperaUserComponent:resetOperations
+"_ECHO 84:10h-84:20h "Opera restart!"
+OperaUsers 5050m-5060m OperaUserComponent:restartOperations
+"_ECHO 84:10h-84:20h "Ambulance restart!"
+AmbulanceUsers 5050m-5060m AmbulanceUserComponent:restartOperations
+"_ECHO 86:00h-86:00h "Episode terminates!"
+CloudServers 5160m-5160m CloudServerComponent:endTrainingEpisode
+"_ECHO 86:00h-86:10h "Ambulance resets!"
+AmbulanceUsers 5160m-5170m AmbulanceUserComponent:resetOperations
+"_ECHO 86:00h-86:10h "Opera reset!"
+OperaUsers 5160m-5170m OperaUserComponent:resetOperations
+"_ECHO 86:00h-86:10h "Opera restart!"
+OperaUsers 5160m-5170m OperaUserComponent:restartOperations
+"_ECHO 86:00h-86:10h "Ambulance restart!"
+AmbulanceUsers 5160m-5170m AmbulanceUserComponent:restartOperations
+"_ECHO 87:50h-87:50h "Episode terminates!"
+CloudServers 5270m-5270m CloudServerComponent:endTrainingEpisode
+"_ECHO 87:50h-88:00h "Ambulance resets!"
+AmbulanceUsers 5270m-5280m AmbulanceUserComponent:resetOperations
+"_ECHO 87:50h-88:00h "Opera reset!"
+OperaUsers 5270m-5280m OperaUserComponent:resetOperations
+"_ECHO 87:50h-88:00h "Opera restart!"
+OperaUsers 5270m-5280m OperaUserComponent:restartOperations
+"_ECHO 87:50h-88:00h "Ambulance restart!"
+AmbulanceUsers 5270m-5280m AmbulanceUserComponent:restartOperations
+"_ECHO 89:40h-89:40h "Episode terminates!"
+CloudServers 5380m-5380m CloudServerComponent:endTrainingEpisode
+"_ECHO 89:40h-89:50h "Ambulance resets!"
+AmbulanceUsers 5380m-5390m AmbulanceUserComponent:resetOperations
+"_ECHO 89:40h-89:50h "Opera reset!"
+OperaUsers 5380m-5390m OperaUserComponent:resetOperations
+"_ECHO 89:40h-89:50h "Opera restart!"
+OperaUsers 5380m-5390m OperaUserComponent:restartOperations
+"_ECHO 89:40h-89:50h "Ambulance restart!"
+AmbulanceUsers 5380m-5390m AmbulanceUserComponent:restartOperations
+"_ECHO 91:30h-91:30h "Episode terminates!"
+CloudServers 5490m-5490m CloudServerComponent:endTrainingEpisode
+"_ECHO 91:30h-91:40h "Ambulance resets!"
+AmbulanceUsers 5490m-5500m AmbulanceUserComponent:resetOperations
+"_ECHO 91:30h-91:40h "Opera reset!"
+OperaUsers 5490m-5500m OperaUserComponent:resetOperations
+"_ECHO 91:30h-91:40h "Opera restart!"
+OperaUsers 5490m-5500m OperaUserComponent:restartOperations
+"_ECHO 91:30h-91:40h "Ambulance restart!"
+AmbulanceUsers 5490m-5500m AmbulanceUserComponent:restartOperations
+"_ECHO 93:20h-93:20h "Episode terminates!"
+CloudServers 5600m-5600m CloudServerComponent:endTrainingEpisode
+"_ECHO 93:20h-93:30h "Ambulance resets!"
+AmbulanceUsers 5600m-5610m AmbulanceUserComponent:resetOperations
+"_ECHO 93:20h-93:30h "Opera reset!"
+OperaUsers 5600m-5610m OperaUserComponent:resetOperations
+"_ECHO 93:20h-93:30h "Opera restart!"
+OperaUsers 5600m-5610m OperaUserComponent:restartOperations
+"_ECHO 93:20h-93:30h "Ambulance restart!"
+AmbulanceUsers 5600m-5610m AmbulanceUserComponent:restartOperations
+"_ECHO 95:10h-95:10h "Episode terminates!"
+CloudServers 5710m-5710m CloudServerComponent:endTrainingEpisode
+"_ECHO 95:10h-95:20h "Ambulance resets!"
+AmbulanceUsers 5710m-5720m AmbulanceUserComponent:resetOperations
+"_ECHO 95:10h-95:20h "Opera reset!"
+OperaUsers 5710m-5720m OperaUserComponent:resetOperations
+"_ECHO 95:10h-95:20h "Opera restart!"
+OperaUsers 5710m-5720m OperaUserComponent:restartOperations
+"_ECHO 95:10h-95:20h "Ambulance restart!"
+AmbulanceUsers 5710m-5720m AmbulanceUserComponent:restartOperations
+"_ECHO 97:00h-97:00h "Episode terminates!"
+CloudServers 5820m-5820m CloudServerComponent:endTrainingEpisode
+"_ECHO 97:00h-97:10h "Ambulance resets!"
+AmbulanceUsers 5820m-5830m AmbulanceUserComponent:resetOperations
+"_ECHO 97:00h-97:10h "Opera reset!"
+OperaUsers 5820m-5830m OperaUserComponent:resetOperations
+"_ECHO 97:00h-97:10h "Opera restart!"
+OperaUsers 5820m-5830m OperaUserComponent:restartOperations
+"_ECHO 97:00h-97:10h "Ambulance restart!"
+AmbulanceUsers 5820m-5830m AmbulanceUserComponent:restartOperations
+"_ECHO 98:50h-98:50h "Episode terminates!"
+CloudServers 5930m-5930m CloudServerComponent:endTrainingEpisode
+"_ECHO 98:50h-99:00h "Ambulance resets!"
+AmbulanceUsers 5930m-5940m AmbulanceUserComponent:resetOperations
+"_ECHO 98:50h-99:00h "Opera reset!"
+OperaUsers 5930m-5940m OperaUserComponent:resetOperations
+"_ECHO 98:50h-99:00h "Opera restart!"
+OperaUsers 5930m-5940m OperaUserComponent:restartOperations
+"_ECHO 98:50h-99:00h "Ambulance restart!"
+AmbulanceUsers 5930m-5940m AmbulanceUserComponent:restartOperations
+"_ECHO 100:40h-100:40h "Episode terminates!"
+CloudServers 6040m-6040m CloudServerComponent:endTrainingEpisode
+"_ECHO 100:40h-100:50h "Ambulance resets!"
+AmbulanceUsers 6040m-6050m AmbulanceUserComponent:resetOperations
+"_ECHO 100:40h-100:50h "Opera reset!"
+OperaUsers 6040m-6050m OperaUserComponent:resetOperations
+"_ECHO 100:40h-100:50h "Opera restart!"
+OperaUsers 6040m-6050m OperaUserComponent:restartOperations
+"_ECHO 100:40h-100:50h "Ambulance restart!"
+AmbulanceUsers 6040m-6050m AmbulanceUserComponent:restartOperations
+"_ECHO 102:30h-102:30h "Episode terminates!"
+CloudServers 6150m-6150m CloudServerComponent:endTrainingEpisode
+"_ECHO 102:30h-102:40h "Ambulance resets!"
+AmbulanceUsers 6150m-6160m AmbulanceUserComponent:resetOperations
+"_ECHO 102:30h-102:40h "Opera reset!"
+OperaUsers 6150m-6160m OperaUserComponent:resetOperations
+"_ECHO 102:30h-102:40h "Opera restart!"
+OperaUsers 6150m-6160m OperaUserComponent:restartOperations
+"_ECHO 102:30h-102:40h "Ambulance restart!"
+AmbulanceUsers 6150m-6160m AmbulanceUserComponent:restartOperations
+"_ECHO 104:20h-104:20h "Episode terminates!"
+CloudServers 6260m-6260m CloudServerComponent:endTrainingEpisode
+"_ECHO 104:20h-104:30h "Ambulance resets!"
+AmbulanceUsers 6260m-6270m AmbulanceUserComponent:resetOperations
+"_ECHO 104:20h-104:30h "Opera reset!"
+OperaUsers 6260m-6270m OperaUserComponent:resetOperations
+"_ECHO 104:20h-104:30h "Opera restart!"
+OperaUsers 6260m-6270m OperaUserComponent:restartOperations
+"_ECHO 104:20h-104:30h "Ambulance restart!"
+AmbulanceUsers 6260m-6270m AmbulanceUserComponent:restartOperations
+"_ECHO 106:10h-106:10h "Episode terminates!"
+CloudServers 6370m-6370m CloudServerComponent:endTrainingEpisode
+"_ECHO 106:10h-106:20h "Ambulance resets!"
+AmbulanceUsers 6370m-6380m AmbulanceUserComponent:resetOperations
+"_ECHO 106:10h-106:20h "Opera reset!"
+OperaUsers 6370m-6380m OperaUserComponent:resetOperations
+"_ECHO 106:10h-106:20h "Opera restart!"
+OperaUsers 6370m-6380m OperaUserComponent:restartOperations
+"_ECHO 106:10h-106:20h "Ambulance restart!"
+AmbulanceUsers 6370m-6380m AmbulanceUserComponent:restartOperations
+"_ECHO 108:00h-108:00h "Episode terminates!"
+CloudServers 6480m-6480m CloudServerComponent:endTrainingEpisode
+"_ECHO 108:00h-108:10h "Ambulance resets!"
+AmbulanceUsers 6480m-6490m AmbulanceUserComponent:resetOperations
+"_ECHO 108:00h-108:10h "Opera reset!"
+OperaUsers 6480m-6490m OperaUserComponent:resetOperations
+"_ECHO 108:00h-108:10h "Opera restart!"
+OperaUsers 6480m-6490m OperaUserComponent:restartOperations
+"_ECHO 108:00h-108:10h "Ambulance restart!"
+AmbulanceUsers 6480m-6490m AmbulanceUserComponent:restartOperations
+"_ECHO 109:50h-109:50h "Episode terminates!"
+CloudServers 6590m-6590m CloudServerComponent:endTrainingEpisode
+"_ECHO 109:50h-110:00h "Ambulance resets!"
+AmbulanceUsers 6590m-6600m AmbulanceUserComponent:resetOperations
+"_ECHO 109:50h-110:00h "Opera reset!"
+OperaUsers 6590m-6600m OperaUserComponent:resetOperations
+"_ECHO 109:50h-110:00h "Opera restart!"
+OperaUsers 6590m-6600m OperaUserComponent:restartOperations
+"_ECHO 109:50h-110:00h "Ambulance restart!"
+AmbulanceUsers 6590m-6600m AmbulanceUserComponent:restartOperations
+"_ECHO 111:40h-111:40h "Episode terminates!"
+CloudServers 6700m-6700m CloudServerComponent:endTrainingEpisode
+"_ECHO 111:40h-111:50h "Ambulance resets!"
+AmbulanceUsers 6700m-6710m AmbulanceUserComponent:resetOperations
+"_ECHO 111:40h-111:50h "Opera reset!"
+OperaUsers 6700m-6710m OperaUserComponent:resetOperations
+"_ECHO 111:40h-111:50h "Opera restart!"
+OperaUsers 6700m-6710m OperaUserComponent:restartOperations
+"_ECHO 111:40h-111:50h "Ambulance restart!"
+AmbulanceUsers 6700m-6710m AmbulanceUserComponent:restartOperations
+"_ECHO 113:30h-113:30h "Episode terminates!"
+CloudServers 6810m-6810m CloudServerComponent:endTrainingEpisode
+"_ECHO 113:30h-113:40h "Ambulance resets!"
+AmbulanceUsers 6810m-6820m AmbulanceUserComponent:resetOperations
+"_ECHO 113:30h-113:40h "Opera reset!"
+OperaUsers 6810m-6820m OperaUserComponent:resetOperations
+"_ECHO 113:30h-113:40h "Opera restart!"
+OperaUsers 6810m-6820m OperaUserComponent:restartOperations
+"_ECHO 113:30h-113:40h "Ambulance restart!"
+AmbulanceUsers 6810m-6820m AmbulanceUserComponent:restartOperations
+"_ECHO 115:20h-115:20h "Episode terminates!"
+CloudServers 6920m-6920m CloudServerComponent:endTrainingEpisode
+"_ECHO 115:20h-115:30h "Ambulance resets!"
+AmbulanceUsers 6920m-6930m AmbulanceUserComponent:resetOperations
+"_ECHO 115:20h-115:30h "Opera reset!"
+OperaUsers 6920m-6930m OperaUserComponent:resetOperations
+"_ECHO 115:20h-115:30h "Opera restart!"
+OperaUsers 6920m-6930m OperaUserComponent:restartOperations
+"_ECHO 115:20h-115:30h "Ambulance restart!"
+AmbulanceUsers 6920m-6930m AmbulanceUserComponent:restartOperations
+"_ECHO 117:10h-117:10h "Episode terminates!"
+CloudServers 7030m-7030m CloudServerComponent:endTrainingEpisode
+"_ECHO 117:10h-117:20h "Ambulance resets!"
+AmbulanceUsers 7030m-7040m AmbulanceUserComponent:resetOperations
+"_ECHO 117:10h-117:20h "Opera reset!"
+OperaUsers 7030m-7040m OperaUserComponent:resetOperations
+"_ECHO 117:10h-117:20h "Opera restart!"
+OperaUsers 7030m-7040m OperaUserComponent:restartOperations
+"_ECHO 117:10h-117:20h "Ambulance restart!"
+AmbulanceUsers 7030m-7040m AmbulanceUserComponent:restartOperations
+"_ECHO 119:00h-119:00h "Episode terminates!"
+CloudServers 7140m-7140m CloudServerComponent:endTrainingEpisode
+"_ECHO 119:00h-119:10h "Ambulance resets!"
+AmbulanceUsers 7140m-7150m AmbulanceUserComponent:resetOperations
+"_ECHO 119:00h-119:10h "Opera reset!"
+OperaUsers 7140m-7150m OperaUserComponent:resetOperations
+"_ECHO 119:00h-119:10h "Opera restart!"
+OperaUsers 7140m-7150m OperaUserComponent:restartOperations
+"_ECHO 119:00h-119:10h "Ambulance restart!"
+AmbulanceUsers 7140m-7150m AmbulanceUserComponent:restartOperations
+"_ECHO 120:50h-120:50h "Episode terminates!"
+CloudServers 7250m-7250m CloudServerComponent:endTrainingEpisode
+"_ECHO 120:50h-121:00h "Ambulance resets!"
+AmbulanceUsers 7250m-7260m AmbulanceUserComponent:resetOperations
+"_ECHO 120:50h-121:00h "Opera reset!"
+OperaUsers 7250m-7260m OperaUserComponent:resetOperations
+"_ECHO 120:50h-121:00h "Opera restart!"
+OperaUsers 7250m-7260m OperaUserComponent:restartOperations
+"_ECHO 120:50h-121:00h "Ambulance restart!"
+AmbulanceUsers 7250m-7260m AmbulanceUserComponent:restartOperations
+"_ECHO 122:40h-122:40h "Episode terminates!"
+CloudServers 7360m-7360m CloudServerComponent:endTrainingEpisode
+"_ECHO 122:40h-122:50h "Ambulance resets!"
+AmbulanceUsers 7360m-7370m AmbulanceUserComponent:resetOperations
+"_ECHO 122:40h-122:50h "Opera reset!"
+OperaUsers 7360m-7370m OperaUserComponent:resetOperations
+"_ECHO 122:40h-122:50h "Opera restart!"
+OperaUsers 7360m-7370m OperaUserComponent:restartOperations
+"_ECHO 122:40h-122:50h "Ambulance restart!"
+AmbulanceUsers 7360m-7370m AmbulanceUserComponent:restartOperations
+"_ECHO 124:30h-124:30h "Episode terminates!"
+CloudServers 7470m-7470m CloudServerComponent:endTrainingEpisode
+"_ECHO 124:30h-124:40h "Ambulance resets!"
+AmbulanceUsers 7470m-7480m AmbulanceUserComponent:resetOperations
+"_ECHO 124:30h-124:40h "Opera reset!"
+OperaUsers 7470m-7480m OperaUserComponent:resetOperations
+"_ECHO 124:30h-124:40h "Opera restart!"
+OperaUsers 7470m-7480m OperaUserComponent:restartOperations
+"_ECHO 124:30h-124:40h "Ambulance restart!"
+AmbulanceUsers 7470m-7480m AmbulanceUserComponent:restartOperations
+"_ECHO 126:20h-126:20h "Episode terminates!"
+CloudServers 7580m-7580m CloudServerComponent:endTrainingEpisode
+"_ECHO 126:20h-126:30h "Ambulance resets!"
+AmbulanceUsers 7580m-7590m AmbulanceUserComponent:resetOperations
+"_ECHO 126:20h-126:30h "Opera reset!"
+OperaUsers 7580m-7590m OperaUserComponent:resetOperations
+"_ECHO 126:20h-126:30h "Opera restart!"
+OperaUsers 7580m-7590m OperaUserComponent:restartOperations
+"_ECHO 126:20h-126:30h "Ambulance restart!"
+AmbulanceUsers 7580m-7590m AmbulanceUserComponent:restartOperations
+"_ECHO 128:10h-128:10h "Episode terminates!"
+CloudServers 7690m-7690m CloudServerComponent:endTrainingEpisode
+"_ECHO 128:10h-128:20h "Ambulance resets!"
+AmbulanceUsers 7690m-7700m AmbulanceUserComponent:resetOperations
+"_ECHO 128:10h-128:20h "Opera reset!"
+OperaUsers 7690m-7700m OperaUserComponent:resetOperations
+"_ECHO 128:10h-128:20h "Opera restart!"
+OperaUsers 7690m-7700m OperaUserComponent:restartOperations
+"_ECHO 128:10h-128:20h "Ambulance restart!"
+AmbulanceUsers 7690m-7700m AmbulanceUserComponent:restartOperations
+"_ECHO 130:00h-130:00h "Episode terminates!"
+CloudServers 7800m-7800m CloudServerComponent:endTrainingEpisode
+"_ECHO 130:00h-130:10h "Ambulance resets!"
+AmbulanceUsers 7800m-7810m AmbulanceUserComponent:resetOperations
+"_ECHO 130:00h-130:10h "Opera reset!"
+OperaUsers 7800m-7810m OperaUserComponent:resetOperations
+"_ECHO 130:00h-130:10h "Opera restart!"
+OperaUsers 7800m-7810m OperaUserComponent:restartOperations
+"_ECHO 130:00h-130:10h "Ambulance restart!"
+AmbulanceUsers 7800m-7810m AmbulanceUserComponent:restartOperations
+"_ECHO 131:50h-131:50h "Episode terminates!"
+CloudServers 7910m-7910m CloudServerComponent:endTrainingEpisode
+"_ECHO 131:50h-132:00h "Ambulance resets!"
+AmbulanceUsers 7910m-7920m AmbulanceUserComponent:resetOperations
+"_ECHO 131:50h-132:00h "Opera reset!"
+OperaUsers 7910m-7920m OperaUserComponent:resetOperations
+"_ECHO 131:50h-132:00h "Opera restart!"
+OperaUsers 7910m-7920m OperaUserComponent:restartOperations
+"_ECHO 131:50h-132:00h "Ambulance restart!"
+AmbulanceUsers 7910m-7920m AmbulanceUserComponent:restartOperations
+"_ECHO 133:40h-133:40h "Episode terminates!"
+CloudServers 8020m-8020m CloudServerComponent:endTrainingEpisode
+"_ECHO 133:40h-133:50h "Ambulance resets!"
+AmbulanceUsers 8020m-8030m AmbulanceUserComponent:resetOperations
+"_ECHO 133:40h-133:50h "Opera reset!"
+OperaUsers 8020m-8030m OperaUserComponent:resetOperations
+"_ECHO 133:40h-133:50h "Opera restart!"
+OperaUsers 8020m-8030m OperaUserComponent:restartOperations
+"_ECHO 133:40h-133:50h "Ambulance restart!"
+AmbulanceUsers 8020m-8030m AmbulanceUserComponent:restartOperations
+"_ECHO 135:30h-135:30h "Episode terminates!"
+CloudServers 8130m-8130m CloudServerComponent:endTrainingEpisode
+"_ECHO 135:30h-135:40h "Ambulance resets!"
+AmbulanceUsers 8130m-8140m AmbulanceUserComponent:resetOperations
+"_ECHO 135:30h-135:40h "Opera reset!"
+OperaUsers 8130m-8140m OperaUserComponent:resetOperations
+"_ECHO 135:30h-135:40h "Opera restart!"
+OperaUsers 8130m-8140m OperaUserComponent:restartOperations
+"_ECHO 135:30h-135:40h "Ambulance restart!"
+AmbulanceUsers 8130m-8140m AmbulanceUserComponent:restartOperations
+"_ECHO 137:20h-137:20h "Episode terminates!"
+CloudServers 8240m-8240m CloudServerComponent:endTrainingEpisode
+"_ECHO 137:20h-137:30h "Ambulance resets!"
+AmbulanceUsers 8240m-8250m AmbulanceUserComponent:resetOperations
+"_ECHO 137:20h-137:30h "Opera reset!"
+OperaUsers 8240m-8250m OperaUserComponent:resetOperations
+"_ECHO 137:20h-137:30h "Opera restart!"
+OperaUsers 8240m-8250m OperaUserComponent:restartOperations
+"_ECHO 137:20h-137:30h "Ambulance restart!"
+AmbulanceUsers 8240m-8250m AmbulanceUserComponent:restartOperations
+"_ECHO 139:10h-139:10h "Episode terminates!"
+CloudServers 8350m-8350m CloudServerComponent:endTrainingEpisode
+"_ECHO 139:10h-139:20h "Ambulance resets!"
+AmbulanceUsers 8350m-8360m AmbulanceUserComponent:resetOperations
+"_ECHO 139:10h-139:20h "Opera reset!"
+OperaUsers 8350m-8360m OperaUserComponent:resetOperations
+"_ECHO 139:10h-139:20h "Opera restart!"
+OperaUsers 8350m-8360m OperaUserComponent:restartOperations
+"_ECHO 139:10h-139:20h "Ambulance restart!"
+AmbulanceUsers 8350m-8360m AmbulanceUserComponent:restartOperations
+"_ECHO 141:00h-141:00h "Episode terminates!"
+CloudServers 8460m-8460m CloudServerComponent:endTrainingEpisode
+"_ECHO 141:00h-141:10h "Ambulance resets!"
+AmbulanceUsers 8460m-8470m AmbulanceUserComponent:resetOperations
+"_ECHO 141:00h-141:10h "Opera reset!"
+OperaUsers 8460m-8470m OperaUserComponent:resetOperations
+"_ECHO 141:00h-141:10h "Opera restart!"
+OperaUsers 8460m-8470m OperaUserComponent:restartOperations
+"_ECHO 141:00h-141:10h "Ambulance restart!"
+AmbulanceUsers 8460m-8470m AmbulanceUserComponent:restartOperations
+"_ECHO 142:50h-142:50h "Episode terminates!"
+CloudServers 8570m-8570m CloudServerComponent:endTrainingEpisode
+"_ECHO 142:50h-143:00h "Ambulance resets!"
+AmbulanceUsers 8570m-8580m AmbulanceUserComponent:resetOperations
+"_ECHO 142:50h-143:00h "Opera reset!"
+OperaUsers 8570m-8580m OperaUserComponent:resetOperations
+"_ECHO 142:50h-143:00h "Opera restart!"
+OperaUsers 8570m-8580m OperaUserComponent:restartOperations
+"_ECHO 142:50h-143:00h "Ambulance restart!"
+AmbulanceUsers 8570m-8580m AmbulanceUserComponent:restartOperations
+"_ECHO 144:40h-144:40h "Episode terminates!"
+CloudServers 8680m-8680m CloudServerComponent:endTrainingEpisode
+"_ECHO 144:40h-144:50h "Ambulance resets!"
+AmbulanceUsers 8680m-8690m AmbulanceUserComponent:resetOperations
+"_ECHO 144:40h-144:50h "Opera reset!"
+OperaUsers 8680m-8690m OperaUserComponent:resetOperations
+"_ECHO 144:40h-144:50h "Opera restart!"
+OperaUsers 8680m-8690m OperaUserComponent:restartOperations
+"_ECHO 144:40h-144:50h "Ambulance restart!"
+AmbulanceUsers 8680m-8690m AmbulanceUserComponent:restartOperations
+"_ECHO 146:30h-146:30h "Episode terminates!"
+CloudServers 8790m-8790m CloudServerComponent:endTrainingEpisode
+"_ECHO 146:30h-146:40h "Ambulance resets!"
+AmbulanceUsers 8790m-8800m AmbulanceUserComponent:resetOperations
+"_ECHO 146:30h-146:40h "Opera reset!"
+OperaUsers 8790m-8800m OperaUserComponent:resetOperations
+"_ECHO 146:30h-146:40h "Opera restart!"
+OperaUsers 8790m-8800m OperaUserComponent:restartOperations
+"_ECHO 146:30h-146:40h "Ambulance restart!"
+AmbulanceUsers 8790m-8800m AmbulanceUserComponent:restartOperations
+"_ECHO 148:20h-148:20h "Episode terminates!"
+CloudServers 8900m-8900m CloudServerComponent:endTrainingEpisode
+"_ECHO 148:20h-148:30h "Ambulance resets!"
+AmbulanceUsers 8900m-8910m AmbulanceUserComponent:resetOperations
+"_ECHO 148:20h-148:30h "Opera reset!"
+OperaUsers 8900m-8910m OperaUserComponent:resetOperations
+"_ECHO 148:20h-148:30h "Opera restart!"
+OperaUsers 8900m-8910m OperaUserComponent:restartOperations
+"_ECHO 148:20h-148:30h "Ambulance restart!"
+AmbulanceUsers 8900m-8910m AmbulanceUserComponent:restartOperations
+"_ECHO 150:10h-150:10h "Episode terminates!"
+CloudServers 9010m-9010m CloudServerComponent:endTrainingEpisode
+"_ECHO 150:10h-150:20h "Ambulance resets!"
+AmbulanceUsers 9010m-9020m AmbulanceUserComponent:resetOperations
+"_ECHO 150:10h-150:20h "Opera reset!"
+OperaUsers 9010m-9020m OperaUserComponent:resetOperations
+"_ECHO 150:10h-150:20h "Opera restart!"
+OperaUsers 9010m-9020m OperaUserComponent:restartOperations
+"_ECHO 150:10h-150:20h "Ambulance restart!"
+AmbulanceUsers 9010m-9020m AmbulanceUserComponent:restartOperations
+"_ECHO 152:00h-152:00h "Episode terminates!"
+CloudServers 9120m-9120m CloudServerComponent:endTrainingEpisode
+"_ECHO 152:00h-152:10h "Ambulance resets!"
+AmbulanceUsers 9120m-9130m AmbulanceUserComponent:resetOperations
+"_ECHO 152:00h-152:10h "Opera reset!"
+OperaUsers 9120m-9130m OperaUserComponent:resetOperations
+"_ECHO 152:00h-152:10h "Opera restart!"
+OperaUsers 9120m-9130m OperaUserComponent:restartOperations
+"_ECHO 152:00h-152:10h "Ambulance restart!"
+AmbulanceUsers 9120m-9130m AmbulanceUserComponent:restartOperations
+"_ECHO 153:50h-153:50h "Episode terminates!"
+CloudServers 9230m-9230m CloudServerComponent:endTrainingEpisode
+"_ECHO 153:50h-154:00h "Ambulance resets!"
+AmbulanceUsers 9230m-9240m AmbulanceUserComponent:resetOperations
+"_ECHO 153:50h-154:00h "Opera reset!"
+OperaUsers 9230m-9240m OperaUserComponent:resetOperations
+"_ECHO 153:50h-154:00h "Opera restart!"
+OperaUsers 9230m-9240m OperaUserComponent:restartOperations
+"_ECHO 153:50h-154:00h "Ambulance restart!"
+AmbulanceUsers 9230m-9240m AmbulanceUserComponent:restartOperations
+"_ECHO 155:40h-155:40h "Episode terminates!"
+CloudServers 9340m-9340m CloudServerComponent:endTrainingEpisode
+"_ECHO 155:40h-155:50h "Ambulance resets!"
+AmbulanceUsers 9340m-9350m AmbulanceUserComponent:resetOperations
+"_ECHO 155:40h-155:50h "Opera reset!"
+OperaUsers 9340m-9350m OperaUserComponent:resetOperations
+"_ECHO 155:40h-155:50h "Opera restart!"
+OperaUsers 9340m-9350m OperaUserComponent:restartOperations
+"_ECHO 155:40h-155:50h "Ambulance restart!"
+AmbulanceUsers 9340m-9350m AmbulanceUserComponent:restartOperations
+"_ECHO 157:30h-157:30h "Episode terminates!"
+CloudServers 9450m-9450m CloudServerComponent:endTrainingEpisode
+"_ECHO 157:30h-157:40h "Ambulance resets!"
+AmbulanceUsers 9450m-9460m AmbulanceUserComponent:resetOperations
+"_ECHO 157:30h-157:40h "Opera reset!"
+OperaUsers 9450m-9460m OperaUserComponent:resetOperations
+"_ECHO 157:30h-157:40h "Opera restart!"
+OperaUsers 9450m-9460m OperaUserComponent:restartOperations
+"_ECHO 157:30h-157:40h "Ambulance restart!"
+AmbulanceUsers 9450m-9460m AmbulanceUserComponent:restartOperations
+"_ECHO 159:20h-159:20h "Episode terminates!"
+CloudServers 9560m-9560m CloudServerComponent:endTrainingEpisode
+"_ECHO 159:20h-159:30h "Ambulance resets!"
+AmbulanceUsers 9560m-9570m AmbulanceUserComponent:resetOperations
+"_ECHO 159:20h-159:30h "Opera reset!"
+OperaUsers 9560m-9570m OperaUserComponent:resetOperations
+"_ECHO 159:20h-159:30h "Opera restart!"
+OperaUsers 9560m-9570m OperaUserComponent:restartOperations
+"_ECHO 159:20h-159:30h "Ambulance restart!"
+AmbulanceUsers 9560m-9570m AmbulanceUserComponent:restartOperations
+"_ECHO 161:10h-161:10h "Episode terminates!"
+CloudServers 9670m-9670m CloudServerComponent:endTrainingEpisode
+"_ECHO 161:10h-161:20h "Ambulance resets!"
+AmbulanceUsers 9670m-9680m AmbulanceUserComponent:resetOperations
+"_ECHO 161:10h-161:20h "Opera reset!"
+OperaUsers 9670m-9680m OperaUserComponent:resetOperations
+"_ECHO 161:10h-161:20h "Opera restart!"
+OperaUsers 9670m-9680m OperaUserComponent:restartOperations
+"_ECHO 161:10h-161:20h "Ambulance restart!"
+AmbulanceUsers 9670m-9680m AmbulanceUserComponent:restartOperations
+"_ECHO 163:00h-163:00h "Episode terminates!"
+CloudServers 9780m-9780m CloudServerComponent:endTrainingEpisode
+"_ECHO 163:00h-163:10h "Ambulance resets!"
+AmbulanceUsers 9780m-9790m AmbulanceUserComponent:resetOperations
+"_ECHO 163:00h-163:10h "Opera reset!"
+OperaUsers 9780m-9790m OperaUserComponent:resetOperations
+"_ECHO 163:00h-163:10h "Opera restart!"
+OperaUsers 9780m-9790m OperaUserComponent:restartOperations
+"_ECHO 163:00h-163:10h "Ambulance restart!"
+AmbulanceUsers 9780m-9790m AmbulanceUserComponent:restartOperations
+"_ECHO 164:50h-164:50h "Episode terminates!"
+CloudServers 9890m-9890m CloudServerComponent:endTrainingEpisode
+"_ECHO 164:50h-165:00h "Ambulance resets!"
+AmbulanceUsers 9890m-9900m AmbulanceUserComponent:resetOperations
+"_ECHO 164:50h-165:00h "Opera reset!"
+OperaUsers 9890m-9900m OperaUserComponent:resetOperations
+"_ECHO 164:50h-165:00h "Opera restart!"
+OperaUsers 9890m-9900m OperaUserComponent:restartOperations
+"_ECHO 164:50h-165:00h "Ambulance restart!"
+AmbulanceUsers 9890m-9900m AmbulanceUserComponent:restartOperations
+"_ECHO 166:40h-166:40h "Episode terminates!"
+CloudServers 10000m-10000m CloudServerComponent:endTrainingEpisode
+"_ECHO 166:40h-166:50h "Ambulance resets!"
+AmbulanceUsers 10000m-10010m AmbulanceUserComponent:resetOperations
+"_ECHO 166:40h-166:50h "Opera reset!"
+OperaUsers 10000m-10010m OperaUserComponent:resetOperations
+"_ECHO 166:40h-166:50h "Opera restart!"
+OperaUsers 10000m-10010m OperaUserComponent:restartOperations
+"_ECHO 166:40h-166:50h "Ambulance restart!"
+AmbulanceUsers 10000m-10010m AmbulanceUserComponent:restartOperations
+"_ECHO 168:30h-168:30h "Episode terminates!"
+CloudServers 10110m-10110m CloudServerComponent:endTrainingEpisode
+"_ECHO 168:30h-168:40h "Ambulance resets!"
+AmbulanceUsers 10110m-10120m AmbulanceUserComponent:resetOperations
+"_ECHO 168:30h-168:40h "Opera reset!"
+OperaUsers 10110m-10120m OperaUserComponent:resetOperations
+"_ECHO 168:30h-168:40h "Opera restart!"
+OperaUsers 10110m-10120m OperaUserComponent:restartOperations
+"_ECHO 168:30h-168:40h "Ambulance restart!"
+AmbulanceUsers 10110m-10120m AmbulanceUserComponent:restartOperations
+"_ECHO 170:20h-170:20h "Episode terminates!"
+CloudServers 10220m-10220m CloudServerComponent:endTrainingEpisode
+"_ECHO 170:20h-170:30h "Ambulance resets!"
+AmbulanceUsers 10220m-10230m AmbulanceUserComponent:resetOperations
+"_ECHO 170:20h-170:30h "Opera reset!"
+OperaUsers 10220m-10230m OperaUserComponent:resetOperations
+"_ECHO 170:20h-170:30h "Opera restart!"
+OperaUsers 10220m-10230m OperaUserComponent:restartOperations
+"_ECHO 170:20h-170:30h "Ambulance restart!"
+AmbulanceUsers 10220m-10230m AmbulanceUserComponent:restartOperations
+"_ECHO 172:10h-172:10h "Episode terminates!"
+CloudServers 10330m-10330m CloudServerComponent:endTrainingEpisode
+"_ECHO 172:10h-172:20h "Ambulance resets!"
+AmbulanceUsers 10330m-10340m AmbulanceUserComponent:resetOperations
+"_ECHO 172:10h-172:20h "Opera reset!"
+OperaUsers 10330m-10340m OperaUserComponent:resetOperations
+"_ECHO 172:10h-172:20h "Opera restart!"
+OperaUsers 10330m-10340m OperaUserComponent:restartOperations
+"_ECHO 172:10h-172:20h "Ambulance restart!"
+AmbulanceUsers 10330m-10340m AmbulanceUserComponent:restartOperations
+"_ECHO 174:00h-174:00h "Episode terminates!"
+CloudServers 10440m-10440m CloudServerComponent:endTrainingEpisode
+"_ECHO 174:00h-174:10h "Ambulance resets!"
+AmbulanceUsers 10440m-10450m AmbulanceUserComponent:resetOperations
+"_ECHO 174:00h-174:10h "Opera reset!"
+OperaUsers 10440m-10450m OperaUserComponent:resetOperations
+"_ECHO 174:00h-174:10h "Opera restart!"
+OperaUsers 10440m-10450m OperaUserComponent:restartOperations
+"_ECHO 174:00h-174:10h "Ambulance restart!"
+AmbulanceUsers 10440m-10450m AmbulanceUserComponent:restartOperations
+"_ECHO 175:50h-175:50h "Episode terminates!"
+CloudServers 10550m-10550m CloudServerComponent:endTrainingEpisode
+"_ECHO 175:50h-176:00h "Ambulance resets!"
+AmbulanceUsers 10550m-10560m AmbulanceUserComponent:resetOperations
+"_ECHO 175:50h-176:00h "Opera reset!"
+OperaUsers 10550m-10560m OperaUserComponent:resetOperations
+"_ECHO 175:50h-176:00h "Opera restart!"
+OperaUsers 10550m-10560m OperaUserComponent:restartOperations
+"_ECHO 175:50h-176:00h "Ambulance restart!"
+AmbulanceUsers 10550m-10560m AmbulanceUserComponent:restartOperations
+"_ECHO 177:40h-177:40h "Episode terminates!"
+CloudServers 10660m-10660m CloudServerComponent:endTrainingEpisode
+"_ECHO 177:40h-177:50h "Ambulance resets!"
+AmbulanceUsers 10660m-10670m AmbulanceUserComponent:resetOperations
+"_ECHO 177:40h-177:50h "Opera reset!"
+OperaUsers 10660m-10670m OperaUserComponent:resetOperations
+"_ECHO 177:40h-177:50h "Opera restart!"
+OperaUsers 10660m-10670m OperaUserComponent:restartOperations
+"_ECHO 177:40h-177:50h "Ambulance restart!"
+AmbulanceUsers 10660m-10670m AmbulanceUserComponent:restartOperations
+"_ECHO 179:30h-179:30h "Episode terminates!"
+CloudServers 10770m-10770m CloudServerComponent:endTrainingEpisode
+"_ECHO 179:30h-179:40h "Ambulance resets!"
+AmbulanceUsers 10770m-10780m AmbulanceUserComponent:resetOperations
+"_ECHO 179:30h-179:40h "Opera reset!"
+OperaUsers 10770m-10780m OperaUserComponent:resetOperations
+"_ECHO 179:30h-179:40h "Opera restart!"
+OperaUsers 10770m-10780m OperaUserComponent:restartOperations
+"_ECHO 179:30h-179:40h "Ambulance restart!"
+AmbulanceUsers 10770m-10780m AmbulanceUserComponent:restartOperations
+"_ECHO 181:20h-181:20h "Episode terminates!"
+CloudServers 10880m-10880m CloudServerComponent:endTrainingEpisode
+"_ECHO 181:20h-181:30h "Ambulance resets!"
+AmbulanceUsers 10880m-10890m AmbulanceUserComponent:resetOperations
+"_ECHO 181:20h-181:30h "Opera reset!"
+OperaUsers 10880m-10890m OperaUserComponent:resetOperations
+"_ECHO 181:20h-181:30h "Opera restart!"
+OperaUsers 10880m-10890m OperaUserComponent:restartOperations
+"_ECHO 181:20h-181:30h "Ambulance restart!"
+AmbulanceUsers 10880m-10890m AmbulanceUserComponent:restartOperations
+"_ECHO 183:10h-183:10h "Episode terminates!"
+CloudServers 10990m-10990m CloudServerComponent:endTrainingEpisode
+"_ECHO 183:10h-183:20h "Ambulance resets!"
+AmbulanceUsers 10990m-11000m AmbulanceUserComponent:resetOperations
+"_ECHO 183:10h-183:20h "Opera reset!"
+OperaUsers 10990m-11000m OperaUserComponent:resetOperations
+"_ECHO 183:10h-183:20h "Opera restart!"
+OperaUsers 10990m-11000m OperaUserComponent:restartOperations
+"_ECHO 183:10h-183:20h "Ambulance restart!"
+AmbulanceUsers 10990m-11000m AmbulanceUserComponent:restartOperations
+"_ECHO 185:00h-185:00h "Episode terminates!"
+CloudServers 11100m-11100m CloudServerComponent:endTrainingEpisode
+"_ECHO 185:00h-185:10h "Ambulance resets!"
+AmbulanceUsers 11100m-11110m AmbulanceUserComponent:resetOperations
+"_ECHO 185:00h-185:10h "Opera reset!"
+OperaUsers 11100m-11110m OperaUserComponent:resetOperations
+"_ECHO 185:00h-185:10h "Opera restart!"
+OperaUsers 11100m-11110m OperaUserComponent:restartOperations
+"_ECHO 185:00h-185:10h "Ambulance restart!"
+AmbulanceUsers 11100m-11110m AmbulanceUserComponent:restartOperations
+"_ECHO 186:50h-186:50h "Episode terminates!"
+CloudServers 11210m-11210m CloudServerComponent:endTrainingEpisode
+"_ECHO 186:50h-187:00h "Ambulance resets!"
+AmbulanceUsers 11210m-11220m AmbulanceUserComponent:resetOperations
+"_ECHO 186:50h-187:00h "Opera reset!"
+OperaUsers 11210m-11220m OperaUserComponent:resetOperations
+"_ECHO 186:50h-187:00h "Opera restart!"
+OperaUsers 11210m-11220m OperaUserComponent:restartOperations
+"_ECHO 186:50h-187:00h "Ambulance restart!"
+AmbulanceUsers 11210m-11220m AmbulanceUserComponent:restartOperations
+"_ECHO 188:40h-188:40h "Episode terminates!"
+CloudServers 11320m-11320m CloudServerComponent:endTrainingEpisode
+"_ECHO 188:40h-188:50h "Ambulance resets!"
+AmbulanceUsers 11320m-11330m AmbulanceUserComponent:resetOperations
+"_ECHO 188:40h-188:50h "Opera reset!"
+OperaUsers 11320m-11330m OperaUserComponent:resetOperations
+"_ECHO 188:40h-188:50h "Opera restart!"
+OperaUsers 11320m-11330m OperaUserComponent:restartOperations
+"_ECHO 188:40h-188:50h "Ambulance restart!"
+AmbulanceUsers 11320m-11330m AmbulanceUserComponent:restartOperations
+"_ECHO 190:30h-190:30h "Episode terminates!"
+CloudServers 11430m-11430m CloudServerComponent:endTrainingEpisode
+"_ECHO 190:30h-190:40h "Ambulance resets!"
+AmbulanceUsers 11430m-11440m AmbulanceUserComponent:resetOperations
+"_ECHO 190:30h-190:40h "Opera reset!"
+OperaUsers 11430m-11440m OperaUserComponent:resetOperations
+"_ECHO 190:30h-190:40h "Opera restart!"
+OperaUsers 11430m-11440m OperaUserComponent:restartOperations
+"_ECHO 190:30h-190:40h "Ambulance restart!"
+AmbulanceUsers 11430m-11440m AmbulanceUserComponent:restartOperations
+"_ECHO 192:20h-192:20h "Episode terminates!"
+CloudServers 11540m-11540m CloudServerComponent:endTrainingEpisode
+"_ECHO 192:20h-192:30h "Ambulance resets!"
+AmbulanceUsers 11540m-11550m AmbulanceUserComponent:resetOperations
+"_ECHO 192:20h-192:30h "Opera reset!"
+OperaUsers 11540m-11550m OperaUserComponent:resetOperations
+"_ECHO 192:20h-192:30h "Opera restart!"
+OperaUsers 11540m-11550m OperaUserComponent:restartOperations
+"_ECHO 192:20h-192:30h "Ambulance restart!"
+AmbulanceUsers 11540m-11550m AmbulanceUserComponent:restartOperations
+"_ECHO 194:10h-194:10h "Episode terminates!"
+CloudServers 11650m-11650m CloudServerComponent:endTrainingEpisode
+"_ECHO 194:10h-194:20h "Ambulance resets!"
+AmbulanceUsers 11650m-11660m AmbulanceUserComponent:resetOperations
+"_ECHO 194:10h-194:20h "Opera reset!"
+OperaUsers 11650m-11660m OperaUserComponent:resetOperations
+"_ECHO 194:10h-194:20h "Opera restart!"
+OperaUsers 11650m-11660m OperaUserComponent:restartOperations
+"_ECHO 194:10h-194:20h "Ambulance restart!"
+AmbulanceUsers 11650m-11660m AmbulanceUserComponent:restartOperations
+"_ECHO 196:00h-196:00h "Episode terminates!"
+CloudServers 11760m-11760m CloudServerComponent:endTrainingEpisode
+"_ECHO 196:00h-196:10h "Ambulance resets!"
+AmbulanceUsers 11760m-11770m AmbulanceUserComponent:resetOperations
+"_ECHO 196:00h-196:10h "Opera reset!"
+OperaUsers 11760m-11770m OperaUserComponent:resetOperations
+"_ECHO 196:00h-196:10h "Opera restart!"
+OperaUsers 11760m-11770m OperaUserComponent:restartOperations
+"_ECHO 196:00h-196:10h "Ambulance restart!"
+AmbulanceUsers 11760m-11770m AmbulanceUserComponent:restartOperations
+"_ECHO 197:50h-197:50h "Episode terminates!"
+CloudServers 11870m-11870m CloudServerComponent:endTrainingEpisode
+"_ECHO 197:50h-198:00h "Ambulance resets!"
+AmbulanceUsers 11870m-11880m AmbulanceUserComponent:resetOperations
+"_ECHO 197:50h-198:00h "Opera reset!"
+OperaUsers 11870m-11880m OperaUserComponent:resetOperations
+"_ECHO 197:50h-198:00h "Opera restart!"
+OperaUsers 11870m-11880m OperaUserComponent:restartOperations
+"_ECHO 197:50h-198:00h "Ambulance restart!"
+AmbulanceUsers 11870m-11880m AmbulanceUserComponent:restartOperations
+"_ECHO 199:40h-199:40h "Episode terminates!"
+CloudServers 11980m-11980m CloudServerComponent:endTrainingEpisode
+"_ECHO 199:40h-199:50h "Ambulance resets!"
+AmbulanceUsers 11980m-11990m AmbulanceUserComponent:resetOperations
+"_ECHO 199:40h-199:50h "Opera reset!"
+OperaUsers 11980m-11990m OperaUserComponent:resetOperations
+"_ECHO 199:40h-199:50h "Opera restart!"
+OperaUsers 11980m-11990m OperaUserComponent:restartOperations
+"_ECHO 199:40h-199:50h "Ambulance restart!"
+AmbulanceUsers 11980m-11990m AmbulanceUserComponent:restartOperations
+"_ECHO 201:30h-201:30h "Episode terminates!"
+CloudServers 12090m-12090m CloudServerComponent:endTrainingEpisode
+"_ECHO 201:30h-201:40h "Ambulance resets!"
+AmbulanceUsers 12090m-12100m AmbulanceUserComponent:resetOperations
+"_ECHO 201:30h-201:40h "Opera reset!"
+OperaUsers 12090m-12100m OperaUserComponent:resetOperations
+"_ECHO 201:30h-201:40h "Opera restart!"
+OperaUsers 12090m-12100m OperaUserComponent:restartOperations
+"_ECHO 201:30h-201:40h "Ambulance restart!"
+AmbulanceUsers 12090m-12100m AmbulanceUserComponent:restartOperations
+"_ECHO 203:20h-203:20h "Episode terminates!"
+CloudServers 12200m-12200m CloudServerComponent:endTrainingEpisode
+"_ECHO 203:20h-203:30h "Ambulance resets!"
+AmbulanceUsers 12200m-12210m AmbulanceUserComponent:resetOperations
+"_ECHO 203:20h-203:30h "Opera reset!"
+OperaUsers 12200m-12210m OperaUserComponent:resetOperations
+"_ECHO 203:20h-203:30h "Opera restart!"
+OperaUsers 12200m-12210m OperaUserComponent:restartOperations
+"_ECHO 203:20h-203:30h "Ambulance restart!"
+AmbulanceUsers 12200m-12210m AmbulanceUserComponent:restartOperations
+"_ECHO 205:10h-205:20h "Accident finishes!"
+AmbulanceUsers 12310m-12320m AmbulanceUserComponent:stopOperations
+"_ECHO 205:20h-205:30h "Opera show finishes!"
+OperaUsers 12320m-12330m OperaUserComponent:stopOperations
+"_ECHO 205:30h-205:40h "Generic users stop!"
+GenericUsers 12330m-12340m GenericUserComponent:stopOperations
+"_ECHO 207:40h-208:10h "Edge servers stop!"
+EdgeServers 12460m-12490m EdgeServerComponent:stopOperations
+"_ECHO 208:10h-208:20h "Cloud stop!"
+CloudServers 12490m-12500m CloudServerComponent:stopOperations
+"_ECHO 208:20h-208:40h "Print results!"
+CloudServers 12500m-12520m CloudServerComponent:printResults

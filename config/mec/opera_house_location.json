@@ -1,0 +1,46 @@
+{
+    "elements": [
+        {
+            "places": {
+                "types": [
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Entertainment_Arts_&_Culture",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Amenity"
+                ],
+                "domains": [
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Leisure",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Arts",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Activity"
+                ],
+                "individuals": [
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Theatre"
+                ],
+                "superDomains": [
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Social",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Social",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Culture",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Social",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Social",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Social",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Culture",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Social",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Social",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Social",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Touristic",
+                    "http://www.surf.scss.tcd.ie/cityOntology/#Social"
+                ]
+            },
+            "lon": -6.264410,
+            "id": 3151875539,
+            "type": "nd",
+            "lat": 53.345086,
+            "tags": {
+                "amenity": "theatre",
+                "name": "opera",
+                "name-real": "Irish National Opera",
+                "addr:street": "69 Dame",
+                "operator": "Dublin City Council",
+                "addr:city": "Dublin"
+            }
+        }
+	]
+}
