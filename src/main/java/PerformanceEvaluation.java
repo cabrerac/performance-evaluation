@@ -40,12 +40,12 @@ public class PerformanceEvaluation {
 	public static void main(String[] args) {
 		//String[] approaches = {"aco","bestfit", "closestfit", "ilp", "maxfit", "multiopt", "random", "sa"};
 		String[] approaches = {"bestfit"};
-		int[] scenarios = {2}; // the scenarios like in the maaco paper (app execution time (mu) vs requests arrival rates) 
+		int[] scenarios = {2}; // the scenarios like in the maaco paper (app execution time (mu) vs requests arrival rates) possible values 1 and 2 
 		int[] servers = {100}; // number of servers
-		int[] users = {200}; // number of users
-		int rounds = 1; // rounds for repetition of experiments (I don't think we need that)
+		int[] users = {50}; // number of users
+		int rounds = 5; // rounds for repetition of experiments so we can have error bars for the performance metrics
 		String base = "./";
-		int read = 0; // this flag helps to save the state of the experiments so we do not repeat if the execution is interrupted (I don't think we need that so you can leave experiments running)
+		int read = 0; // this flag helps to save the state of the experiments so we do not repeat if the execution is interrupted (check the code to understand how it works)
 		int iterations = 0; // parameters for the aco approach (we can fix them?)
 		int ants = 0; // parameters for the aco approach (we can fix them?)
 		
@@ -66,7 +66,7 @@ public class PerformanceEvaluation {
 					int user = users[u];
 					for(int i = 0; i < approaches.length; i++) {
 						String approach = approaches[i];
-						String fileNameStatus = base + "simonstrator-simrunner/config/mec/initial/initial_"+ approach + "_" + scenario + "_" + server + "_" + user; // file saving the state of the experiments
+						String fileNameStatus = base + "./config/mec/initial/initial_"+ approach + "_" + scenario + "_" + server + "_" + user; // file saving the state of the experiments
 						HashMap<String,String> experimentStatus = readExperimentsStatus(fileNameStatus);
 						int r = 1;
 						if(read == 1)
@@ -109,10 +109,10 @@ public class PerformanceEvaluation {
 								case "multiopt":
 								case "random":
 								case "sa":
-									int functions = 1;
+									int functions = 5;
 									if(read == 1)
 										functions = Integer.parseInt(experimentStatus.get("functions"));
-									while(functions <= 5) {
+									while(functions <= 5) { // controls the number of services in the application
 										JSONObject performance_result = runBaselineApproach(approach.toUpperCase(), scenario, server, functions, user, round);
 										performance_results.put(performance_result);
 										experimentStatus.put("functions", "" + functions);
@@ -179,6 +179,7 @@ public class PerformanceEvaluation {
 		performance_result.accumulate("servers", servers);
 		performance_result.accumulate("services", functions);
 		performance_result.accumulate("users", users);
+		performance_result.accumulate("round", round);
 		try{
 			String experiment = "*** Experiment approach " + approach;
 			experiment = experiment + " :: scenario " + scenario;
@@ -192,11 +193,11 @@ public class PerformanceEvaluation {
 			String[] files = updateParametersFiles(approach, scenario, servers, functions, users, 0, 0, "NONE", round);
 			String newParametersFile = files[0];
 			String newConfigFile = files[1];
-			long startingTime = System.currentTimeMillis();
+			long startingTime = System.currentTimeMillis(); // basic way of collecting execution time
 			Process p=Runtime.getRuntime().exec(new String[]{"java", "-jar", simrunnerFile, newConfigFile});
 			long pid = p.pid();
 			AtomicLong peakMemoryBytes = new AtomicLong(0);
-            // Start memory polling thread
+            // Start memory polling thread (This is the thread that monitors memory consumption. Check the implementation and feel free to change it to align with iFogSim)
             Thread memoryMonitor = new Thread(() -> {
                 try {
                     while (p.isAlive()) {
@@ -250,6 +251,7 @@ public class PerformanceEvaluation {
 		performance_result.accumulate("servers", servers);
 		performance_result.accumulate("services", functions);
 		performance_result.accumulate("users", users);
+		performance_result.accumulate("round", round);
 		try{
 			String experiment = "*** Experiment approach " + approach;
 			experiment = experiment + " :: scenario " + scenario;
@@ -266,11 +268,11 @@ public class PerformanceEvaluation {
 			String[] files = updateParametersFiles(approach, scenario, servers, functions, users, iterations, ants, predictionModel, round);
 			String newParametersFile = files[0];
 			String newConfigFile = files[1];
-			long startingTime = System.currentTimeMillis();
+			long startingTime = System.currentTimeMillis(); // basic way of collecting the execution time
 			Process p = Runtime.getRuntime().exec(new String[]{"java", "-jar", simrunnerFile , newConfigFile});
 			long pid = p.pid();
 			AtomicLong peakMemoryBytes = new AtomicLong(0);
-            // Start memory polling thread
+			// Start memory polling thread (This is the thread that monitors memory consumption. Check the implementation and feel free to change it to align with iFogSim)
             Thread memoryMonitor = new Thread(() -> {
                 try {
                     while (p.isAlive()) {

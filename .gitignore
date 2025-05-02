@@ -1,0 +1,21 @@
+# Maven build directory
+/target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VSCode
+.vscode/
+
+# NetBeans
+nbproject/private/
+build/
+nbbu
