@@ -197,7 +197,7 @@ public class PerformanceEvaluation {
 			Process p=Runtime.getRuntime().exec(new String[]{"java", "-jar", simrunnerFile, newConfigFile});
 			long pid = p.pid();
 			AtomicLong peakMemoryBytes = new AtomicLong(0);
-            // Start memory polling thread (This is the thread that monitors memory consumption. Check the implementation and feel free to change it to align with iFogSim)
+            // Start memory polling thread (This is the thread that monitors memory consumption. Check the implementation and feel free to change it to align with iFogSim. wmic collects different metrics you can use)
             Thread memoryMonitor = new Thread(() -> {
                 try {
                     while (p.isAlive()) {
@@ -272,7 +272,7 @@ public class PerformanceEvaluation {
 			Process p = Runtime.getRuntime().exec(new String[]{"java", "-jar", simrunnerFile , newConfigFile});
 			long pid = p.pid();
 			AtomicLong peakMemoryBytes = new AtomicLong(0);
-			// Start memory polling thread (This is the thread that monitors memory consumption. Check the implementation and feel free to change it to align with iFogSim)
+			// Start memory polling thread (This is the thread that monitors memory consumption. Check the implementation and feel free to change it to align with iFogSim. wmic collects different metrics you can use)
             Thread memoryMonitor = new Thread(() -> {
                 try {
                     while (p.isAlive()) {
